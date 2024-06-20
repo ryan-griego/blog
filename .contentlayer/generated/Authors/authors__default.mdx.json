@@ -1,15 +1,13 @@
 {
-  "name": "Tails Azimuth",
+  "name": "Ryan Griego",
   "avatar": "/static/images/avatar.png",
-  "occupation": "Professor of Atmospheric Science",
-  "company": "Stanford University",
-  "email": "address@yoursite.com",
-  "twitter": "https://twitter.com/Twitter",
-  "linkedin": "https://www.linkedin.com",
-  "github": "https://github.com",
+  "occupation": "Software Engineer",
+  "email": "ryangriego@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/ryan-griego-2134a340/",
+  "github": "https://github.com/ryan-griego",
   "body": {
-    "raw": "\nTails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.\n\nHe leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.\n",
-    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var w=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var s in t)n(e,s,{get:t[s],enumerable:!0})},o=(e,t,s,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==s&&n(e,a,{get:()=>t[a],enumerable:!(r=p(t,a))||r.enumerable});return e};var v=(e,t,s)=>(s=e!=null?d(f(e)):{},o(t||!e||!e.__esModule?n(s,\"default\",{value:e,enumerable:!0}):s,e)),b=e=>o(n({},\"__esModule\",{value:!0}),e);var l=w((q,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>y});var i=v(l()),y={name:\"Tails Azimuth\",avatar:\"/static/images/avatar.png\",occupation:\"Professor of Atmospheric Science\",company:\"Stanford University\",email:\"address@yoursite.com\",twitter:\"https://twitter.com/Twitter\",linkedin:\"https://www.linkedin.com\",github:\"https://github.com\"};function u(e){let t={p:\"p\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(t.p,{children:\"Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.\"}),(0,i.jsx)(t.p,{children:\"He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.\"}),(0,i.jsx)(t.p,{children:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.\"})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,{...e,children:(0,i.jsx)(u,{...e})}):u(e)}return b(_);})();\n;return Component;"
+    "raw": "\nHello and thank you for visiting my blog! I'm a software engineer and a lifelong learner. My interests in technology span from AI tools, web applications, self-driving vehicles and web animation.\n\nSometimes you'll find me toying with a raspberry pi, walking my dog or hiking up a tall mountain.\n\nI try to cover topics of things that I've done and experience that I think could be relevant to other mid-level software engineers.\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),w=(n,e)=>{for(var i in e)a(n,i,{get:e[i],enumerable:!0})},s=(n,e,i,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!f.call(n,o)&&o!==i&&a(n,o,{get:()=>e[o],enumerable:!(r=d(e,o))||r.enumerable});return n};var x=(n,e,i)=>(i=n!=null?p(u(n)):{},s(e||!n||!n.__esModule?a(i,\"default\",{value:n,enumerable:!0}):i,n)),v=n=>s(a({},\"__esModule\",{value:!0}),n);var c=y((j,l)=>{l.exports=_jsx_runtime});var _={};w(_,{default:()=>m,frontmatter:()=>b});var t=x(c()),b={name:\"Ryan Griego\",avatar:\"/static/images/avatar.png\",occupation:\"Software Engineer\",email:\"ryangriego@gmail.com\",linkedin:\"https://www.linkedin.com/in/ryan-griego-2134a340/\",github:\"https://github.com/ryan-griego\"};function g(n){let e={p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"Hello and thank you for visiting my blog! I'm a software engineer and a lifelong learner. My interests in technology span from AI tools, web applications, self-driving vehicles and web animation.\"}),(0,t.jsx)(e.p,{children:\"Sometimes you'll find me toying with a raspberry pi, walking my dog or hiking up a tall mountain.\"}),(0,t.jsx)(e.p,{children:\"I try to cover topics of things that I've done and experience that I think could be relevant to other mid-level software engineers.\"})]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(g,{...n})}):g(n)}return v(_);})();\n;return Component;"
   },
   "_id": "authors/default.mdx",
   "_raw": {
@@ -22,9 +20,9 @@
   "type": "Authors",
   "readingTime": {
     "text": "1 min read",
-    "minutes": 0.45,
-    "time": 27000,
-    "words": 90
+    "minutes": 0.36,
+    "time": 21600,
+    "words": 72
   },
   "slug": "default",
   "path": "authors/default",
