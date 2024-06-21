@@ -203,7 +203,7 @@ Edit the layout in `app` or content in `data`. With live reloading, the pages au
 
 `data/headerNavLinks.js` - navigation links.
 
-`data/logo.svg` - replace with your own logo.
+`data/ryan-griego-blog-logo.gif` - replace with your own logo.
 
 `data/blog` - replace with your own blog posts.
 
@@ -268,7 +268,7 @@ canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/introducing-t
 
 ## Deploy
 
-**Vercel**  
+**Vercel**
 The easiest way to deploy the template is to deploy on [Vercel](https://vercel.com). Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 **Netlify**

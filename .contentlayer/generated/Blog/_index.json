@@ -34,12 +34,12 @@
     "toc": [
       {
         "value": "Inline Highlighting",
-        "url": "#inline-highlighting-4",
+        "url": "#inline-highlighting",
         "depth": 2
       },
       {
         "value": "Code Blocks",
-        "url": "#code-blocks-4",
+        "url": "#code-blocks",
         "depth": 2
       }
     ],
@@ -89,17 +89,17 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-23",
+        "url": "#introduction-1",
         "depth": 1
       },
       {
         "value": "Deriving the OLS Estimator",
-        "url": "#deriving-the-ols-estimator-4",
+        "url": "#deriving-the-ols-estimator",
         "depth": 1
       },
       {
         "value": "Least Squares",
-        "url": "#least-squares-4",
+        "url": "#least-squares",
         "depth": 2
       }
     ],
@@ -148,102 +148,102 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-22",
+        "url": "#introduction-2",
         "depth": 1
       },
       {
         "value": "What is Markdown?",
-        "url": "#what-is-markdown-4",
+        "url": "#what-is-markdown",
         "depth": 1
       },
       {
         "value": "Syntax guide",
-        "url": "#syntax-guide-4",
+        "url": "#syntax-guide",
         "depth": 1
       },
       {
         "value": "Headers",
-        "url": "#headers-4",
+        "url": "#headers",
         "depth": 2
       },
       {
         "value": "This is a h1 tag",
-        "url": "#this-is-a-h1-tag-4",
+        "url": "#this-is-a-h1-tag",
         "depth": 1
       },
       {
         "value": "This is a h2 tag",
-        "url": "#this-is-a-h2-tag-4",
+        "url": "#this-is-a-h2-tag",
         "depth": 2
       },
       {
         "value": "This is a h4 tag",
-        "url": "#this-is-a-h4-tag-4",
+        "url": "#this-is-a-h4-tag",
         "depth": 4
       },
       {
         "value": "Emphasis",
-        "url": "#emphasis-4",
+        "url": "#emphasis",
         "depth": 2
       },
       {
         "value": "Lists",
-        "url": "#lists-4",
+        "url": "#lists",
         "depth": 2
       },
       {
         "value": "Unordered",
-        "url": "#unordered-4",
+        "url": "#unordered",
         "depth": 3
       },
       {
         "value": "Ordered",
-        "url": "#ordered-4",
+        "url": "#ordered",
         "depth": 3
       },
       {
         "value": "Images",
-        "url": "#images-4",
+        "url": "#images",
         "depth": 2
       },
       {
         "value": "Links",
-        "url": "#links-4",
+        "url": "#links",
         "depth": 2
       },
       {
         "value": "Blockquotes",
-        "url": "#blockquotes-4",
+        "url": "#blockquotes",
         "depth": 2
       },
       {
         "value": "Inline code",
-        "url": "#inline-code-4",
+        "url": "#inline-code",
         "depth": 2
       },
       {
         "value": "Syntax highlighting",
-        "url": "#syntax-highlighting-4",
+        "url": "#syntax-highlighting",
         "depth": 2
       },
       {
         "value": "Footnotes",
-        "url": "#footnotes-4",
+        "url": "#footnotes",
         "depth": 2
       },
       {
         "value": "Task Lists",
-        "url": "#task-lists-4",
+        "url": "#task-lists",
         "depth": 2
       },
       {
         "value": "Tables",
-        "url": "#tables-4",
+        "url": "#tables",
         "depth": 2
       },
       {
         "value": "Strikethrough",
-        "url": "#strikethrough-4",
+        "url": "#strikethrough",
         "depth": 2
       }
     ],
@@ -295,22 +295,22 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-20",
+        "url": "#introduction",
         "depth": 1
       },
       {
         "value": "Usage",
-        "url": "#usage-4",
+        "url": "#usage",
         "depth": 1
       },
       {
         "value": "Benefits",
-        "url": "#benefits-4",
+        "url": "#benefits",
         "depth": 1
       },
       {
         "value": "Limitations",
-        "url": "#limitations-4",
+        "url": "#limitations",
         "depth": 1
       }
     ],
@@ -369,72 +369,72 @@
     "toc": [
       {
         "value": "Tailwind Nextjs Starter Blog",
-        "url": "#tailwind-nextjs-starter-blog-4",
+        "url": "#tailwind-nextjs-starter-blog",
         "depth": 1
       },
       {
         "value": "Examples",
-        "url": "#examples-4",
+        "url": "#examples",
         "depth": 2
       },
       {
         "value": "Motivation",
-        "url": "#motivation-4",
+        "url": "#motivation",
         "depth": 2
       },
       {
         "value": "Features",
-        "url": "#features-4",
+        "url": "#features",
         "depth": 2
       },
       {
         "value": "Sample posts",
-        "url": "#sample-posts-4",
+        "url": "#sample-posts",
         "depth": 2
       },
       {
         "value": "Quick Start Guide",
-        "url": "#quick-start-guide-4",
+        "url": "#quick-start-guide",
         "depth": 2
       },
       {
         "value": "Development",
-        "url": "#development-4",
+        "url": "#development",
         "depth": 2
       },
       {
         "value": "Extend / Customize",
-        "url": "#extend--customize-4",
+        "url": "#extend--customize",
         "depth": 2
       },
       {
         "value": "Post",
-        "url": "#post-4",
+        "url": "#post",
         "depth": 2
       },
       {
         "value": "Frontmatter",
-        "url": "#frontmatter-4",
+        "url": "#frontmatter",
         "depth": 3
       },
       {
         "value": "Compose",
-        "url": "#compose-4",
+        "url": "#compose",
         "depth": 3
       },
       {
         "value": "Deploy",
-        "url": "#deploy-4",
+        "url": "#deploy",
         "depth": 2
       },
       {
         "value": "Support",
-        "url": "#support-8",
+        "url": "#support",
         "depth": 2
       },
       {
         "value": "Licence",
-        "url": "#licence-8",
+        "url": "#licence",
         "depth": 2
       }
     ],
@@ -529,92 +529,92 @@
     "toc": [
       {
         "value": "Overview",
-        "url": "#overview-4",
+        "url": "#overview",
         "depth": 2
       },
       {
         "value": "Theme colors",
-        "url": "#theme-colors-4",
+        "url": "#theme-colors",
         "depth": 2
       },
       {
         "value": "Xdm MDX compiler",
-        "url": "#xdm-mdx-compiler-4",
+        "url": "#xdm-mdx-compiler",
         "depth": 2
       },
       {
         "value": "Table of contents component",
-        "url": "#table-of-contents-component-4",
+        "url": "#table-of-contents-component",
         "depth": 2
       },
       {
         "value": "Layouts",
-        "url": "#layouts-4",
+        "url": "#layouts",
         "depth": 2
       },
       {
         "value": "Adding new templates",
-        "url": "#adding-new-templates-4",
+        "url": "#adding-new-templates",
         "depth": 3
       },
       {
         "value": "Configuring a blog post frontmatter",
-        "url": "#configuring-a-blog-post-frontmatter-4",
+        "url": "#configuring-a-blog-post-frontmatter",
         "depth": 3
       },
       {
         "value": "Extend",
-        "url": "#extend-4",
+        "url": "#extend",
         "depth": 3
       },
       {
         "value": "Analytics",
-        "url": "#analytics-4",
+        "url": "#analytics",
         "depth": 2
       },
       {
         "value": "Blog comments system",
-        "url": "#blog-comments-system-4",
+        "url": "#blog-comments-system",
         "depth": 2
       },
       {
         "value": "Multiple authors",
-        "url": "#multiple-authors-4",
+        "url": "#multiple-authors",
         "depth": 2
       },
       {
         "value": "Multiple authors in blog post",
-        "url": "#multiple-authors-in-blog-post-4",
+        "url": "#multiple-authors-in-blog-post",
         "depth": 3
       },
       {
         "value": "Copy button for code blocks",
-        "url": "#copy-button-for-code-blocks-4",
+        "url": "#copy-button-for-code-blocks",
         "depth": 2
       },
       {
         "value": "Line highlighting and line numbers",
-        "url": "#line-highlighting-and-line-numbers-4",
+        "url": "#line-highlighting-and-line-numbers",
         "depth": 2
       },
       {
         "value": "Newletter component (v1.1.3)",
-        "url": "#newletter-component-v113-4",
+        "url": "#newletter-component-v113",
         "depth": 2
       },
       {
         "value": "Bibliography and Citations (v1.2.1)",
-        "url": "#bibliography-and-citations-v121-4",
+        "url": "#bibliography-and-citations-v121",
         "depth": 2
       },
       {
         "value": "Self-hosted font (v1.5.0)",
-        "url": "#self-hosted-font-v150-4",
+        "url": "#self-hosted-font-v150",
         "depth": 2
       },
       {
         "value": "Upgrade guide",
-        "url": "#upgrade-guide-4",
+        "url": "#upgrade-guide",
         "depth": 2
       }
     ],
@@ -668,17 +668,17 @@
     "toc": [
       {
         "value": "Gallery",
-        "url": "#gallery-4",
+        "url": "#gallery",
         "depth": 1
       },
       {
         "value": "Implementation",
-        "url": "#implementation-4",
+        "url": "#implementation",
         "depth": 1
       },
       {
         "value": "Photo Credits",
-        "url": "#photo-credits-4",
+        "url": "#photo-credits",
         "depth": 3
       }
     ],
@@ -733,82 +733,82 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-24",
+        "url": "#introduction-3",
         "depth": 2
       },
       {
         "value": "V1 to V2",
-        "url": "#v1-to-v2-4",
+        "url": "#v1-to-v2",
         "depth": 2
       },
       {
         "value": "Next.js App Directory and React Server Components",
-        "url": "#nextjs-app-directory-and-react-server-components-4",
+        "url": "#nextjs-app-directory-and-react-server-components",
         "depth": 2
       },
       {
         "value": "Typescript First",
-        "url": "#typescript-first-4",
+        "url": "#typescript-first",
         "depth": 2
       },
       {
         "value": "Contentlayer",
-        "url": "#contentlayer-4",
+        "url": "#contentlayer",
         "depth": 2
       },
       {
         "value": "Pliny",
-        "url": "#pliny-4",
+        "url": "#pliny",
         "depth": 2
       },
       {
         "value": "New Search Component",
-        "url": "#new-search-component-4",
+        "url": "#new-search-component",
         "depth": 2
       },
       {
         "value": "Algolia",
-        "url": "#algolia-4",
+        "url": "#algolia",
         "depth": 3
       },
       {
         "value": "Kbar",
-        "url": "#kbar-4",
+        "url": "#kbar",
         "depth": 3
       },
       {
         "value": "Styling and Layout Updates",
-        "url": "#styling-and-layout-updates-4",
+        "url": "#styling-and-layout-updates",
         "depth": 2
       },
       {
         "value": "Theming",
-        "url": "#theming-4",
+        "url": "#theming",
         "depth": 3
       },
       {
         "value": "New Layouts",
-        "url": "#new-layouts-4",
+        "url": "#new-layouts",
         "depth": 3
       },
       {
         "value": "Migration Recommendations",
-        "url": "#migration-recommendations-4",
+        "url": "#migration-recommendations",
         "depth": 2
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-4",
+        "url": "#conclusion",
         "depth": 2
       },
       {
         "value": "Support",
-        "url": "#support-9",
+        "url": "#support-1",
         "depth": 2
       },
       {
         "value": "Licence",
-        "url": "#licence-9",
+        "url": "#licence-1",
         "depth": 2
       }
     ],
@@ -858,12 +858,12 @@
     "toc": [
       {
         "value": "The Time Machine by H. G. Wells",
-        "url": "#the-time-machine-by-h-g-wells-4",
+        "url": "#the-time-machine-by-h-g-wells",
         "depth": 1
       },
       {
         "value": "Introduction",
-        "url": "#introduction-21",
+        "url": "#introduction-4",
         "depth": 2
       }
     ],
@@ -913,22 +913,22 @@
     "toc": [
       {
         "value": "Nested Routes",
-        "url": "#nested-routes-4",
+        "url": "#nested-routes",
         "depth": 1
       },
       {
         "value": "How",
-        "url": "#how-4",
+        "url": "#how",
         "depth": 2
       },
       {
         "value": "Use Cases",
-        "url": "#use-cases-4",
+        "url": "#use-cases",
         "depth": 2
       },
       {
         "value": "Note",
-        "url": "#note-4",
+        "url": "#note",
         "depth": 2
       }
     ],

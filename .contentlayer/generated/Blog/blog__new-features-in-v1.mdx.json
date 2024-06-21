@@ -36,92 +36,92 @@
   "toc": [
     {
       "value": "Overview",
-      "url": "#overview-4",
+      "url": "#overview",
       "depth": 2
     },
     {
       "value": "Theme colors",
-      "url": "#theme-colors-4",
+      "url": "#theme-colors",
       "depth": 2
     },
     {
       "value": "Xdm MDX compiler",
-      "url": "#xdm-mdx-compiler-4",
+      "url": "#xdm-mdx-compiler",
       "depth": 2
     },
     {
       "value": "Table of contents component",
-      "url": "#table-of-contents-component-4",
+      "url": "#table-of-contents-component",
       "depth": 2
     },
     {
       "value": "Layouts",
-      "url": "#layouts-4",
+      "url": "#layouts",
       "depth": 2
     },
     {
       "value": "Adding new templates",
-      "url": "#adding-new-templates-4",
+      "url": "#adding-new-templates",
       "depth": 3
     },
     {
       "value": "Configuring a blog post frontmatter",
-      "url": "#configuring-a-blog-post-frontmatter-4",
+      "url": "#configuring-a-blog-post-frontmatter",
       "depth": 3
     },
     {
       "value": "Extend",
-      "url": "#extend-4",
+      "url": "#extend",
       "depth": 3
     },
     {
       "value": "Analytics",
-      "url": "#analytics-4",
+      "url": "#analytics",
       "depth": 2
     },
     {
       "value": "Blog comments system",
-      "url": "#blog-comments-system-4",
+      "url": "#blog-comments-system",
       "depth": 2
     },
     {
       "value": "Multiple authors",
-      "url": "#multiple-authors-4",
+      "url": "#multiple-authors",
       "depth": 2
     },
     {
       "value": "Multiple authors in blog post",
-      "url": "#multiple-authors-in-blog-post-4",
+      "url": "#multiple-authors-in-blog-post",
       "depth": 3
     },
     {
       "value": "Copy button for code blocks",
-      "url": "#copy-button-for-code-blocks-4",
+      "url": "#copy-button-for-code-blocks",
       "depth": 2
     },
     {
       "value": "Line highlighting and line numbers",
-      "url": "#line-highlighting-and-line-numbers-4",
+      "url": "#line-highlighting-and-line-numbers",
       "depth": 2
     },
     {
       "value": "Newletter component (v1.1.3)",
-      "url": "#newletter-component-v113-4",
+      "url": "#newletter-component-v113",
       "depth": 2
     },
     {
       "value": "Bibliography and Citations (v1.2.1)",
-      "url": "#bibliography-and-citations-v121-4",
+      "url": "#bibliography-and-citations-v121",
       "depth": 2
     },
     {
       "value": "Self-hosted font (v1.5.0)",
-      "url": "#self-hosted-font-v150-4",
+      "url": "#self-hosted-font-v150",
       "depth": 2
     },
     {
       "value": "Upgrade guide",
-      "url": "#upgrade-guide-4",
+      "url": "#upgrade-guide",
       "depth": 2
     }
   ],
