@@ -90,6 +90,6 @@ module.exports = () => {
 
       return config
     },
-   // output: 'export', // Enables static site generation
+    output: 'export', // Enables static site generation
   })
 }
