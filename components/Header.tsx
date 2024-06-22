@@ -1,12 +1,12 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 //import Logo from '@/data/logo.svg'
-import logo from '@/data/ryan-griego-blog-logo.gif';
+// import logo from '@/data/ryan-griego-blog-logo.gif';
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Header = () => {
   return (
@@ -15,7 +15,12 @@ const Header = () => {
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
             <div className="mr-3">
-              <Image src={logo} alt="Logo" width={50} height={50} />
+              <img
+                src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1719071322/ryan-griego-blog-logo_nn6dgp.gif"
+                alt="Logo"
+                width="50"
+                height="50"
+              />
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
               <div className="hidden h-6 text-2xl font-semibold sm:block">
