@@ -90,6 +90,7 @@ module.exports = () => {
 
       return config
     },
+    trailingSlash: true,
     output: 'export', // Enables static site generation
   })
 }
