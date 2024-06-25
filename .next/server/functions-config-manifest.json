@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/about":{},"/posts/[...slug]":{},"/posts":{},"/projects":{},"/posts/page/[page]":{},"/tags/[tag]":{},"/tags":{}}}
+{"version":1,"functions":{"/about":{},"/posts/[...slug]":{},"/posts":{},"/projects":{},"/tags/[tag]":{},"/tags":{},"/posts/page/[page]":{}}}
