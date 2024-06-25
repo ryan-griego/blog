@@ -72,6 +72,10 @@ module.exports = () => {
           protocol: 'https',
           hostname: 'picsum.photos',
         },
+        {
+          protocol: 'https',
+          hostname: 'res.cloudinary.com',
+        },
       ],
     },
     async headers() {
@@ -91,6 +95,6 @@ module.exports = () => {
       return config
     },
     trailingSlash: true,
-    output: 'export', // Enables static site generation
+   //  output: 'export', // Enables static site generation
   })
 }

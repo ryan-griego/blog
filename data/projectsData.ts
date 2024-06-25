@@ -7,20 +7,17 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Chat RRG',
+    description: `What if you could have your own Chat GPT app that stores all your chats? This Chat GPT clone uses Next.js to and it's really great.`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: '/posts/chat-rrg',
+    // consider adding a link to the Github repo
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'Job Getter',
+    description: `I use this app to track my job applications, scrape job postings, and send customized emails to recruiters. This one is built with Nuxt.js and features interactive tables of job posting data.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: '/posts/job-getter',
   },
 ]
 

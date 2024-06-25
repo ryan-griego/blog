@@ -69,6 +69,7 @@ export default function ListLayout({
   const [searchValue, setSearchValue] = useState('')
   const filteredBlogPosts = posts.filter((post) => {
     const searchContent = post.title + post.summary + post.tags?.join(' ')
+    console.log('log the filtered blog posts', searchContent);
     return searchContent.toLowerCase().includes(searchValue.toLowerCase())
   })
 

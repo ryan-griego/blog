@@ -8,8 +8,8 @@
   "summary": "draft post",
   "images": [],
   "body": {
-    "raw": "\nDraft post which should not display\n",
-    "code": "var Component=(()=>{var f=Object.create;var r=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),_=(t,n)=>{for(var e in n)r(t,e,{get:n[e],enumerable:!0})},c=(t,n,e,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!h.call(t,o)&&o!==e&&r(t,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return t};var M=(t,n,e)=>(e=t!=null?f(x(t)):{},c(n||!t||!t.__esModule?r(e,\"default\",{value:t,enumerable:!0}):e,t)),j=t=>c(r({},\"__esModule\",{value:!0}),t);var m=y((C,i)=>{i.exports=_jsx_runtime});var g={};_(g,{default:()=>d,frontmatter:()=>D});var a=M(m()),D={title:\"My fancy title\",date:\"2021-01-31\",tags:[\"hello\"],draft:!0,summary:\"draft post\",images:[]};function u(t){let n={p:\"p\",...t.components};return(0,a.jsx)(n.p,{children:\"Draft post which should not display\"})}function d(t={}){let{wrapper:n}=t.components||{};return n?(0,a.jsx)(n,{...t,children:(0,a.jsx)(u,{...t})}):u(t)}return j(g);})();\n;return Component;"
+    "raw": "\nDraft post which should not display\n/Users/ryangriego/Desktop/projects/blog/data/blog/my-fancy-title.mdx\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)r(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!y.call(t,o)&&o!==n&&r(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var _=(t,e,n)=>(n=t!=null?p(x(t)):{},c(e||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>c(r({},\"__esModule\",{value:!0}),t);var l=g((w,i)=>{i.exports=_jsx_runtime});var M={};h(M,{default:()=>d,frontmatter:()=>D});var a=_(l()),D={title:\"My fancy title\",date:\"2021-01-31\",tags:[\"hello\"],draft:!0,summary:\"draft post\",images:[]};function m(t){let e={p:\"p\",...t.components};return(0,a.jsx)(e.p,{children:\"Draft post which should not display /Users/ryangriego/Desktop/projects/blog/data/blog/my-fancy-title.mdx\"})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return j(M);})();\n;return Component;"
   },
   "_id": "blog/my-fancy-title.mdx",
   "_raw": {
@@ -22,9 +22,9 @@
   "type": "Blog",
   "readingTime": {
     "text": "1 min read",
-    "minutes": 0.03,
-    "time": 1800,
-    "words": 6
+    "minutes": 0.035,
+    "time": 2100,
+    "words": 7
   },
   "slug": "my-fancy-title",
   "path": "blog/my-fancy-title",
