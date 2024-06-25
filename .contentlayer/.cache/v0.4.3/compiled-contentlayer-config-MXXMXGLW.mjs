@@ -28,9 +28,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 var require_siteMetadata = __commonJS({
   "data/siteMetadata.js"(exports, module) {
     var siteMetadata2 = {
-      title: "My Blog",
+      title: "Ryan's Blog",
       author: "Ryan Griego",
-      headerTitle: "Ryan's Blog",
+      headerTitle: "Ryan Griego",
       description: "A blog about my life as a software engineer.",
       language: "en-us",
       theme: "system",
@@ -297,4 +297,4 @@ export {
   Blog,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-HOFCUKKR.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-MXXMXGLW.mjs.map
