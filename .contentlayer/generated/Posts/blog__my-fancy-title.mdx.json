@@ -1,0 +1,42 @@
+{
+  "title": "My fancy title",
+  "date": "2021-01-31T00:00:00.000Z",
+  "tags": [
+    "hello"
+  ],
+  "draft": true,
+  "summary": "draft post",
+  "images": [],
+  "body": {
+    "raw": "\nDraft post which should not display\n/Users/ryangriego/Desktop/projects/posts/data/posts/my-fancy-title.mdx\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)r(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!y.call(t,o)&&o!==n&&r(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var _=(t,e,n)=>(n=t!=null?p(x(t)):{},c(e||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>c(r({},\"__esModule\",{value:!0}),t);var l=g((w,i)=>{i.exports=_jsx_runtime});var M={};h(M,{default:()=>d,frontmatter:()=>D});var a=_(l()),D={title:\"My fancy title\",date:\"2021-01-31\",tags:[\"hello\"],draft:!0,summary:\"draft post\",images:[]};function m(t){let e={p:\"p\",...t.components};return(0,a.jsx)(e.p,{children:\"Draft post which should not display /Users/ryangriego/Desktop/projects/posts/data/posts/my-fancy-title.mdx\"})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return j(M);})();\n;return Component;"
+  },
+  "_id": "blog/my-fancy-title.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/my-fancy-title.mdx",
+    "sourceFileName": "my-fancy-title.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/my-fancy-title"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.035,
+    "time": 2100,
+    "words": 7
+  },
+  "slug": "my-fancy-title",
+  "path": "blog/my-fancy-title",
+  "filePath": "blog/my-fancy-title.mdx",
+  "toc": [],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "My fancy title",
+    "datePublished": "2021-01-31T00:00:00.000Z",
+    "dateModified": "2021-01-31T00:00:00.000Z",
+    "description": "draft post",
+    "url": "https://tailwind-nextjs-starter-blog.vercel.app/posts/my-fancy-title"
+  }
+}

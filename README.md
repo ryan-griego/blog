@@ -87,7 +87,7 @@ Thanks to the community of users and contributors to the template! We are no lon
 - [blog.r00ks.io](https://blog.r00ks.io/) - Austin Rooks's personal blog ([source code](https://github.com/Austionian/blog.r00ks)).
 - [honghong.me](https://honghong.me) - Tszhong's personal website ([source code](https://github.com/tszhong0411/home))
 - [marceloformentao.dev](https://marceloformentao.dev) - Marcelo Formentão personal website ([source code](https://github.com/marceloavf/marceloformentao.dev)).
-- [abiraja.com](https://www.abiraja.com/) - with a [runnable JS code snippet component!](https://www.abiraja.com/blog/querying-solana-blockchain)
+- [abiraja.com](https://www.abiraja.com/) - with a [runnable JS code snippet component!](https://www.abiraja.com/posts/querying-solana-blockchain)
 - [bpiggin.com](https://www.bpiggin.com) - Ben Piggin's personal blog
 - [maqib.cn](https://maqib.cn) - A blog of Chinese front-end developers 狂奔小马的博客 ([源码](https://github.com/maqi1520/nextjs-tailwind-blog))
 - [ambilena.com](https://ambilena.com/) - Electronic Music Blog & imprint for upcoming musicians.
@@ -117,7 +117,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 - Next.js with Typescript
 - [Contentlayer](https://www.contentlayer.dev/) to manage content logic
-- Easy styling customization with [Tailwind 3.0](https://tailwindcss.com/blog/tailwindcss-v3) and primary color attribute
+- Easy styling customization with [Tailwind 3.0](https://tailwindcss.com/posts/tailwindcss-v3) and primary color attribute
 - [MDX - write JSX in markdown documents!](https://mdxjs.com/)
 - Near perfect lighthouse score - [Lighthouse report](https://www.webpagetest.org/result/230805_BiDcBQ_4H7)
 - Lightweight, 85kB first load JS
@@ -145,12 +145,12 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 ## Sample posts
 
-- [A markdown guide](https://tailwind-nextjs-starter-blog.vercel.app/blog/github-markdown-guide)
-- [Learn more about images in Next.js](https://tailwind-nextjs-starter-blog.vercel.app/blog/guide-to-using-images-in-nextjs)
-- [A tour of math typesetting](https://tailwind-nextjs-starter-blog.vercel.app/blog/deriving-ols-estimator)
-- [Simple MDX image grid](https://tailwind-nextjs-starter-blog.vercel.app/blog/pictures-of-canada)
-- [Example of long prose](https://tailwind-nextjs-starter-blog.vercel.app/blog/the-time-machine)
-- [Example of Nested Route Post](https://tailwind-nextjs-starter-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing)
+- [A markdown guide](https://tailwind-nextjs-starter-blog.vercel.app/posts/github-markdown-guide)
+- [Learn more about images in Next.js](https://tailwind-nextjs-starter-blog.vercel.app/posts/guide-to-using-images-in-nextjs)
+- [A tour of math typesetting](https://tailwind-nextjs-starter-blog.vercel.app/posts/deriving-ols-estimator)
+- [Simple MDX image grid](https://tailwind-nextjs-starter-blog.vercel.app/posts/pictures-of-canada)
+- [Example of long prose](https://tailwind-nextjs-starter-blog.vercel.app/posts/the-time-machine)
+- [Example of Nested Route Post](https://tailwind-nextjs-starter-blog.vercel.app/posts/nested-route/introducing-multi-part-posts-with-nested-routing)
 
 ## Quick Start Guide
 
@@ -262,7 +262,7 @@ summary: 'Looking for a performant, out of the box template, with all the best i
 images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
 authors: ['default', 'sparrowhawk']
 layout: PostLayout
-canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/introducing-tailwind-nextjs-starter-blog
+canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/posts/introducing-tailwind-nextjs-starter-blog
 ---
 ```
 
