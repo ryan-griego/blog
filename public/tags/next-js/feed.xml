@@ -1,7 +1,7 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>Ryan&#39;s Blog</title>
+      <title>Ryan Griego</title>
       <link>https://tailwind-nextjs-starter-blog.vercel.app/posts</link>
       <description>A blog about my life as a software engineer.</description>
       <language>en-us</language>
