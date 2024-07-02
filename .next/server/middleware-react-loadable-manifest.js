@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST='{"node_modules/pliny/chunk-O6XQYU4T.js -> @docsearch/react":{"id":318,"files":["static/chunks/318.2cbfcdbe7f04a485.js"]}}';
+self.__REACT_LOADABLE_MANIFEST="{}"
