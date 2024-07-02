@@ -21,6 +21,16 @@
   </item>
 
   <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/posts/who-is-writing-this-blog</guid>
+    <title>Who&#39;s Writing This Blog?</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/posts/who-is-writing-this-blog</link>
+    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
+    <pubDate>Tue, 02 Jul 2024 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>multi-author</category><category>next-js</category><category>feature</category>
+  </item>
+
+  <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/posts/nested-route/introducing-multi-part-posts-with-nested-routing</guid>
     <title>Introducing Multi-part Posts with Nested Routing</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/posts/nested-route/introducing-multi-part-posts-with-nested-routing</link>
