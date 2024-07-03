@@ -35,7 +35,7 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-2",
+      "url": "#introduction",
       "depth": 1
     },
     {
@@ -62,6 +62,6 @@
     "dateModified": "2020-11-11T00:00:00.000Z",
     "description": "In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.",
     "image": "/static/images/twitter-card.png",
-    "url": "https://tailwind-nextjs-starter-blog.vercel.app/posts/guide-to-using-images-in-nextjs"
+    "url": "https://ryangriego.com/blog/posts/guide-to-using-images-in-nextjs"
   }
 }

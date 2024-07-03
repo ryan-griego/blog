@@ -20,7 +20,7 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
+          <Link href="https://github.com/ryan-griego/blog">
             This is a Next.js Application hosted on a Amazon EC2 server
           </Link>
         </div>

@@ -63,7 +63,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     <li className="flex items-center space-x-2" key={author.name}>
                       {author.avatar && (
                         <Image
-                          src={author.avatar}
+                          src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1719280168/ryan-blog-mug_qqosse.jpg"
                           width={38}
                           height={38}
                           alt="avatar"

@@ -63,9 +63,6 @@ const computedFields: ComputedFields = {
 function createTagCount(allBlogs) {
   const tagCount: Record<string, number> = {}
   allBlogs.forEach((file) => {
-    console.log("log the file", file);
-    // I can possibly alter all the paths to go from blog/ to posts/
-
 
     if (file.tags && (!isProduction || file.draft !== true)) {
       file.tags.forEach((tag) => {

@@ -53,7 +53,7 @@
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion",
+      "url": "#conclusion-1",
       "depth": 2
     }
   ],
@@ -65,6 +65,6 @@
     "dateModified": "2024-07-02T00:00:00.000Z",
     "description": "The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!",
     "image": "/static/images/twitter-card.png",
-    "url": "https://tailwind-nextjs-starter-blog.vercel.app/posts/who-is-writing-this-blog"
+    "url": "https://ryangriego.com/blog/posts/who-is-writing-this-blog"
   }
 }
