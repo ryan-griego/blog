@@ -2,18 +2,18 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>My Blog</title>
-      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <link>https://ryangriego.com/blog/blog</link>
       <description>A blog about my life as a software engineer.</description>
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
       <lastBuildDate>Sat, 15 Jul 2017 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/canada/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://ryangriego.com/blog/tags/canada/feed.xml" rel="self" type="application/rss+xml"/>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/posts/pictures-of-canada</guid>
+    <guid>https://ryangriego.com/blog/posts/pictures-of-canada</guid>
     <title>O Canada</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/posts/pictures-of-canada</link>
+    <link>https://ryangriego.com/blog/posts/pictures-of-canada</link>
     <description>The scenic lands of Canada featuring maple leaves, snow-capped mountains, turquoise lakes and Toronto. Take in the sights in this photo gallery exhibition and see how easy it is to replicate with some MDX magic and tailwind classes.</description>
     <pubDate>Sat, 15 Jul 2017 00:00:00 GMT</pubDate>
     <author>ryangriego@gmail.com (Ryan Griego)</author>

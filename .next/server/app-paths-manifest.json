@@ -1,14 +1,4 @@
 {
-  "/api/newsletter/route": "app/api/newsletter/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
-  "/posts/page": "app/posts/page.js",
-  "/about/page": "app/about/page.js",
-  "/tags/[tag]/page": "app/tags/[tag]/page.js",
-  "/posts/page/[page]/page": "app/posts/page/[page]/page.js",
-  "/projects/page": "app/projects/page.js",
-  "/posts/[...slug]/page": "app/posts/[...slug]/page.js",
-  "/tags/page": "app/tags/page.js"
+  "/posts/page": "app/posts/page.js"
 }

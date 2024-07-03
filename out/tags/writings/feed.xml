@@ -1,15 +1,15 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>My Blog</title>
-      <link>https://ryangriego.com/blog</link>
+      <title>Ryan Griego</title>
+      <link>https://ryangriego.com/blog/posts</link>
       <description>A blog about my life as a software engineer.</description>
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
       <lastBuildDate>Wed, 15 Aug 2018 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryangriego.com/blog/tags/writings/feed.xml" rel="self" type="application/rss+xml"/>
-
+      
   <item>
     <guid>https://ryangriego.com/blog/posts/the-time-machine</guid>
     <title>The Time Machine</title>
@@ -18,6 +18,16 @@
     <pubDate>Wed, 15 Aug 2018 00:00:00 GMT</pubDate>
     <author>ryangriego@gmail.com (Ryan Griego)</author>
     <category>writings</category><category>book</category><category>reflection</category>
+  </item>
+
+  <item>
+    <guid>https://ryangriego.com/blog/posts/who-is-writing-this-blog</guid>
+    <title>Who&#39;s Writing This Blog?</title>
+    <link>https://ryangriego.com/blog/posts/who-is-writing-this-blog</link>
+    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
+    <pubDate>Tue, 02 Jul 2024 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>reflection</category><category>writings</category><category>feature</category>
   </item>
 
     </channel>

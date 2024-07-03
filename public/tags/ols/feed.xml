@@ -2,18 +2,18 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>My Blog</title>
-      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <link>ryangriego.com/blog</link>
       <description>A blog about my life as a software engineer.</description>
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
       <lastBuildDate>Mon, 21 Dec 2020 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/ols/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://ryangriego.com/blog/tags/ols/feed.xml" rel="self" type="application/rss+xml"/>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/posts/deriving-ols-estimator</guid>
+    <guid>https://ryangriego.com/blog/posts/deriving-ols-estimator</guid>
     <title>Deriving the OLS Estimator</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/posts/deriving-ols-estimator</link>
+    <link>https://ryangriego.com/blog/posts/deriving-ols-estimator</link>
     <description>How to derive the OLS Estimator with matrix notation and a tour of math typesetting using markdown with the help of KaTeX.</description>
     <pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
     <author>ryangriego@gmail.com (Ryan Griego)</author>

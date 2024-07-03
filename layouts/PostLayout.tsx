@@ -5,7 +5,7 @@ import type { Blog, Authors } from 'contentlayer/generated'
 import Link from '@/components/Link'
 import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
-import Image from '@/components/Image'
+// import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 // import ScrollTopAndComment from '@/components/ScrollTopAndComment'
@@ -62,11 +62,11 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   {authorDetails.map((author) => (
                     <li className="flex items-center space-x-2" key={author.name}>
                       {author.avatar && (
-                        <Image
+                        <img
                           src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1719280168/ryan-blog-mug_qqosse.jpg"
+                          alt="avatar"
                           width={38}
                           height={38}
-                          alt="avatar"
                           className="h-10 w-10 rounded-full"
                         />
                       )}
