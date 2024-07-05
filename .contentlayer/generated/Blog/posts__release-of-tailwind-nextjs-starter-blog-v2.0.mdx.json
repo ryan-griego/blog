@@ -38,82 +38,82 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-29",
+      "url": "#introduction-2",
       "depth": 2
     },
     {
       "value": "V1 to V2",
-      "url": "#v1-to-v2-5",
+      "url": "#v1-to-v2",
       "depth": 2
     },
     {
       "value": "Next.js App Directory and React Server Components",
-      "url": "#nextjs-app-directory-and-react-server-components-5",
+      "url": "#nextjs-app-directory-and-react-server-components",
       "depth": 2
     },
     {
       "value": "Typescript First",
-      "url": "#typescript-first-5",
+      "url": "#typescript-first",
       "depth": 2
     },
     {
       "value": "Contentlayer",
-      "url": "#contentlayer-5",
+      "url": "#contentlayer",
       "depth": 2
     },
     {
       "value": "Pliny",
-      "url": "#pliny-5",
+      "url": "#pliny",
       "depth": 2
     },
     {
       "value": "New Search Component",
-      "url": "#new-search-component-5",
+      "url": "#new-search-component",
       "depth": 2
     },
     {
       "value": "Algolia",
-      "url": "#algolia-5",
+      "url": "#algolia",
       "depth": 3
     },
     {
       "value": "Kbar",
-      "url": "#kbar-5",
+      "url": "#kbar",
       "depth": 3
     },
     {
       "value": "Styling and Layout Updates",
-      "url": "#styling-and-layout-updates-5",
+      "url": "#styling-and-layout-updates",
       "depth": 2
     },
     {
       "value": "Theming",
-      "url": "#theming-5",
+      "url": "#theming",
       "depth": 3
     },
     {
       "value": "New Layouts",
-      "url": "#new-layouts-5",
+      "url": "#new-layouts",
       "depth": 3
     },
     {
       "value": "Migration Recommendations",
-      "url": "#migration-recommendations-5",
+      "url": "#migration-recommendations",
       "depth": 2
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion-9",
+      "url": "#conclusion",
       "depth": 2
     },
     {
       "value": "Support",
-      "url": "#support-11",
+      "url": "#support-1",
       "depth": 2
     },
     {
       "value": "Licence",
-      "url": "#licence-11",
+      "url": "#licence-1",
       "depth": 2
     }
   ],
