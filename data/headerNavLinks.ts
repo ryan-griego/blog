@@ -1,9 +1,9 @@
 const headerNavLinks = [
-  { href: '/', title: 'Home' },
-  { href: '/posts', title: 'Blog' },
+  { href: 'blog/', title: 'Home' },
+  { href: 'blog/posts', title: 'Blog' },
   // { href: '/tags', title: 'Tags' },
  // { href: '/projects', title: 'Projects' },
-  { href: '/about', title: 'About' },
+  { href: 'blog/about', title: 'About' },
   { href: 'https://www.ryangriego.com/', title: 'Portfolio' },
 ]
 
