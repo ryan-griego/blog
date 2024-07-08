@@ -32,102 +32,102 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-4",
+      "url": "#introduction-6",
       "depth": 1
     },
     {
       "value": "What is Markdown?",
-      "url": "#what-is-markdown",
+      "url": "#what-is-markdown-1",
       "depth": 1
     },
     {
       "value": "Syntax guide",
-      "url": "#syntax-guide",
+      "url": "#syntax-guide-1",
       "depth": 1
     },
     {
       "value": "Headers",
-      "url": "#headers",
+      "url": "#headers-1",
       "depth": 2
     },
     {
       "value": "This is a h1 tag",
-      "url": "#this-is-a-h1-tag",
+      "url": "#this-is-a-h1-tag-1",
       "depth": 1
     },
     {
       "value": "This is a h2 tag",
-      "url": "#this-is-a-h2-tag",
+      "url": "#this-is-a-h2-tag-1",
       "depth": 2
     },
     {
       "value": "This is a h4 tag",
-      "url": "#this-is-a-h4-tag",
+      "url": "#this-is-a-h4-tag-1",
       "depth": 4
     },
     {
       "value": "Emphasis",
-      "url": "#emphasis",
+      "url": "#emphasis-1",
       "depth": 2
     },
     {
       "value": "Lists",
-      "url": "#lists",
+      "url": "#lists-1",
       "depth": 2
     },
     {
       "value": "Unordered",
-      "url": "#unordered",
+      "url": "#unordered-1",
       "depth": 3
     },
     {
       "value": "Ordered",
-      "url": "#ordered",
+      "url": "#ordered-1",
       "depth": 3
     },
     {
       "value": "Images",
-      "url": "#images",
+      "url": "#images-1",
       "depth": 2
     },
     {
       "value": "Links",
-      "url": "#links",
+      "url": "#links-1",
       "depth": 2
     },
     {
       "value": "Blockquotes",
-      "url": "#blockquotes",
+      "url": "#blockquotes-1",
       "depth": 2
     },
     {
       "value": "Inline code",
-      "url": "#inline-code",
+      "url": "#inline-code-1",
       "depth": 2
     },
     {
       "value": "Syntax highlighting",
-      "url": "#syntax-highlighting",
+      "url": "#syntax-highlighting-1",
       "depth": 2
     },
     {
       "value": "Footnotes",
-      "url": "#footnotes",
+      "url": "#footnotes-1",
       "depth": 2
     },
     {
       "value": "Task Lists",
-      "url": "#task-lists",
+      "url": "#task-lists-1",
       "depth": 2
     },
     {
       "value": "Tables",
-      "url": "#tables",
+      "url": "#tables-1",
       "depth": 2
     },
     {
       "value": "Strikethrough",
-      "url": "#strikethrough",
+      "url": "#strikethrough-1",
       "depth": 2
     }
   ],
