@@ -38,7 +38,7 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-4",
+      "url": "#introduction",
       "depth": 2
     },
     {
@@ -108,12 +108,12 @@
     },
     {
       "value": "Support",
-      "url": "#support-1",
+      "url": "#support",
       "depth": 2
     },
     {
       "value": "Licence",
-      "url": "#licence-1",
+      "url": "#licence",
       "depth": 2
     }
   ],
