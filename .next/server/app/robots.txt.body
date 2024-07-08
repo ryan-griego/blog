@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://ryangriego.com/blog
+Sitemap: https://ryangriego.com/blog/sitemap.xml
