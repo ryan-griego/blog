@@ -1,9 +1,6 @@
-// const { basePath } = require('next.config');
 
-import getConfig from 'next/config';
+import basePath from 'next/config';
 
-const { publicRuntimeConfig } = getConfig();
-const basePath = publicRuntimeConfig.basePath || '';
 
 const headerNavLinks = [
   { href: '/', title: 'Home' },

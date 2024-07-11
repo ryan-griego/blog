@@ -8,7 +8,7 @@
   "/posts/page": "app/posts/page.js",
   "/posts/page/[page]/page": "app/posts/page/[page]/page.js",
   "/projects/page": "app/projects/page.js",
-  "/tags/[tag]/page": "app/tags/[tag]/page.js",
   "/tags/page": "app/tags/page.js",
+  "/tags/[tag]/page": "app/tags/[tag]/page.js",
   "/posts/[...slug]/page": "app/posts/[...slug]/page.js"
 }
