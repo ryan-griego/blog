@@ -1,1 +1,1 @@
-{"/posts/page":"/posts","/_not-found/page":"/_not-found","/about/page":"/about"}
+{"/posts/page":"/posts","/about/page":"/about","/_not-found/page":"/_not-found","/api/newsletter/route":"/api/newsletter","/robots.txt/route":"/robots.txt","/page":"/","/sitemap.xml/route":"/sitemap.xml","/posts/page/[page]/page":"/posts/page/[page]","/projects/page":"/projects","/tags/page":"/tags","/tags/[tag]/page":"/tags/[tag]","/posts/[...slug]/page":"/posts/[...slug]"}
