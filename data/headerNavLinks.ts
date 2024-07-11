@@ -1,13 +1,12 @@
 
-import basePath from 'next/config';
-
+const baseUrl = process.env.BASE_URL;
 
 const headerNavLinks = [
   { href: '/', title: 'Home' },
-  { href: `${basePath}/posts`, title: 'Blog' },
+  { href: `${baseUrl}/posts`, title: 'Blog' },
   // { href: '/tags', title: 'Tags' },
  // { href: '/projects', title: 'Projects' },
-  { href: `${basePath}/about`, title: 'About' },
+  { href: `${baseUrl}/about`, title: 'About' },
   { href: 'https://www.ryangriego.com/', title: 'Portfolio' },
 ]
 
