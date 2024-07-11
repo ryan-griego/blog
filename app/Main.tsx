@@ -10,13 +10,27 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-            Hello, I'm Ryan.<br></br>
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+        <div className="flex flex-col md:flex-row items-start space-y-2 pb-8 pt-6 md:space-y-0 md:space-x-4">
+          <img
+            src="https://res.cloudinary.com/dm7y3yvjp/image/upload/v1719280168/ryan-blog-mug_qqosse.jpg"
+            alt="avatar"
+            width={192}
+            height={192}
+            className="h-48 w-48 rounded-full"
+          />
+          <div>
+            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+              Hello, I'm Ryan.<br></br>
+            </h1>
+            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              {siteMetadata.description}
+            </p>
+            <div className="mt-8">
+              <a href="https://github.com/ryan-griego" target="_blank" rel="noopener noreferrer" className="mr-4 px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700">GitHub</a>
+              <a href="https://www.linkedin.com/in/ryan-griego-2134a340/" target="_blank" rel="noopener noreferrer" className="mr-4 px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700">LinkedIn</a>
+              <a href="mailto:ryangriego@gmail.com" className="mr-4 px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700">Email Me</a>
+            </div>
+          </div>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
