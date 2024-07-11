@@ -1,9 +1,16 @@
+// const { basePath } = require('next.config');
+
+import getConfig from 'next/config';
+
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig.basePath || '';
+
 const headerNavLinks = [
   { href: '/', title: 'Home' },
-  { href: '/blog/posts', title: 'Blog' },
+  { href: `${basePath}/posts`, title: 'Blog' },
   // { href: '/tags', title: 'Tags' },
  // { href: '/projects', title: 'Projects' },
-  { href: '/blog/about', title: 'About' },
+  { href: `${basePath}/about`, title: 'About' },
   { href: 'https://www.ryangriego.com/', title: 'Portfolio' },
 ]
 

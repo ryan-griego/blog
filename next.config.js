@@ -16,6 +16,8 @@ const ContentSecurityPolicy = `
   frame-src giscus.app
 `
 
+basePath: process.env.NODE_ENV === 'production' ? '/blog' : '';
+
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
   {
