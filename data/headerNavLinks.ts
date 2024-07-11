@@ -1,5 +1,5 @@
 
-const baseUrl = process.env.BASE_URL;
+const baseUrl = process.env.BASE_URL || '';
 
 const headerNavLinks = [
   { href: '/', title: 'Home' },
