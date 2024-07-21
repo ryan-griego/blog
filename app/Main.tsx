@@ -26,9 +26,9 @@ export default function Home({ posts }) {
               {siteMetadata.description}
             </p>
             <div className="mt-8">
-              <a href="https://github.com/ryan-griego" target="_blank" rel="noopener noreferrer" className="mr-4 px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700">GitHub</a>
-              <a href="https://www.linkedin.com/in/ryan-griego-2134a340/" target="_blank" rel="noopener noreferrer" className="mr-4 px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700">LinkedIn</a>
-              <a href="mailto:ryangriego@gmail.com" className="mr-4 px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700">Email Me</a>
+              <a href="https://github.com/ryan-griego" target="_blank" rel="noopener noreferrer" className="mr-4 px-4 py-2 border-primary-500 border-2 text-primary-500 font-bold rounded dark:hover:bg-gray-700">GitHub</a>
+              <a href="https://www.linkedin.com/in/ryan-griego-2134a340/" target="_blank" rel="noopener noreferrer" className="mr-4 px-4 py-2 border-primary-500 border-2 text-primary-500 font-bold rounded dark:hover:bg-gray-700">LinkedIn</a>
+              <a href="mailto:ryangriego@gmail.com" className="mr-4 px-4 py-2 border-primary-500 border-2 text-primary-500 font-bold rounded dark:hover:bg-gray-700">Email Me</a>
             </div>
           </div>
         </div>
