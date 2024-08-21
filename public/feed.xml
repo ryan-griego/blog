@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
-      <lastBuildDate>Tue, 02 Jul 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 20 Aug 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryangriego.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</guid>
+    <title>3 Things I Learned From Building a ChatGPT Clone</title>
+    <link>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</link>
+    <description>In this post, I talk about some things I learned building a ChatGPT clone.</description>
+    <pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>next js</category><category>MongoDB</category><category>Tailwind CSS</category><category>Authentication</category>
+  </item>
+
   <item>
     <guid>https://ryangriego.com/blog/posts/who-is-writing-this-blog</guid>
     <title>Who&#39;s Writing This Blog?</title>
