@@ -1,9 +1,9 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>Ryan Griego</title>
+      <title>Ryan Griego&#39;s blog</title>
       <link>https://ryangriego.com/blog/posts</link>
-      <description>A blog about my life as a software engineer.</description>
+      <description>I went from being a graphic design major to a software engineer. Welcome to my blog!</description>
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
@@ -61,13 +61,13 @@
   </item>
 
   <item>
-    <guid>https://ryangriego.com/blog/posts/who-is-writing-this-blog</guid>
-    <title>Who&#39;s Writing This Blog?</title>
-    <link>https://ryangriego.com/blog/posts/who-is-writing-this-blog</link>
-    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
-    <pubDate>Tue, 02 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</guid>
+    <title>3 Things I Learned From Building a ChatGPT Clone</title>
+    <link>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</link>
+    <description>In this post, I talk about some things I learned building a ChatGPT clone.</description>
+    <pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate>
     <author>ryangriego@gmail.com (Ryan Griego)</author>
-    <category>multi-author</category><category>next-js</category><category>feature</category>
+    <category>next js</category><category>MongoDB</category><category>Tailwind CSS</category><category>Authentication</category>
   </item>
 
   <item>

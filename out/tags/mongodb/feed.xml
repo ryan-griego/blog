@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ryan Griego&#39;s blog</title>
+      <link>https://ryangriego.com/blog/posts</link>
+      <description>I went from being a graphic design major to a software engineer. Welcome to my blog!</description>
+      <language>en-us</language>
+      <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
+      <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
+      <lastBuildDate>Tue, 20 Aug 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://ryangriego.com/blog/tags/mongodb/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</guid>
+    <title>3 Things I Learned From Building a ChatGPT Clone</title>
+    <link>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</link>
+    <description>In this post, I talk about some things I learned building a ChatGPT clone.</description>
+    <pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>next js</category><category>MongoDB</category><category>Tailwind CSS</category><category>Authentication</category>
+  </item>
+
+    </channel>
+  </rss>
