@@ -7,16 +7,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-self["webpackHotUpdate_N_E"]("app/posts/page",{
-
-/***/ "(app-pages-browser)/./app/tag-data.json":
-/*!***************************!*\
-  !*** ./app/tag-data.json ***!
-  \***************************/
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = /*#__PURE__*/JSON.parse('{"next-js":1,"mongodb":1,"tailwind-css":1,"authentication":1,"reflection":1,"writings":1,"feature":1}');
-
-/***/ })
-
-});
+self["webpackHotUpdate_N_E"]("webpack",{},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ !function() {
+/******/ 	__webpack_require__.h = function() { return "e816ec2edff0f7fa"; }
+/******/ }();
+/******/ 
+/******/ }
+);
