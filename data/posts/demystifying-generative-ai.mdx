@@ -1,0 +1,85 @@
+---
+title: Demystifying Generative AI
+date: '2024-10-09'
+tags: ['AI', 'LLMs']
+draft: false
+summary: 'In this post, I talk about some things I learned from two courses on Coursera: "Generative AI for Everyone" and "ChatGPT Prompt Engineering for Developers".'
+---
+
+# Introduction
+
+As someone who’s always learning something new, I wanted to continue with gaining foundational knowledge on Generative AI, including Large Language Models (LLMs). I enrolled in two courses on Coursera: "Generative AI for Everyone" and "ChatGPT Prompt Engineering for Developers." I’ll share some high-level information from these courses and how they’ve changed the way I think of generative AI.
+One of the first things introduced from the "Generative AI for Everyone" course was the various AI learning methods. While many are familiar with supervised learning, I discovered other types like unsupervised and reinforcement learning.
+
+# Supervised Learning
+
+Supervised learning is the most widely recognized form of AI training. It involves feeding the model labeled data, where each input is paired with a corresponding output. This method enables the model to learn patterns and make predictions based on the input-output relationships it has been trained on.
+
+# Ways to use Supervised Learning:
+
+- Spam Detection: Classifying emails as spam or not spam by analyzing input features.
+- User Interaction Analysis: Utilizing user information and click data to enhance recommendations or services.
+- Autonomous Driving: Processing images to determine the positions of other cars, a critical function for self-driving vehicles.
+- Medical Diagnostics: Analyzing X-ray images to output medical diagnoses.
+- Speech-to-Text Conversion: Transforming audio recordings into accurate text transcripts.
+- Reputation Monitoring: Evaluating reviews to determine overall sentiment, whether positive or negative.
+
+LLMs, such as GPT-4, are primarily built using supervised learning techniques, enabling them to understand and generate human-like text based on large amounts of training data.
+
+# Unsupervised Learning
+
+Unsupervised learning, on the other hand, deals with unlabeled data. The model identifies patterns, structures, or anomalies within the data without explicit instructions on what to look for. This approach is invaluable for tasks like customer segmentation, anomaly detection, and market basket analysis.
+
+# Reinforcement Learning
+
+Reinforcement learning is a dynamic training method where models learn to make a sequence of decisions by receiving rewards or penalties based on their actions. This method is extensively used in robotics, game playing (such as AlphaGo), and navigation systems, where the model needs to optimize its behavior over time.
+
+# Practical Applications of Generative AI
+
+Generative AI isn't confined to a single domain; its applications span across various industries, transforming how we interact with technology. From enhancing user experiences in applications to driving innovation in autonomous systems, generative AI is a cornerstone of modern technological advancements.
+
+# Prompt Engineering Class
+
+While understanding the types of AI is fundamental, effectively interacting with LLMs like GPT-4 requires improving your prompting. The "ChatGPT Prompt Engineering for Developers" course delved deep into strategies that optimize the performance and reliability of these models.
+
+# Key Strategies for Effective Prompt Engineering
+
+1. Use of Delimiters
+   Delimiters are essential in clearly indicating distinct parts of the input, reducing ambiguity and guiding the model to focus on specific sections.
+2. Structured Output Requests
+   Instructing the model to produce outputs in specific formats, such as HTML or JSON, ensures consistency and ease of integration with other systems.
+3. Specifying Step-by-Step Processes
+   Breaking down tasks into sequential steps can guide the model through a logical process, reducing errors and improving clarity.
+4. Encouraging the Model to 'Think' Before Responding
+   Instructing the model to work out its solution methodically before arriving at a conclusion enhances the reliability of its responses.
+
+# Temperature
+
+The temperature parameter plays a pivotal role in controlling the randomness of the model’s output by adjusting the degree of exploration and variety.
+
+- **Low Temperature (e.g., 0):**
+  - **Use Case:** Tasks requiring high reliability and predictability.
+  - **Effect:** Generates more deterministic and focused responses.
+- **High Temperature (e.g., 0.7):**
+  - **Use Case:** Tasks benefiting from creativity and variety.
+  - **Effect:** Produces more diverse and creative outputs.
+
+# Using System Messages
+
+One of the critical aspects of chatbot development is the use of system messages. These messages allow developers to set the context and behavior of the LLM without the end-user being aware of these settings. This technique ensures consistency and adherence to desired interaction protocols, framing the interaction environment effectively.
+
+# Practical Tips for Working with LLMs
+
+Some practical tips for working with LLMs that I’ve applied are focusing on providing clear instructions with enough details to lower the chance the model misinterprets it.
+
+Also, treating the process of getting what you want out of an LLM with an iterative approach. I know many times after I’ve reworded my prompt and got more specific with detailing my problems, that I was able to get a better answer.
+
+# Conclusion
+
+The journey through the "Generative AI for Everyone" and "ChatGPT Prompt Engineering for Developers" courses was rewarding. The understanding of different AI learning methods and the introduction to prompt engineering techniques gave a better idea of what can be done with this technology.
+
+# Sources
+
+[Deeplearning.ai - ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+
+[Coursera - Generative AI for Everyone](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
