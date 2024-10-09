@@ -34,32 +34,32 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-1",
+      "url": "#introduction-5",
       "depth": 1
     },
     {
       "value": "Benefits of Using the OpenAI API",
-      "url": "#benefits-of-using-the-openai-api-1",
+      "url": "#benefits-of-using-the-openai-api",
       "depth": 1
     },
     {
       "value": "Edge Functions",
-      "url": "#edge-functions-1",
+      "url": "#edge-functions",
       "depth": 1
     },
     {
       "value": "Auth0 for User Authentication",
-      "url": "#auth0-for-user-authentication-1",
+      "url": "#auth0-for-user-authentication",
       "depth": 1
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion-1",
+      "url": "#conclusion-2",
       "depth": 1
     },
     {
       "value": "Sources",
-      "url": "#sources-1",
+      "url": "#sources",
       "depth": 1
     }
   ],
