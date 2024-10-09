@@ -33,17 +33,17 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-7",
+      "url": "#introduction-3",
       "depth": 1
     },
     {
       "value": "Deriving the OLS Estimator",
-      "url": "#deriving-the-ols-estimator-1",
+      "url": "#deriving-the-ols-estimator",
       "depth": 1
     },
     {
       "value": "Least Squares",
-      "url": "#least-squares-1",
+      "url": "#least-squares",
       "depth": 2
     }
   ],

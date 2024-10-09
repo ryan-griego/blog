@@ -4,7 +4,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-const basePath = process.env.NODE_ENV === 'production' ? '/blog' : '';
+// const basePath = process.env.NODE_ENV === 'production' ? '/blog' : '';
+const basePath = process.env.NODE_ENV;
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
@@ -99,7 +100,8 @@ module.exports = () => {
       return config
     },
     trailingSlash: true,
-    basePath: basePath,
+    basePath: '/blog',
+    assetPrefix: '/blog',  // Ensure all assets use /blog as the prefix
    output: 'export', // Enables static site generation
   })
 }

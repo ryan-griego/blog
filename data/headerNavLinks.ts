@@ -7,7 +7,7 @@ const headerNavLinks = [
   // { href: '/tags', title: 'Tags' },
  // { href: '/projects', title: 'Projects' },
   { href: `${baseUrl}/about`, title: 'About' },
-  { href: 'https://www.ryangriego.com/', title: 'Portfolio' },
+  { href: 'https://ryangriego.com/', title: 'Portfolio' },
 ]
 
 export default headerNavLinks
