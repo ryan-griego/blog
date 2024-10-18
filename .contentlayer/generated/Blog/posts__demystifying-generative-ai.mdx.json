@@ -32,67 +32,67 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-5",
+      "url": "#introduction",
       "depth": 1
     },
     {
       "value": "Supervised Learning",
-      "url": "#supervised-learning-3",
+      "url": "#supervised-learning",
       "depth": 1
     },
     {
       "value": "Ways to use Supervised Learning:",
-      "url": "#ways-to-use-supervised-learning-3",
+      "url": "#ways-to-use-supervised-learning",
       "depth": 1
     },
     {
       "value": "Unsupervised Learning",
-      "url": "#unsupervised-learning-3",
+      "url": "#unsupervised-learning",
       "depth": 1
     },
     {
       "value": "Reinforcement Learning",
-      "url": "#reinforcement-learning-3",
+      "url": "#reinforcement-learning",
       "depth": 1
     },
     {
       "value": "Practical Applications of Generative AI",
-      "url": "#practical-applications-of-generative-ai-3",
+      "url": "#practical-applications-of-generative-ai",
       "depth": 1
     },
     {
       "value": "Prompt Engineering Class",
-      "url": "#prompt-engineering-class-3",
+      "url": "#prompt-engineering-class",
       "depth": 1
     },
     {
       "value": "Key Strategies for Effective Prompt Engineering",
-      "url": "#key-strategies-for-effective-prompt-engineering-3",
+      "url": "#key-strategies-for-effective-prompt-engineering",
       "depth": 1
     },
     {
       "value": "Temperature",
-      "url": "#temperature-2",
+      "url": "#temperature",
       "depth": 1
     },
     {
       "value": "Using System Messages",
-      "url": "#using-system-messages-3",
+      "url": "#using-system-messages",
       "depth": 1
     },
     {
       "value": "Practical Tips for Working with LLMs",
-      "url": "#practical-tips-for-working-with-llms-3",
+      "url": "#practical-tips-for-working-with-llms",
       "depth": 1
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion-5",
+      "url": "#conclusion-1",
       "depth": 1
     },
     {
       "value": "Sources",
-      "url": "#sources-5",
+      "url": "#sources",
       "depth": 1
     }
   ],
