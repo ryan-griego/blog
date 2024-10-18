@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
-      <lastBuildDate>Tue, 20 Aug 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 09 Oct 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryangriego.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryangriego.com/blog/posts/demystifying-generative-ai</guid>
+    <title>Demystifying Generative AI</title>
+    <link>https://ryangriego.com/blog/posts/demystifying-generative-ai</link>
+    <description>In this post, I talk about some things I learned from two courses on Coursera: &quot;Generative AI for Everyone&quot; and &quot;ChatGPT Prompt Engineering for Developers&quot;.</description>
+    <pubDate>Wed, 09 Oct 2024 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>AI</category><category>LLMs</category>
+  </item>
+
   <item>
     <guid>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</guid>
     <title>3 Things I Learned From Building a ChatGPT Clone</title>
