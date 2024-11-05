@@ -36,112 +36,112 @@
     },
     {
       "value": "Challenges in Job Hunting",
-      "url": "#challenges-in-job-hunting-1",
+      "url": "#challenges-in-job-hunting",
       "depth": 1
     },
     {
       "value": "Introducing Job Getter",
-      "url": "#introducing-job-getter-1",
+      "url": "#introducing-job-getter",
       "depth": 1
     },
     {
       "value": "Core Features",
-      "url": "#core-features-1",
+      "url": "#core-features",
       "depth": 1
     },
     {
       "value": "Scraping Job Listings",
-      "url": "#scraping-job-listings-1",
+      "url": "#scraping-job-listings",
       "depth": 2
     },
     {
       "value": "Manual Job Entry",
-      "url": "#manual-job-entry-1",
+      "url": "#manual-job-entry",
       "depth": 2
     },
     {
       "value": "Retrieving Hiring Contacts",
-      "url": "#retrieving-hiring-contacts-1",
+      "url": "#retrieving-hiring-contacts",
       "depth": 2
     },
     {
       "value": "Sending Customized Emails",
-      "url": "#sending-customized-emails-1",
+      "url": "#sending-customized-emails",
       "depth": 2
     },
     {
       "value": "Generating QR Codes",
-      "url": "#generating-qr-codes-1",
+      "url": "#generating-qr-codes",
       "depth": 2
     },
     {
       "value": "Technologies and Services Used",
-      "url": "#technologies-and-services-used-1",
+      "url": "#technologies-and-services-used",
       "depth": 1
     },
     {
       "value": "MongoDB Atlas",
-      "url": "#mongodb-atlas-1",
+      "url": "#mongodb-atlas",
       "depth": 2
     },
     {
       "value": "SendGrid",
-      "url": "#sendgrid-1",
+      "url": "#sendgrid",
       "depth": 2
     },
     {
       "value": "Hunter.io, Apollo.io, and Clearbit",
-      "url": "#hunterio-apolloio-and-clearbit-1",
+      "url": "#hunterio-apolloio-and-clearbit",
       "depth": 2
     },
     {
       "value": "PhantomBuster",
-      "url": "#phantombuster-1",
+      "url": "#phantombuster",
       "depth": 2
     },
     {
       "value": "Tabulator",
-      "url": "#tabulator-1",
+      "url": "#tabulator",
       "depth": 2
     },
     {
       "value": "Lessons Learned in App Development",
-      "url": "#lessons-learned-in-app-development-1",
+      "url": "#lessons-learned-in-app-development",
       "depth": 1
     },
     {
       "value": "Future Enhancements",
-      "url": "#future-enhancements-1",
+      "url": "#future-enhancements",
       "depth": 1
     },
     {
       "value": "Automated Follow-Ups",
-      "url": "#automated-follow-ups-1",
+      "url": "#automated-follow-ups",
       "depth": 2
     },
     {
       "value": "Multiple Hiring Contacts",
-      "url": "#multiple-hiring-contacts-1",
+      "url": "#multiple-hiring-contacts",
       "depth": 2
     },
     {
       "value": "Additional Email Templates",
-      "url": "#additional-email-templates-1",
+      "url": "#additional-email-templates",
       "depth": 2
     },
     {
       "value": "Design Improvements",
-      "url": "#design-improvements-1",
+      "url": "#design-improvements",
       "depth": 2
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion-1",
+      "url": "#conclusion",
       "depth": 1
     },
     {
       "value": "Sources",
-      "url": "#sources-1",
+      "url": "#sources",
       "depth": 1
     }
   ],
