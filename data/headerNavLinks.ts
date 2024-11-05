@@ -5,7 +5,7 @@ const headerNavLinks = [
   { href: '/', title: 'Home' },
   { href: `${baseUrl}/posts`, title: 'Blog' },
   // { href: '/tags', title: 'Tags' },
- // { href: '/projects', title: 'Projects' },
+ { href: '/projects', title: 'Projects' },
   { href: `${baseUrl}/about`, title: 'About' },
   { href: 'https://ryangriego.com/', title: 'Portfolio' },
 ]
