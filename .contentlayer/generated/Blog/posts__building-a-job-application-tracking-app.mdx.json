@@ -31,117 +31,117 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-1",
+      "url": "#introduction-13",
       "depth": 1
     },
     {
       "value": "Challenges in Job Hunting",
-      "url": "#challenges-in-job-hunting",
+      "url": "#challenges-in-job-hunting-5",
       "depth": 1
     },
     {
       "value": "Introducing Job Getter",
-      "url": "#introducing-job-getter",
+      "url": "#introducing-job-getter-5",
       "depth": 1
     },
     {
       "value": "Core Features",
-      "url": "#core-features",
+      "url": "#core-features-5",
       "depth": 1
     },
     {
       "value": "Scraping Job Listings",
-      "url": "#scraping-job-listings",
+      "url": "#scraping-job-listings-5",
       "depth": 2
     },
     {
       "value": "Manual Job Entry",
-      "url": "#manual-job-entry",
+      "url": "#manual-job-entry-5",
       "depth": 2
     },
     {
       "value": "Retrieving Hiring Contacts",
-      "url": "#retrieving-hiring-contacts",
+      "url": "#retrieving-hiring-contacts-5",
       "depth": 2
     },
     {
       "value": "Sending Customized Emails",
-      "url": "#sending-customized-emails",
+      "url": "#sending-customized-emails-5",
       "depth": 2
     },
     {
       "value": "Generating QR Codes",
-      "url": "#generating-qr-codes",
+      "url": "#generating-qr-codes-5",
       "depth": 2
     },
     {
       "value": "Technologies and Services Used",
-      "url": "#technologies-and-services-used",
+      "url": "#technologies-and-services-used-5",
       "depth": 1
     },
     {
       "value": "MongoDB Atlas",
-      "url": "#mongodb-atlas",
+      "url": "#mongodb-atlas-5",
       "depth": 2
     },
     {
       "value": "SendGrid",
-      "url": "#sendgrid",
+      "url": "#sendgrid-5",
       "depth": 2
     },
     {
       "value": "Hunter.io, Apollo.io, and Clearbit",
-      "url": "#hunterio-apolloio-and-clearbit",
+      "url": "#hunterio-apolloio-and-clearbit-5",
       "depth": 2
     },
     {
       "value": "PhantomBuster",
-      "url": "#phantombuster",
+      "url": "#phantombuster-5",
       "depth": 2
     },
     {
       "value": "Tabulator",
-      "url": "#tabulator",
+      "url": "#tabulator-5",
       "depth": 2
     },
     {
       "value": "Lessons Learned in App Development",
-      "url": "#lessons-learned-in-app-development",
+      "url": "#lessons-learned-in-app-development-5",
       "depth": 1
     },
     {
       "value": "Future Enhancements",
-      "url": "#future-enhancements",
+      "url": "#future-enhancements-5",
       "depth": 1
     },
     {
       "value": "Automated Follow-Ups",
-      "url": "#automated-follow-ups",
+      "url": "#automated-follow-ups-5",
       "depth": 2
     },
     {
       "value": "Multiple Hiring Contacts",
-      "url": "#multiple-hiring-contacts",
+      "url": "#multiple-hiring-contacts-5",
       "depth": 2
     },
     {
       "value": "Additional Email Templates",
-      "url": "#additional-email-templates",
+      "url": "#additional-email-templates-5",
       "depth": 2
     },
     {
       "value": "Design Improvements",
-      "url": "#design-improvements",
+      "url": "#design-improvements-5",
       "depth": 2
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion",
+      "url": "#conclusion-9",
       "depth": 1
     },
     {
       "value": "Sources",
-      "url": "#sources",
+      "url": "#sources-8",
       "depth": 1
     }
   ],
