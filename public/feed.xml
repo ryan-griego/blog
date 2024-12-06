@@ -60,5 +60,15 @@
     <category>reflection</category><category>writings</category><category>feature</category>
   </item>
 
+  <item>
+    <guid>https://ryangriego.com/blog/posts/new-features-in-v1</guid>
+    <title>New features in v1</title>
+    <link>https://ryangriego.com/blog/posts/new-features-in-v1</link>
+    <description>An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more</description>
+    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>next-js</category><category>tailwind</category><category>guide</category>
+  </item>
+
     </channel>
   </rss>

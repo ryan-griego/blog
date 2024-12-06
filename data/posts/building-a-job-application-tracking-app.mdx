@@ -9,13 +9,15 @@ summary: 'An overview of Job Getter, an application designed to automate and enh
 
 ---
 
-# Introduction
+## Introduction
 
 Searching for a job can be a daunting task, often involving meticulous tracking of applications, remembering to follow up, and finding ways to stand out among other applicants. To address these challenges, I decided to leverage my software development skills and create **Job Getter**—an application designed to improve the job hunting process through automation and integration of various tools.
 
+
 <TOCInline toc={props.toc} exclude="Introduction" />
 
-# Challenges in Job Hunting
+
+## Challenges in Job Hunting
 
 In previous job searches, I found myself:
 
@@ -25,29 +27,29 @@ In previous job searches, I found myself:
 
 These challenges highlighted the need for a more efficient system to manage my job search activities.
 
-# Introducing Job Getter
+## Introducing Job Getter
 
 **Job Getter** is an application built using **Nuxt** and **MongoDB**, aimed at automating the job application process. It helps users track job applications, retrieve hiring contacts, and send customized emails—all from a single platform.
 
-# Core Features
+## Core Features
 
-## Scraping Job Listings
+Scraping Job Listings
 
 Utilizing the **PhantomBuster API**, Job Getter can scrape job postings from LinkedIn and store the information in a **MongoDB** database. This automates the tedious process of collecting job details and ensures that no potential opportunity is overlooked.
 
-## Manual Job Entry
+Manual Job Entry
 
 For jobs found outside of LinkedIn or those not captured by the scraper, users can manually add job listings through a simple form. This flexibility ensures that all applications are tracked, regardless of their source.
 
-## Retrieving Hiring Contacts
+Retrieving Hiring Contacts
 
 The app integrates with the **Hunter.io API** to fetch hiring managers' work email addresses. Given the limitations of Hunter.io's free plan, I also incorporated **Apollo.io** and **Clearbit** to expand the pool of accessible contacts.
 
-## Sending Customized Emails
+Sending Customized Emails
 
 With the **SendGrid API**, users can send [personalized HTML emails](https://res.cloudinary.com/dm7y3yvjp/image/upload/v1730237308/html-email-sample_oycnvu.png) to hiring contacts directly from the app. This feature allows for more professional and eye-catching communication compared to plain text emails.
 
-## Generating QR Codes
+Generating QR Codes
 
 Job Getter can generate QR codes that embed the hiring contact's name, company, and job title into a URL. This can link to a landing page showcasing a user's introduction video or video resume, adding a unique touch to applications.
 
@@ -55,29 +57,29 @@ Job Getter can generate QR codes that embed the hiring contact's name, company, 
 
 [https://ryangriego.com/intro-video?name=John&company=Clearwater%20Analytics&position=Software%20Development%20Engineer](https://ryangriego.com/intro-video?name=John&company=Clearwater%20Analytics&position=Software%20Development%20Engineer)
 
-# Technologies and Services Used
+## Technologies and Services Used
 
-## MongoDB Atlas
+MongoDB Atlas
 
 To keep costs minimal, I opted for **MongoDB Atlas**'s free tier for cloud database services. This choice provides scalability and ease of use without upfront expenses.
 
-## SendGrid
+SendGrid
 
 **SendGrid** offers a free plan allowing up to 100 emails per day, making it an ideal choice for managing email communications within the app.
 
-## Hunter.io, Apollo.io, and Clearbit
+Hunter.io, Apollo.io, and Clearbit
 
 While **Hunter.io** provides 25 free email lookups per month, combining it with **Apollo.io** and **Clearbit** expands the ability to retrieve hiring contacts, ensuring that users have the best chance of connecting with potential employers.
 
-## PhantomBuster
+PhantomBuster
 
 I leveraged a free trial account with **PhantomBuster**, which grants daily automation credits. This tool is essential for tasks like scraping LinkedIn job listings and automating connection requests.
 
-## Tabulator
+Tabulator
 
 Tabulator is a JavaScript library for creating interactive, customizable tables on web pages with features like sorting, filtering, pagination, and data editing. It’s highly flexible and integrates easily with frameworks, offering responsive design and extensive styling options.
 
-# Lessons Learned in App Development
+## Lessons Learned in App Development
 
 Developing **Job Getter** provided valuable insights:
 
@@ -85,23 +87,23 @@ Developing **Job Getter** provided valuable insights:
 - **Early Deployment**: Launching early allowed me to test the app in a production environment, identify issues, and explore automation opportunities.
 - **Workflow Optimization**: By dissecting each step of the job application process, I was able to minimize unnecessary clicks and keystrokes, enhancing efficiency.
 
-# Future Enhancements
+## Future Enhancements
 
-## Automated Follow-Ups
+Automated Follow-Ups
 
 Implementing a daily **CRON job** to:
 
 - Check the status of applications.
 - Send customized follow-up emails based on specific time intervals (e.g., one day or one week after applying).
 
-## Multiple Hiring Contacts
+Multiple Hiring Contacts
 
 Allowing users to:
 
 - Add multiple contacts to a single job listing.
 - Increase the chances of a response by reaching out to various stakeholders within a company.
 
-## Additional Email Templates
+Additional Email Templates
 
 Expanding the email template library to include:
 
@@ -109,17 +111,17 @@ Expanding the email template library to include:
 - **Second Follow-Up**: Send reminders if there's no initial response.
 - **Feedback Request**: Seek feedback on unsuccessful applications.
 
-## Design Improvements
+Design Improvements
 
 - **Enhanced UI/UX**: Inspired by platforms like Remote Rocketship, plan to revamp the interface for a more engaging user experience.
 - **Search Filters**: Implement advanced filtering options to easily navigate through job listings.
 - **Color Coding**: Use visual cues to indicate urgency levels and application statuses.
 
-# Conclusion
+## Conclusion
 
 Building **Job Getter** has transformed my approach to job hunting, making it more organized and efficient. The app not only addresses common challenges faced by job seekers but also serves as a testament to the power of integrating multiple technologies to solve real-world problems. As I continue to refine and enhance the app, I aim to make it a valuable tool for others navigating the job market. If you want to see the app in action, click on the Video Demonstration link below.
 
-# Sources
+## Sources
 
 - [Live Demo](https://job-getter.ryangriego.com/)
 - [Video Demonstration](https://www.youtube.com/watch?v=mQazxb70QTA)

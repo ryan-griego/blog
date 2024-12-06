@@ -21,6 +21,16 @@
   </item>
 
   <item>
+    <guid>https://ryangriego.com/blog/posts/buildling-patient-appointment-booking-streamlining-healthcare-with-modern-web-technologies</guid>
+    <title>Building &quot;Patient Appointment Booking&quot;: Streamlining Healthcare with Modern Web Technologies</title>
+    <link>https://ryangriego.com/blog/posts/buildling-patient-appointment-booking-streamlining-healthcare-with-modern-web-technologies</link>
+    <description>A patient appointment booking app built with Next.js, TypeScript, and Tailwind CSS.</description>
+    <pubDate>Thu, 05 Dec 2024 08:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>next-js</category><category>tailwind</category><category>typescript</category>
+  </item>
+
+  <item>
     <guid>https://ryangriego.com/blog/posts/deriving-ols-estimator</guid>
     <title>Deriving the OLS Estimator</title>
     <link>https://ryangriego.com/blog/posts/deriving-ols-estimator</link>

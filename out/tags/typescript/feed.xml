@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ryan Griego&#39;s blog</title>
+      <link>https://ryangriego.com/blog/posts</link>
+      <description>I went from being a graphic design major to a software engineer. Welcome to my blog!</description>
+      <language>en-us</language>
+      <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
+      <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
+      <lastBuildDate>Thu, 05 Dec 2024 08:00:00 GMT</lastBuildDate>
+      <atom:link href="https://ryangriego.com/blog/tags/typescript/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ryangriego.com/blog/posts/buildling-patient-appointment-booking-streamlining-healthcare-with-modern-web-technologies</guid>
+    <title>Building &quot;Patient Appointment Booking&quot;: Streamlining Healthcare with Modern Web Technologies</title>
+    <link>https://ryangriego.com/blog/posts/buildling-patient-appointment-booking-streamlining-healthcare-with-modern-web-technologies</link>
+    <description>A patient appointment booking app built with Next.js, TypeScript, and Tailwind CSS.</description>
+    <pubDate>Thu, 05 Dec 2024 08:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>next-js</category><category>tailwind</category><category>typescript</category>
+  </item>
+
+    </channel>
+  </rss>
