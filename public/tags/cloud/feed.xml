@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ryan Griego&#39;s blog</title>
+      <link>https://ryangriego.com/blog/posts</link>
+      <description>I went from being a graphic design major to a software engineer. Welcome to my blog!</description>
+      <language>en-us</language>
+      <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
+      <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
+      <lastBuildDate>Sat, 21 Dec 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://ryangriego.com/blog/tags/cloud/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ryangriego.com/blog/posts/how-docker-helped-me-enhance-my-web-app-deployments</guid>
+    <title>How Docker Helped Me Enhance My Web App Deployments</title>
+    <link>https://ryangriego.com/blog/posts/how-docker-helped-me-enhance-my-web-app-deployments</link>
+    <description>Docker improved my web app deployments by ensuring consistent environments with containerization, and streamlining multi-app management through Docker Compose, all while remaining portable across cloud providers.</description>
+    <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>docker</category><category>cloud</category>
+  </item>
+
+    </channel>
+  </rss>

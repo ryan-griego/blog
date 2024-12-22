@@ -101,8 +101,8 @@ module.exports = () => {
     },
     trailingSlash: true,
     basePath: '/blog',
-    assetPrefix: '/blog',  // Ensure all assets use /blog as the prefix
-   output: 'export', // Enables static site generation
+    assetPrefix: '/blog',
+   output: 'export',
   })
 }
 // Export basePath explicitly for other files to import
