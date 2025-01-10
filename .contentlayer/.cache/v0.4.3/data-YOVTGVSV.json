@@ -32,7 +32,7 @@
         "filePath": "authors/default.mdx",
         "toc": []
       },
-      "documentHash": "1731187353395",
+      "documentHash": "1736355539169",
       "hasWarnings": false,
       "documentTypeName": "Authors"
     },
@@ -68,7 +68,7 @@
         "filePath": "authors/sparrowhawk.mdx",
         "toc": []
       },
-      "documentHash": "1731187353395",
+      "documentHash": "1736355539169",
       "hasWarnings": false,
       "documentTypeName": "Authors"
     },
@@ -106,7 +106,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction",
+            "url": "#introduction-1",
             "depth": 2
           },
           {
@@ -141,12 +141,12 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion",
+            "url": "#conclusion-1",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources",
+            "url": "#sources-1",
             "depth": 2
           }
         ],
@@ -161,7 +161,7 @@
           "url": "https://ryangriego.com/blog/posts/building-a-job-application-tracking-app"
         }
       },
-      "documentHash": "1733517254130",
+      "documentHash": "1736355539169",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -201,62 +201,62 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-1",
+            "url": "#introduction-4",
             "depth": 2
           },
           {
             "value": "Why Patient Appointment Booking?",
-            "url": "#why-patient-appointment-booking-1",
+            "url": "#why-patient-appointment-booking",
             "depth": 2
           },
           {
             "value": "The Tech Stack: Next.js, AppWrite, Tailwind CSS, TypeScript, and ShadCN",
-            "url": "#the-tech-stack-nextjs-appwrite-tailwind-css-typescript-and-shadcn-1",
+            "url": "#the-tech-stack-nextjs-appwrite-tailwind-css-typescript-and-shadcn",
             "depth": 2
           },
           {
             "value": "Overcoming Challenges with Next.js",
-            "url": "#overcoming-challenges-with-nextjs-1",
+            "url": "#overcoming-challenges-with-nextjs",
             "depth": 2
           },
           {
             "value": "The Power of AppWrite and ShadCN",
-            "url": "#the-power-of-appwrite-and-shadcn-1",
+            "url": "#the-power-of-appwrite-and-shadcn",
             "depth": 2
           },
           {
             "value": "Implementing Complex Forms and SMS Notifications",
-            "url": "#implementing-complex-forms-and-sms-notifications-1",
+            "url": "#implementing-complex-forms-and-sms-notifications",
             "depth": 2
           },
           {
             "value": "Responsiveness and Performance",
-            "url": "#responsiveness-and-performance-1",
+            "url": "#responsiveness-and-performance",
             "depth": 2
           },
           {
             "value": "App Features",
-            "url": "#app-features-1",
+            "url": "#app-features",
             "depth": 2
           },
           {
             "value": "Future Enhancements and Ongoing Development",
-            "url": "#future-enhancements-and-ongoing-development-1",
+            "url": "#future-enhancements-and-ongoing-development",
             "depth": 2
           },
           {
             "value": "Healthcare Tech",
-            "url": "#healthcare-tech-1",
+            "url": "#healthcare-tech",
             "depth": 2
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-1",
+            "url": "#conclusion-2",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-1",
+            "url": "#sources-2",
             "depth": 2
           }
         ],
@@ -271,7 +271,7 @@
           "url": "https://ryangriego.com/blog/posts/building-patient-appointment-booking-streamlining-healthcare-with-modern-web-technologies"
         }
       },
-      "documentHash": "1733518124250",
+      "documentHash": "1736355539169",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -331,7 +331,7 @@
           "url": "https://ryangriego.com/blog/posts/code-sample"
         }
       },
-      "documentHash": "1731187353395",
+      "documentHash": "1736355539169",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -445,7 +445,7 @@
           "url": "https://ryangriego.com/blog/posts/demystifying-generative-ai"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539169",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -510,7 +510,7 @@
           "url": "https://ryangriego.com/blog/posts/deriving-ols-estimator"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -549,7 +549,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-2",
+            "url": "#introduction-3",
             "depth": 1
           },
           {
@@ -659,7 +659,7 @@
           "url": "https://ryangriego.com/blog/posts/github-markdown-guide"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -701,7 +701,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-3",
+            "url": "#introduction-2",
             "depth": 1
           },
           {
@@ -731,7 +731,7 @@
           "url": "https://ryangriego.com/blog/posts/guide-to-using-images-in-nextjs"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -770,7 +770,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction",
+            "url": "#introduction-6",
             "depth": 2
           },
           {
@@ -825,12 +825,12 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion",
+            "url": "#conclusion-3",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources",
+            "url": "#sources-3",
             "depth": 2
           }
         ],
@@ -845,7 +845,7 @@
           "url": "https://ryangriego.com/blog/posts/how-docker-helped-me-enhance-my-web-app-deployments"
         }
       },
-      "documentHash": "1734822438507",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -974,7 +974,7 @@
           "url": "https://ryangriego.com/blog/posts/introducing-tailwind-nextjs-starter-blog"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1021,7 +1021,7 @@
           "url": "https://ryangriego.com/blog/posts/my-fancy-title"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1164,7 +1164,7 @@
           "url": "https://ryangriego.com/blog/posts/new-features-in-v1"
         }
       },
-      "documentHash": "1733512845998",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1233,7 +1233,7 @@
           "url": "https://ryangriego.com/blog/posts/pictures-of-canada"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539171",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1278,7 +1278,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-4",
+            "url": "#introduction-9",
             "depth": 2
           },
           {
@@ -1343,7 +1343,7 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-2",
+            "url": "#conclusion-6",
             "depth": 2
           },
           {
@@ -1368,7 +1368,7 @@
           "url": "https://ryangriego.com/blog/posts/release-of-tailwind-nextjs-starter-blog-v2.0"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539171",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1413,7 +1413,7 @@
           },
           {
             "value": "Introduction",
-            "url": "#introduction-6",
+            "url": "#introduction-8",
             "depth": 2
           }
         ],
@@ -1428,7 +1428,7 @@
           "url": "https://ryangriego.com/blog/posts/the-time-machine"
         }
       },
-      "documentHash": "1731187353397",
+      "documentHash": "1736355539171",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1494,7 +1494,7 @@
           },
           {
             "value": "Sources",
-            "url": "#sources-2",
+            "url": "#sources-4",
             "depth": 1
           }
         ],
@@ -1509,7 +1509,7 @@
           "url": "https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone"
         }
       },
-      "documentHash": "1731187353397",
+      "documentHash": "1736355539171",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1574,7 +1574,7 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-3",
+            "url": "#conclusion-5",
             "depth": 2
           }
         ],
@@ -1589,7 +1589,7 @@
           "url": "https://ryangriego.com/blog/posts/who-is-writing-this-blog"
         }
       },
-      "documentHash": "1731187353397",
+      "documentHash": "1736355539171",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -1659,7 +1659,7 @@
           "url": "https://ryangriego.com/blog/posts/nested-route/introducing-multi-part-posts-with-nested-routing"
         }
       },
-      "documentHash": "1731187353396",
+      "documentHash": "1736355539170",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     }

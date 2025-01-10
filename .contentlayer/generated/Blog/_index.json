@@ -32,7 +32,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction",
+        "url": "#introduction-1",
         "depth": 2
       },
       {
@@ -67,12 +67,12 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion",
+        "url": "#conclusion-1",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources",
+        "url": "#sources-1",
         "depth": 2
       }
     ],
@@ -122,62 +122,62 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-1",
+        "url": "#introduction-4",
         "depth": 2
       },
       {
         "value": "Why Patient Appointment Booking?",
-        "url": "#why-patient-appointment-booking-1",
+        "url": "#why-patient-appointment-booking",
         "depth": 2
       },
       {
         "value": "The Tech Stack: Next.js, AppWrite, Tailwind CSS, TypeScript, and ShadCN",
-        "url": "#the-tech-stack-nextjs-appwrite-tailwind-css-typescript-and-shadcn-1",
+        "url": "#the-tech-stack-nextjs-appwrite-tailwind-css-typescript-and-shadcn",
         "depth": 2
       },
       {
         "value": "Overcoming Challenges with Next.js",
-        "url": "#overcoming-challenges-with-nextjs-1",
+        "url": "#overcoming-challenges-with-nextjs",
         "depth": 2
       },
       {
         "value": "The Power of AppWrite and ShadCN",
-        "url": "#the-power-of-appwrite-and-shadcn-1",
+        "url": "#the-power-of-appwrite-and-shadcn",
         "depth": 2
       },
       {
         "value": "Implementing Complex Forms and SMS Notifications",
-        "url": "#implementing-complex-forms-and-sms-notifications-1",
+        "url": "#implementing-complex-forms-and-sms-notifications",
         "depth": 2
       },
       {
         "value": "Responsiveness and Performance",
-        "url": "#responsiveness-and-performance-1",
+        "url": "#responsiveness-and-performance",
         "depth": 2
       },
       {
         "value": "App Features",
-        "url": "#app-features-1",
+        "url": "#app-features",
         "depth": 2
       },
       {
         "value": "Future Enhancements and Ongoing Development",
-        "url": "#future-enhancements-and-ongoing-development-1",
+        "url": "#future-enhancements-and-ongoing-development",
         "depth": 2
       },
       {
         "value": "Healthcare Tech",
-        "url": "#healthcare-tech-1",
+        "url": "#healthcare-tech",
         "depth": 2
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-1",
+        "url": "#conclusion-2",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources-1",
+        "url": "#sources-2",
         "depth": 2
       }
     ],
@@ -450,7 +450,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-2",
+        "url": "#introduction-3",
         "depth": 1
       },
       {
@@ -597,7 +597,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-3",
+        "url": "#introduction-2",
         "depth": 1
       },
       {
@@ -661,7 +661,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction",
+        "url": "#introduction-6",
         "depth": 2
       },
       {
@@ -716,12 +716,12 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion",
+        "url": "#conclusion-3",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources",
+        "url": "#sources-3",
         "depth": 2
       }
     ],
@@ -1144,7 +1144,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-4",
+        "url": "#introduction-9",
         "depth": 2
       },
       {
@@ -1209,7 +1209,7 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-2",
+        "url": "#conclusion-6",
         "depth": 2
       },
       {
@@ -1274,7 +1274,7 @@
       },
       {
         "value": "Introduction",
-        "url": "#introduction-6",
+        "url": "#introduction-8",
         "depth": 2
       }
     ],
@@ -1350,7 +1350,7 @@
       },
       {
         "value": "Sources",
-        "url": "#sources-2",
+        "url": "#sources-4",
         "depth": 1
       }
     ],
@@ -1425,7 +1425,7 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-3",
+        "url": "#conclusion-5",
         "depth": 2
       }
     ],
