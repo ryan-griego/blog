@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ryan Griego&#39;s blog</title>
+      <link>https://ryangriego.com/blog/posts</link>
+      <description>I went from being a graphic design major to a software engineer. Welcome to my blog!</description>
+      <language>en-us</language>
+      <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
+      <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
+      <lastBuildDate>Tue, 11 Feb 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://ryangriego.com/blog/tags/raspberry-pi/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ryangriego.com/blog/posts/building-an-automated-job-application-follow-up-system-with-python-and-the-raspberry-pi</guid>
+    <title>Building an Automated Job Application Follow-Up System With Python and the Raspberry Pi</title>
+    <link>https://ryangriego.com/blog/posts/building-an-automated-job-application-follow-up-system-with-python-and-the-raspberry-pi</link>
+    <description>How I developed an automated system using Python and a Raspberry Pi to send personalized follow-up emails to hiring contacts, improving the job application process while enhancing my skill in automation.</description>
+    <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>python</category><category>raspberry pi</category>
+  </item>
+
+    </channel>
+  </rss>

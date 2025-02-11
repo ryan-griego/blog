@@ -1,0 +1,106 @@
+---
+
+title: 'Building an Automated Job Application Follow-Up System With Python and the Raspberry Pi'
+date: '2025-02-11'
+tags: ['python','raspberry pi']
+draft: false
+summary: 'How I developed an automated system using Python and a Raspberry Pi to send personalized follow-up emails to hiring contacts, improving the job application process while enhancing my skill in automation.'
+
+---
+
+## Introduction
+
+Deploying web applications has always been a critical aspect of my full stack development journey. Since the beginning of 2021, I’ve been deploying my apps on AWS EC2 instances, and while AWS offers powerful tools, I noticed a steady increase in my monthly fees each year. Additionally, managing deployments and ensuring consistency across environments became increasingly cumbersome. Enter Docker—a game-changer that not only slashed my hosting costs by 75% but also improved the way I deploy and manage my web applications.
+
+<TOCInline toc={props.toc} exclude="Introduction" />
+
+## The Challenge
+
+Job searching is often a numbers game. After developing my initial [Job Getter application](https://ryangriego.com/blog/posts/building-a-job-application-tracking-app/), I had accumulated over 200 hiring contact emails using various tools such as ClearBit, Apollo.io, and Hunter.io. These contacts included hiring managers, directors of engineering, recruiters, tech leads, and CTOs at companies where I had submitted applications. While having these contacts was valuable, manually following up with each one would be time-consuming and inefficient.
+
+## The Solution: Automated Follow-ups
+
+I decided to create a Python script that would automatically send personalized follow-up emails to these contacts. The system:
+- Sends emails on Tuesday, Wednesday, and Thursday at 10 AM
+- Contacts 9 hiring managers per week
+- Processes contacts from oldest to newest applications
+- Includes customized content about my projects, skills and the aim of the company
+- Provides a Calendly link for meeting scheduling
+Why Python?
+
+While I had limited experience with Python prior to this project, I chose it for several reasons:
+1. Python's reputation for automation tasks
+2. Extensive library support, particularly for email handling and database interactions
+3. Excellent documentation and community support
+4. Opportunity to expand my programming language expertise
+
+## Technical Implementation
+The system consists of several key components:
+
+1. Database Integration
+I store job application data in MongoDB, some of which include the following:
+- Company information
+- Contact details
+- Application dates
+- Follow-up status
+
+2. Email Template System
+The HTML email template includes:
+- Personalized greeting
+- Brief introduction
+- Highlight of relevant projects
+- Current skill set
+- Calendly meeting link
+
+3. SendGrid Integration
+SendGrid handles the email delivery, providing:
+- Reliable delivery rates
+- Email tracking capabilities
+- HTML email support
+
+4. Raspberry Pi Deployment
+Running the system on a Raspberry Pi offers several advantages:
+- Low power consumption
+- 24/7 operation
+- Minimal maintenance requirements
+
+## Testing and Validation
+
+Before deploying the system, I implemented a thorough testing process:
+1. Created test job entries in MongoDB
+2. Verified email rendering across different screen sizes
+3. Confirmed accurate data coming from job listings
+4. Tested the complete system on my Raspberry Pi
+5. Set up and validated cron job scheduling
+6. Performed email delivery tests using my personal address
+
+## Benefits
+
+This automation project has delivered several key benefits:
+1. Time Savings: Eliminated manual follow-up email composition and sending
+2. Consistency: Ensures regular follow-up with potential employers
+3. Scalability: Easily handles hundreds of contacts
+4. Professional Development: Improved my Python skills and automation expertise
+5. Promotes more traffic to my Portfolio site
+
+
+## Lessons Learned
+
+Throughout this project, I gained valuable insights:
+1. Python's automation capabilities are indeed impressive and user-friendly
+2. Testing is crucial, especially for automated communication systems
+3. Raspberry Pi provides an excellent platform for running scheduled tasks
+4. Proper error handling and logging are essential for automated systems
+I recently added Google Analytics to the emails so when they’re opened I can see how often contacts are opening the emails and if they're accessing my portfolio site from these emails.
+
+
+## Conclusion
+
+This project accomplished two important goals: it automated a time-consuming aspect of my job search while helping me develop new technical skills. The combination of Python, SendGrid, and Raspberry Pi proved to be powerful and reliable for this automation task. Whether you're a job seeker looking to streamline your search or a developer interested in automation, this project demonstrates how these technologies can work together effectively.
+The code for this project is available on my [GitHub repository](https://github.com/ryan-griego/hiring-contacts-automated-emails), and I welcome feedback and suggestions for improvements. Remember to handle email automation responsibly and respect professional communication standards when implementing similar systems.
+
+
+## Sources
+
+- [Hiring Contacts Automated Emails Script](https://github.com/ryan-griego/hiring-contacts-automated-emails)
+- [Job Getter Post](https://ryangriego.com/blog/posts/building-a-job-application-tracking-app/)
