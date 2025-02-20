@@ -20,5 +20,15 @@
     <category>AI</category><category>LLMs</category>
   </item>
 
+  <item>
+    <guid>https://ryangriego.com/blog/posts/how-i-started-running-deepseek-ai-locally</guid>
+    <title>How I Started Running DeepSeek AI Locally</title>
+    <link>https://ryangriego.com/blog/posts/how-i-started-running-deepseek-ai-locally</link>
+    <description>Running the open-source DeepSeek LLM locally on your machine.</description>
+    <pubDate>Thu, 20 Feb 2025 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>AI</category><category>LLM</category>
+  </item>
+
     </channel>
   </rss>

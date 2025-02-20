@@ -1,0 +1,73 @@
+---
+
+title: 'How I Started Running DeepSeek AI Locally'
+date: '2025-02-20'
+tags: ['AI','LLM']
+draft: false
+summary: 'Running the open-source DeepSeek LLM locally on your machine.'
+
+---
+
+# Running DeepSeek Locally: A Privacy-First Approach to AI
+
+In an era where data privacy is important, the ability to run powerful language models locally has become increasingly valuable. Recently, I've been experimenting with DeepSeek, an impressive open-source LLM, on my M4 Mac Mini.
+
+## Getting Started with Ollama
+
+The journey begins with Ollama, which you can think of as the npm for Large Language Models. This package manager makes the process of running LLMs locally surprisingly straightforward. Installing Ollama is as simple as visiting their website, downloading the appropriate version for your operating system, and following the installation instructions.
+
+To verify your installation, open your terminal and run:
+
+```bash
+ollama -v
+```
+
+This command should display your installed Ollama version, confirming that everything is set up correctly.
+
+## Choosing and Installing DeepSeek
+
+One of DeepSeek's strengths is its variety of distilled models, each optimized for different hardware constraints. You can browse through the available variations on their documentation page, selecting the one that best matches your storage capacity and performance needs.
+
+For my setup, I opted for the 7B parameter model, which offers a good balance between capability and resource usage. I’m running it on the 16gb model of the M4 Mac mini. To install it, I simply ran:
+
+```bash
+ollama run deepseek-r1:7b
+```
+
+The beauty of this process lies in its simplicity – once installed, you can immediately start interacting with the model through your terminal. When you're done, pressing Ctrl+D will exit the session.
+
+## Enhancing the Experience with OpenWebUI
+
+While the terminal interface is functional, I wanted a more polished experience. This led me to OpenWebUI, a Docker-based solution that provides a clean, browser-based interface for interacting with the model.
+
+Assuming you have Docker installed and running, setting up OpenWebUI is straightforward. Just run this command:
+
+```bash
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
+-v open-webui:/app/backend/data --name open-webui --restart always \
+ghcr.io/open-webui/open-webui:main
+```
+
+After execution, navigate to localhost:3000 in your browser, and you'll be greeted with a sophisticated chat interface that rivals commercial AI platforms.
+
+## Why DeepSeek Matters
+
+DeepSeek represents a significant milestone in democratizing access to advanced AI technology. Its open-source nature and ability to run locally address two critical needs in the developer community:
+
+1. Accessibility: Developers can now access world-class language models without the burden of expensive API costs or subscription fees.
+
+2. Privacy: By running locally, you maintain complete control over your data, ensuring that sensitive information never leaves your machine.
+
+The ease with which DeepSeek can be deployed locally, combined with its impressive capabilities, makes it a compelling choice for developers who need reliable AI capabilities while maintaining data sovereignty.
+
+## Looking Forward
+
+As AI continues to evolve, solutions like DeepSeek pave the way for a future where powerful AI tools can be both accessible and privacy-respecting. The ability to run such models locally isn't just about convenience – it's about empowering developers to build AI-powered applications without compromising on data privacy or breaking the bank.
+
+Whether you're building a prototype, working with sensitive data, or simply exploring the capabilities of modern AI, DeepSeek offers a practical, privacy-first approach to accessing advanced language models. I disconnected my ethernet cable and turned off WIFI and was pleased to see that I could run a LLM without an internet connection.
+
+## Sources
+
+- [Download Ollama](https://ollama.com/)
+- [Run DeepSeek from a Docker container using OpenWebUI](https://openwebui.com/)
+- [Docker](https://www.docker.com/)

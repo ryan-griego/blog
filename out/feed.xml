@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
-      <lastBuildDate>Sat, 21 Dec 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 11 Feb 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryangriego.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryangriego.com/blog/posts/building-an-automated-job-application-follow-up-system-with-python-and-the-raspberry-pi</guid>
+    <title>Building an Automated Job Application Follow-Up System With Python and the Raspberry Pi</title>
+    <link>https://ryangriego.com/blog/posts/building-an-automated-job-application-follow-up-system-with-python-and-the-raspberry-pi</link>
+    <description>How I developed an automated system using Python and a Raspberry Pi to send personalized follow-up emails to hiring contacts, improving the job application process while enhancing my skill in automation.</description>
+    <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>python</category><category>raspberry pi</category>
+  </item>
+
   <item>
     <guid>https://ryangriego.com/blog/posts/how-docker-helped-me-enhance-my-web-app-deployments</guid>
     <title>How Docker Helped Me Enhance My Web App Deployments</title>
