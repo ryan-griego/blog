@@ -7,10 +7,10 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'Chat RRG',
-    description: `What if you could have your own Chat GPT app that stores all your chats? This Chat GPT clone uses Next.js to and it's really great.`,
-    imgSrc: 'https://res.cloudinary.com/dm7y3yvjp/image/upload/v1736488274/chatrrg-thumbnail_gjmrrs.jpg',
-    href: '/posts/three-things-i-learned-from-building-a-chatgpt-clone/',
+    title: 'Trizify',
+    description: `Using OpenAI's LLM, TRIZify will use the TRIZ principles to help you systematically solve complex problems, innovate efficiently, and overcome contradictions. This application is built using Next.js, and connects to the OpenAI API.`,
+    imgSrc: 'https://res.cloudinary.com/dm7y3yvjp/image/upload/v1740601806/trizify-thumbnail-projects_vlef2g.jpg',
+    href: 'https://github.com/ryan-griego/trizify',
   },
   {
     title: 'Job Getter',
