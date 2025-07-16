@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ryan Griego&#39;s blog</title>
+      <link>https://ryangriego.com/blog/posts</link>
+      <description>I went from being a graphic design major to a software engineer. Welcome to my blog!</description>
+      <language>en-us</language>
+      <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
+      <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
+      <lastBuildDate>Thu, 20 Feb 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://ryangriego.com/blog/tags/llm/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ryangriego.com/blog/posts/how-i-started-running-deepseek-ai-locally</guid>
+    <title>How I Started Running DeepSeek AI Locally</title>
+    <link>https://ryangriego.com/blog/posts/how-i-started-running-deepseek-ai-locally</link>
+    <description>Running the open-source DeepSeek LLM locally on your machine.</description>
+    <pubDate>Thu, 20 Feb 2025 00:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>AI</category><category>LLM</category>
+  </item>
+
+    </channel>
+  </rss>
