@@ -1,0 +1,48 @@
+---
+title: 'Fine-Tuning Open Source Models: From the Trenches'
+date: '2025-8-18'
+tags: ['AI', 'Python', 'Next.js', 'LangChain', 'OpenAI']
+draft: false
+summary: "A hands-on look at fine-tuning open source AI models using LoRA/QLoRA techniques on Amazon product data. I discovered how a fine-tuned 8B parameter model outperformed GPT-4o and Claude, while navigating the practical challenges of limited GPU resources and hyperparameter optimization."
+---
+# Fine-Tuning Open Source Models: Lessons from the Trenches
+
+I'm now in the last 80% of the AI course I've been taking on Udemy. Lately, I've been wrestling with the section on fine-tuning an open source model. We've been using Google Colab to train various models from ChatGPT, Claude and open source models like Qwen.
+
+## Understanding LoRA/QLoRA: Making Fine-Tuning Accessible
+
+We've been using LoRA/QLoRA, a fine-tuning method which helps make fine-tuning faster and cheaper. Instead of updating all model parameters like in traditional fine-tuning, LoRA "freezes" the original weights and injects adapters into the network. These adapters greatly reduce the number of trainable parameters.
+
+The data we're working with is from [Hugging Face](https://huggingface.co/datasets) and is comprised of thousands of Amazon product descriptions and prices.
+
+## David vs. Goliath: When Smaller Models Win
+
+What's been interesting about this part of the course has been plotting out the accuracy of various models after they have been fine-tuned and seeing how they compare. We are comparing the average dollar that the model is off in its prediction.
+
+For example, we let GPT-4o and Claude predict the prices of various products with their trillion+ parameters and were able to beat both with an 8 billion parameter model that was fine-tuned with the curated data. GPT-4o had a 76 dollar average error rate and the fine-tuned 8b model had a 47 dollar error rate.
+
+## My Current Project: Appliance Price Prediction
+
+What I'm working on now is fine-tuning the Qwen2.5-7B model with a subset of the Amazon data that includes all appliance data. I want this model to be able to predict how much an appliance costs after the fine-tuning is done.
+
+## The Reality of Free GPU Resources
+
+I've been using the Google Colab free plan with a T4 GPU to fine-tune the model and even with a training dataset of 25,000 items, I've found it to take too long. The free plan gives you a limited amount of compute time and shuts down before I've gotten through 10 percent of the data. This has given me the chance to tweak various fine-tuning hyperparameters that will help improve the speed and performance of the training.
+
+### Key Hyperparameters I've Been Tweaking
+
+A few of these parameters are:
+
+- **Epochs**: The number of times the model iterates over the entire training set
+- **Batch size**: Equal to the number of samples processed before the model updates its weights. Lowering the batch size value allowed the model to work more quickly in the resource-constrained environment I was using with the free plan
+- **4-bit quantization**: A core feature of QLoRA that helps models be fine-tuned on limited hardware
+
+Even after configuring these parameters to be more performant on the T4 GPU, I found myself deciding that I should go ahead and pay the $10 for 100 compute units and fine-tune the model on an A100 GPU.
+
+## Conclusion: The Final Project
+
+Eventually, we will be using this fine-tuned model in our final project which is an autonomous multi-agent system. It made sense to me to produce a higher quality model with the pay-as-you-go plan.
+
+I'm very excited about this final project coming up and appreciate all the work it takes to get the model ready and connect everything together. The final project is a platform which can look for deals that have been published online, subscribe to RSS feeds so it can spot deals that have been published. When it finds a promising looking deal, it will read it, interpret it, and use a number of LLMs to make its own estimate of how much the product is worth. If it finds a good opportunity it will then automatically send a text message to me letting me know about the deal.
+
+It will work autonomously all the time and every so often I should receive a notification that the model determined that it found a deal worth looking into. There will be 7 agents collaborating (not all built on LLMs) to make this happen.

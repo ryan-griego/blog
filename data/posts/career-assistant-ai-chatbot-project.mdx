@@ -1,0 +1,207 @@
+---
+title: 'Building an AI Career Assistant: Context-Driven Professional Representation Without RAG'
+date: '2025-10-16'
+tags: ['AI', 'Python', 'OpenAI', 'Gradio', 'LLM', 'Function Calling', 'Pushover']
+draft: false
+summary: "How I built an intelligent chatbot to represent my professional brand on my website using context injection, structured outputs, and an evaluator LLM—all without needing vector databases or RAG."
+---
+
+*A practical approach to building an AI assistant that accurately answers questions about your career, skills, and projects by leveraging prompt engineering and quality control systems.*
+
+---
+
+<div style={{textAlign: 'center', margin: '2rem 0', padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px', border: '2px solid #e9ecef'}}>
+  <h3 style={{margin: '0 0 1rem 0', color: '#495057'}}>🤖 Try the AI Career Assistant</h3>
+  <p style={{margin: '0 0 1rem 0', color: '#6c757d'}}>Experience the chatbot described in this article</p>
+  <a href="https://ryangriego.com/chat" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', backgroundColor: '#007bff', color: 'white', padding: '12px 24px', textDecoration: 'none', borderRadius: '6px', fontWeight: '600'}}>Chat Now →</a>
+</div>
+
+## The Challenge
+
+As a full-stack engineer with a diverse portfolio of projects, I wanted a way to help visitors to my website learn about my professional background without requiring manual responses to every inquiry. The challenge was creating an AI system that could:
+
+1. **Accurately represent my experience** without hallucinating fake companies or projects
+2. **Maintain professionalism** in all interactions
+3. **Facilitate meaningful connections** with potential employers or collaborators
+4. **Stay grounded in factual information** from my resume and LinkedIn profile
+
+Traditional chatbots either provide generic responses or require constant maintenance. I needed something smarter—an autonomous representative that could handle professional inquiries while maintaining accuracy and facilitating genuine opportunities.
+
+## Why Didn't I Use RAG?
+
+Many AI assistant projects jump straight to Retrieval-Augmented Generation (RAG) with vector databases. But RAG adds complexity:
+- **Infrastructure overhead**: Vector databases, embeddings, similarity search
+- **Latency concerns**: Additional retrieval step before generation
+- **Maintenance burden**: Keeping embeddings updated
+
+For a career assistant with relatively stable, focused information (resume, LinkedIn profile, GitHub repos), I realized **context injection was sufficient**. By including my professional documents directly in the system prompt, the LLM has all necessary information without additional retrieval steps.
+
+## The Solution
+
+**1. Context-Driven Prompts**
+Instead of RAG, I inject full context directly:
+```python
+# Professional documents included in every request
+- Resume (full text from PDF)
+- LinkedIn Profile (complete profile data)
+- Professional Summary
+- GitHub Integration (via API when needed)
+```
+
+**2. Evaluator LLM System**
+A secondary LLM validates every response for Accuracy, Professionalism, Completeness, and Hallucination Detection.
+
+**3. Structured Outputs**
+Using OpenAI's structured output feature ensures consistent evaluation:
+```json
+{
+  "evaluation": "PASS" | "FAIL",
+  "reasoning": "string",
+  "feedback": "string"
+}
+```
+
+**4. Smart Function Calling**
+The LLM can trigger specific actions:
+- `record_user_details`: Capture contact info for follow-up
+- `evaluate_job_match`: Analyze role fit
+- `search_github_repos`: Showcase technical projects
+- `send_push_notification`: Alert me to unknown questions
+
+## Key Features
+
+### 1. Context Injection Over RAG
+
+The system loads professional documents once at startup:
+
+```python
+# Document loading
+resume = load_pdf('resume.pdf')
+linkedin = load_pdf('linkedin.pdf')
+summary = load_text('summary.txt')
+
+# Injected into every system prompt
+system_prompt = f"""
+You are an AI assistant representing Ryan Griego.
+
+## CONTEXT:
+Resume: {resume}
+LinkedIn: {linkedin}
+Summary: {summary}
+
+Answer questions accurately based on this context.
+"""
+```
+
+**Benefits:**
+- No vector database infrastructure
+- Lower latency (no retrieval step)
+- Simpler deployment and maintenance
+- Complete context always available
+
+### 2. Dual-LLM Evaluation System
+
+Every response goes through a validation layer to ensure accuracy and professionalism. The main LLM (GPT-4o-mini) processes user questions and generates responses, while a second evaluator LLM validates each response against the provided context, checking for hallucinations and ensuring professional tone. If issues are detected, the system triggers regeneration.
+
+This dual-validation approach caught critical errors like incorrectly claiming work at companies not in my resume, fabricating project details, and confusing professional vs. personal questions. By implementing this validation layer, I ensured every response maintains high standards of accuracy while protecting my professional reputation.
+
+### 3. Intelligent Function Calling
+
+The system uses OpenAI's function calling for specific capabilities:
+
+**GitHub Integration:**
+```python
+def search_github_repos():
+    """Fetches real-time GitHub repository data"""
+    repos = github_api.get_user_repos('ryan-griego')
+    return formatted_repo_list
+```
+
+When a user asks about my projects, the LLM can call this function to provide current information beyond what's in the resume.
+
+### 4. Push Notifications via Pushover
+
+One of my favorite features—when the chatbot encounters questions it can't answer, it sends me instant mobile notifications:
+
+### 5. Template-Based Prompt Management
+
+Rather than hardcoding prompts, I use markdown templates:
+
+```
+prompts/
+├── chat_init.md      # Initial system prompt
+├── chat_base.md      # Base conversational rules
+├── evaluator.md      # Evaluation criteria
+└── job_match.md      # Job analysis prompt
+```
+
+## Deployment: Hugging Face Spaces
+
+I deployed on Hugging Face Spaces for:
+- Free hosting (with reasonable usage limits)
+- Automatic HTTPS
+- Easy environment variable management
+- Simple iframe embedding
+
+The chatbot runs 24/7, ready to answer questions from potential employers or collaborators visiting my website.
+
+## Lessons Learned
+
+- **Don't Over-Engineer**: Context injection was sufficient instead of complex RAG systems—easier to build, maintain, and deploy
+- **Mobile Notifications Are Powerful**: Pushover integration ($5) provides real-time insights, opportunity awareness, and system monitoring
+- **Prompt Engineering Still Matters**: Careful prompt design prevents misclassification, inappropriate refusals, and tone inconsistencies
+
+## Future Enhancements
+
+The modular architecture enables exciting possibilities:
+
+- **Conversation Memory**: Track previous questions in session, provide contextual follow-up responses, build on earlier conversation threads
+- **Advanced Analytics**: Question categorization and trending, user engagement metrics, conversion tracking for opportunities
+- **Multi-Language Support**: Automatic translation of responses, broader reach for international opportunities
+- **Video Integration**: Link to project demos and presentations, richer media responses for complex topics
+
+## Conclusion
+
+I created a system that accurately represents my professional brand while facilitating meaningful connections with potential employers and collaborators.
+
+The project proves that sometimes the best solution isn't the most complex—it's the one that solves the core problem efficiently and reliably. Context-driven chatbots with quality control can provide tremendous value without the overhead of vector databases and retrieval systems.
+
+For professionals looking to enhance their online presence and automate career inquiries, this approach offers a practical, maintainable, and effective solution that runs autonomously while maintaining accuracy and professionalism.
+
+---
+
+## Technical Stack Summary
+
+**AI Models:** GPT-4o-mini (main LLM and evaluator)
+
+**Infrastructure:** Hugging Face Spaces, GitHub
+
+**Interface:** Gradio
+
+**Notifications:** Pushover
+
+**Languages:** Python
+
+**Key Libraries:** openai, gradio, pypdf, python-dotenv, requests
+
+**Deployment:** Hugging Face Spaces (free tier)
+
+---
+
+<div style={{textAlign: 'center', margin: '2rem 0', padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px', border: '2px solid #e9ecef'}}>
+  <h3 style={{margin: '0 0 1rem 0', color: '#495057'}}>🚀 Ready to Try It?</h3>
+  <p style={{margin: '0 0 1rem 0', color: '#6c757d'}}>Test the AI Career Assistant for yourself</p>
+  <a href="https://ryangriego.com/chat" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', backgroundColor: '#007bff', color: 'white', padding: '12px 24px', textDecoration: 'none', borderRadius: '6px', fontWeight: '600'}}>Start Chatting →</a>
+</div>
+
+## Sources
+
+[GitHub Repo](https://github.com/ryan-griego/ai-career-assistant-chatbot)
+
+[Gradio](https://www.gradio.app/)
+
+[OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling)
+
+[Pushover](https://pushover.net/)
+
+[Hugging Face Spaces](https://huggingface.co/spaces)

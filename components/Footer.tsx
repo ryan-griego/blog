@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
           <Link href="https://github.com/ryan-griego/blog">
-            This is a Next.js Application hosted on an Amazon EC2 server
+            This is a Next.js Application hosted on a Digital Ocean Droplet
           </Link>
         </div>
       </div>

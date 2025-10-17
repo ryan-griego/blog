@@ -7,17 +7,37 @@
       <language>en-us</language>
       <managingEditor>ryangriego@gmail.com (Ryan Griego)</managingEditor>
       <webMaster>ryangriego@gmail.com (Ryan Griego)</webMaster>
-      <lastBuildDate>Wed, 18 Jun 2025 07:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 19 Sep 2025 07:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryangriego.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://ryangriego.com/blog/posts/building-ai-tools-with-llms-and-gradio</guid>
-    <title>Building AI Tools with LLMs and Gradio</title>
-    <link>https://ryangriego.com/blog/posts/building-ai-tools-with-llms-and-gradio</link>
-    <description>This project is an AI-powered customer support assistant for a fictional airline called FlightAI. It leverages language models (like GPT-4o-mini) for chat interactions, DALL-E-3 for image generation (e.g., of destination cities), and OpenAI&#39;s text-to-speech model for audio responses. The user interface is built with Gradio.</description>
-    <pubDate>Wed, 18 Jun 2025 07:00:00 GMT</pubDate>
+    <guid>https://ryangriego.com/blog/posts/building-the-price-is-right-an-autonomous-AI-deal-discovery-system</guid>
+    <title>Building The Price is Right: An Autonomous AI Deal Discovery System</title>
+    <link>https://ryangriego.com/blog/posts/building-the-price-is-right-an-autonomous-AI-deal-discovery-system</link>
+    <description>A hands-on look at fine-tuning open source AI models using LoRA/QLoRA techniques on Amazon product data. I discovered how a fine-tuned 8B parameter model outperformed GPT-4o and Claude, while navigating the practical challenges of limited GPU resources and hyperparameter optimization.</description>
+    <pubDate>Fri, 19 Sep 2025 07:00:00 GMT</pubDate>
     <author>ryangriego@gmail.com (Ryan Griego)</author>
-    <category>AI</category><category>Python</category>
+    <category>AI</category><category>Python</category><category>Next.js</category><category>Vector Database</category><category>OpenAI</category><category>Modal'</category><category>HuggingFace</category><category>Chroma</category>
+  </item>
+
+  <item>
+    <guid>https://ryangriego.com/blog/posts/fine-tuning-open-source-models-lessons-from-the-trenches</guid>
+    <title>Fine-Tuning Open Source Models: From the Trenches</title>
+    <link>https://ryangriego.com/blog/posts/fine-tuning-open-source-models-lessons-from-the-trenches</link>
+    <description>A hands-on look at fine-tuning open source AI models using LoRA/QLoRA techniques on Amazon product data. I discovered how a fine-tuned 8B parameter model outperformed GPT-4o and Claude, while navigating the practical challenges of limited GPU resources and hyperparameter optimization.</description>
+    <pubDate>Mon, 18 Aug 2025 07:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>AI</category><category>Python</category><category>Next.js</category><category>LangChain</category><category>OpenAI</category>
+  </item>
+
+  <item>
+    <guid>https://ryangriego.com/blog/posts/buildling-my-first-rag-application-a-dive-into-AI-powered-student-enrollment</guid>
+    <title>Building My First RAG Application: A Dive into AI-Powered Student Enrollment</title>
+    <link>https://ryangriego.com/blog/posts/buildling-my-first-rag-application-a-dive-into-AI-powered-student-enrollment</link>
+    <description>I built my first Retrieval-Augmented Generation (RAG) system - a student enrollment chatbot that demonstrates how AI can improve how educational institutions serve prospective students. The system combines natural language processing with a knowledge base to provide instant, accurate responses to student inquiries.</description>
+    <pubDate>Tue, 15 Jul 2025 07:00:00 GMT</pubDate>
+    <author>ryangriego@gmail.com (Ryan Griego)</author>
+    <category>AI</category><category>RAG</category><category>Python</category><category>Next.js</category><category>LangChain</category><category>OpenAI</category>
   </item>
 
   <item>

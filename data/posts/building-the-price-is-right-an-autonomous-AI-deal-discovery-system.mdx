@@ -1,0 +1,213 @@
+---
+title: 'Building The Price is Right: An Autonomous AI Deal Discovery System'
+date: '2025-9-19'
+tags: ['AI', 'Python', 'Next.js', 'Vector Database', 'OpenAI', 'Modal', 'HuggingFace', 'Chroma']
+draft: false
+summary: "A hands-on look at fine-tuning open source AI models using LoRA/QLoRA techniques on Amazon product data. I discovered how a fine-tuned 8B parameter model outperformed GPT-4o and Claude, while navigating the practical challenges of limited GPU resources and hyperparameter optimization."
+---
+
+*How I built a multi-agent AI system that automatically finds and validates deals across the web using ensemble modeling, RAG, and agentic workflows.*
+
+---
+
+[![Watch Demo on YouTube](https://res.cloudinary.com/dm7y3yvjp/image/upload/v1758309109/youtube_hyoj4a.png)](https://www.youtube.com/watch?v=MpLp5u8a37E)
+
+[Click here to watch the demo on YouTube - Speed up the video speed to watch the logging](https://www.youtube.com/watch?v=MpLp5u8a37E)
+
+## The Challenge
+
+
+In today's overwhelming digital marketplace, finding genuine deals feels like searching for a needle in a haystack. Deal aggregation sites are flooded with mediocre offers, and manually tracking prices across multiple sources is time-consuming and inefficient. I wanted to solve this with AI.
+
+**The core challenge:** Build an autonomous system that can discover deals from RSS feeds, accurately estimate their true market value, and alert users only when genuinely good opportunities arise.
+
+## The Solution Architecture
+
+I developed a multi-agent AI system called "The Price is Right" that combines several cutting-edge techniques:
+
+### Agent Framework
+- **Scanner Agent**: Monitors RSS feeds and identifies promising deals
+- **Specialist Agent**: Uses a fine-tuned Qwen model for price estimation
+- **Frontier Agent**: Leverages RAG with GPT-4o-mini for contextual pricing
+- **Random Forest Agent**: Traditional ML approach with transformer embeddings
+- **Ensemble Agent**: Optimally combines all three pricing approaches
+- **Planning Agent**: Orchestrates the entire workflow
+- **Messaging Agent**: Handles push notifications via Pushover
+
+![Agent Architecture](https://res.cloudinary.com/dm7y3yvjp/image/upload/v1758308437/agent-architecture_gfa2zq.jpg)
+
+### Data Pipeline
+1. **RSS Scraping**: Continuously monitors deal feeds
+2. **Deal Filtering**: AI-powered selection of high-quality deals
+3. **Price Estimation**: Multi-model ensemble for accurate pricing
+4. **Opportunity Evaluation**: Calculates potential savings
+5. **User Notification**: Push alerts for significant deals
+
+## Building It: A 5-Day Journey
+
+### Day 1: Foundation and Model Fine-Tuning
+
+I started with data preparation, curating a dataset of 25,000 home appliance products from Amazon via HuggingFace. The key was creating consistent, high-quality training data:
+
+- **Data Curation**: Standardized product descriptions to 180 tokens to balance information density with training efficiency
+- **Data Cleaning**: Removed noise like "Batteries Included," product codes, and other non-valuable text that would waste tokens
+- **Visualization**: Analyzed price distributions to understand the dataset's characteristics
+
+For infrastructure, I chose **Modal** for its serverless AI deployment capabilities. The platform's "code as infrastructure" approach made deploying my fine-tuned model incredibly straightforward.
+
+The fine-tuning results were impressive: using Google Colab's A100 GPU with a batch size of 16, I fine-tuned the Qwen model on all 25,000 datapoints in just 20 minutes. The performance jump from T4 to A100 was remarkable!
+
+### Day 2: RAG System and Ensemble Modeling
+
+I built the foundation for contextual price estimation:
+
+- **Vector Database**: Created a Chroma database with SentenceTransformer embeddings for semantic similarity search
+- **RAG Implementation**: Built a system using GPT-4o-mini that finds similar products and estimates prices based on comparable items
+- **Ensemble Design**: Trained a Random Forest model and created the ensemble logic to combine three approaches: fine-tuned Qwen, RAG-based pricing, and traditional ML
+
+The ensemble approach proved crucial - each method had different strengths that complemented each other beautifully.
+
+### Day 3: Automated Deal Discovery
+
+This day focused on creating the autonomous discovery pipeline:
+
+- **RSS Integration**: Connected multiple deal RSS feeds for continuous monitoring
+- **Deal Intelligence**: Used GPT-4o-mini with structured outputs to identify the most promising opportunities
+- **Memory Management**: Built a system to avoid reprocessing previously analyzed deals
+
+The structured output capability of GPT-4o-mini was perfect for consistently extracting deal information from varied RSS formats.
+
+### Day 4: Orchestration and Notifications
+
+I completed the agentic workflow:
+
+- **Planning Agent**: The "brain" that coordinates all other agents and makes decisions about when to alert users
+- **Messaging Agent**: Integrated Pushover for real-time push notifications to mobile devices
+- **Workflow Management**: Built the logic for seamless coordination between all agents
+
+### Day 5: User Interface and Real-Time Monitoring
+
+The final piece was making the system user-friendly:
+
+- **Gradio Dashboard**: Created a web interface showing discovered deals in real-time
+- **Live Logging**: Users can watch the agentic workflow in action
+- **Timer-Based Execution**: Continuous deal discovery process with user control
+
+![Gradio Dashboard](https://res.cloudinary.com/dm7y3yvjp/image/upload/v1758308645/gradio-dashboard_vszbdq.png)
+
+## Key Technical Innovations
+
+### 1. Multi-Model Ensemble Approach
+Instead of relying on a single AI model, I combined three distinct approaches:
+- **Fine-tuned LLM**: Domain-specific knowledge from 25,000 appliance products
+- **RAG System**: Contextual similarity matching for accurate comparisons
+- **Traditional ML**: Random Forest with transformer embeddings for baseline accuracy
+
+A pre-trained linear regression model computes the optimal weighted combination for the final price estimate.
+
+### 2. Agentic Architecture
+Each agent has a specific responsibility, making the system:
+- **Maintainable**: Easy to update individual components
+- **Extensible**: Simple to add new agents or capabilities
+- **Scalable**: Can handle thousands of deals across multiple sources
+
+### 3. Semantic Understanding
+Using transformer embeddings enables the system to understand that a "KitchenAid Stand Mixer" and a "Professional Kitchen Mixer" are fundamentally similar products, even with different descriptions.
+
+## Infrastructure and Deployment
+
+### Modal for AI Model Serving
+Modal's serverless platform eliminated the complexity of cloud deployment. The "code as infrastructure" approach meant I could define my entire server configuration in Python.
+
+### Chroma Vector Database
+Perfect for semantic search and similarity matching, enabling the RAG system to find truly comparable products rather than just keyword matches.
+
+### Real-Time Integration
+- **Gradio**: Quick web interface development
+- **Pushover**: Reliable mobile push notifications
+- **Continuous Processing**: Timer-based system for autonomous operation
+
+## Results and Impact
+
+The system successfully demonstrates several key capabilities:
+
+### Autonomous Operation
+Runs continuously without human intervention, monitoring multiple deal sources and making intelligent decisions about what constitutes a genuine opportunity.
+
+### Accurate Price Estimation
+The multi-model ensemble consistently provides more reliable market value estimates than any individual approach.
+
+### Real-Time User Value
+Users receive immediate notifications for significant deals, with false positives minimized through intelligent filtering.
+
+### Scalable Architecture
+The modular design can easily accommodate new product categories, deal sources, or pricing strategies.
+
+## Lessons Learned
+
+This project reinforced several important principles:
+
+1. **Ensemble Methods Win**: Combining multiple AI approaches consistently outperforms individual models
+2. **RAG Adds Context**: Similar product matching significantly improves price estimation accuracy
+3. **Agent Design Scales**: Modular architecture makes complex systems maintainable
+4. **Infrastructure Matters**: Proper deployment and monitoring are crucial for production AI
+5. **User Experience is Everything**: Even sophisticated AI needs intuitive interfaces to provide value
+
+## Technical Challenges and Solutions
+
+### Data Quality
+The biggest challenge was ensuring consistent, high-quality training data. Product descriptions varied wildly in length and quality, requiring careful preprocessing and token management.
+
+### Model Coordination
+Managing multiple AI models and ensuring they work together seamlessly required careful orchestration logic and error handling.
+
+### Real-Time Performance
+Balancing accuracy with speed meant optimizing model inference times and implementing efficient caching strategies.
+
+## Future Enhancements
+
+The modular architecture opens up exciting possibilities:
+- **Multi-Category Support**: Expanding beyond appliances to electronics, clothing, etc.
+- **Price Trend Analysis**: Historical price tracking for better deal validation
+- **User Personalization**: Learning individual preferences and deal thresholds
+- **Social Features**: Community deal validation and sharing
+
+## Conclusion
+
+"The Price is Right" represents more than just a capstone project—it's a complete AI engineering solution that demonstrates how modern LLM techniques can create genuine real-world value.
+
+The project successfully bridges academic AI research and practical applications, showing how ensemble methods, agentic workflows, and proper infrastructure can create systems that help users save money while requiring minimal manual intervention.
+
+This autonomous deal discovery system validates the power of combining multiple AI techniques: fine-tuned LLMs, RAG, ensemble modeling, and agentic workflows. It proves that with the right architecture, AI can move beyond simple question-answering to create sophisticated systems that actively work on users' behalf.
+
+The 5-day build timeline demonstrates how rapidly powerful AI applications can be developed when leveraging the right tools and techniques. From data curation to deployment, every step reinforced the importance of thoughtful design, proper tooling, and user-focused development.
+
+As AI continues to evolve, projects like this show the immense potential for creating autonomous systems that genuinely improve users' lives—one great deal at a time.
+
+---
+
+## Technical Stack Summary
+
+**AI Models**: Qwen (fine-tuned), GPT-4o-mini, SentenceTransformers, Random Forest
+
+**Infrastructure**: Modal, Google Colab A100
+
+**Data**: Chroma Vector Database, HuggingFace Datasets
+
+**Interface**: Gradio, Pushover
+
+**Languages**: Python
+
+**Key Libraries**: transformers, chromadb, gradio, modal, sentence-transformers
+
+# Sources
+
+[GitHub Repo](https://github.com/ryan-griego/autonomous-multi-agent-system-price-is-right)
+
+[Gradio](https://www.gradio.app/)
+
+[HuggingFace](https://www.huggingface.co/)
+
+[Modal](https://www.modal.com/)
+
+[Youtube Demo](https://youtu.be/MpLp5u8a37E)
