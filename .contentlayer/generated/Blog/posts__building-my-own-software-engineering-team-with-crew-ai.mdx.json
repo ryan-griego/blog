@@ -38,87 +38,87 @@
   "toc": [
     {
       "value": "The Challenge",
-      "url": "#the-challenge-11",
+      "url": "#the-challenge-4",
       "depth": 2
     },
     {
       "value": "Why Local and Multi-Agent?",
-      "url": "#why-local-and-multi-agent-8",
+      "url": "#why-local-and-multi-agent",
       "depth": 2
     },
     {
       "value": "The Solution",
-      "url": "#the-solution-11",
+      "url": "#the-solution-1",
       "depth": 2
     },
     {
       "value": "1. CrewAI Multi-Agent Coordination",
-      "url": "#1-crewai-multi-agent-coordination-8",
+      "url": "#1-crewai-multi-agent-coordination",
       "depth": 3
     },
     {
       "value": "2. Local LLMs via Ollama",
-      "url": "#2-local-llms-via-ollama-8",
+      "url": "#2-local-llms-via-ollama",
       "depth": 3
     },
     {
       "value": "3. Interactive Requirement Selection",
-      "url": "#3-interactive-requirement-selection-8",
+      "url": "#3-interactive-requirement-selection",
       "depth": 3
     },
     {
       "value": "4. Dynamic Output Generation",
-      "url": "#4-dynamic-output-generation-8",
+      "url": "#4-dynamic-output-generation",
       "depth": 3
     },
     {
       "value": "5. Dockerized Code Execution",
-      "url": "#5-dockerized-code-execution-8",
+      "url": "#5-dockerized-code-execution",
       "depth": 3
     },
     {
       "value": "Key Features",
-      "url": "#key-features-11",
+      "url": "#key-features-1",
       "depth": 2
     },
     {
       "value": "Real-World Experience: Model Performance & Challenges",
-      "url": "#real-world-experience-model-performance--challenges-8",
+      "url": "#real-world-experience-model-performance--challenges",
       "depth": 2
     },
     {
       "value": "Model Testing & Comparison",
-      "url": "#model-testing--comparison-8",
+      "url": "#model-testing--comparison",
       "depth": 3
     },
     {
       "value": "The Code Interpreter Challenge",
-      "url": "#the-code-interpreter-challenge-8",
+      "url": "#the-code-interpreter-challenge",
       "depth": 3
     },
     {
       "value": "Quality Differences: Local vs Cloud",
-      "url": "#quality-differences-local-vs-cloud-8",
+      "url": "#quality-differences-local-vs-cloud",
       "depth": 3
     },
     {
       "value": "The Tradeoff Decision",
-      "url": "#the-tradeoff-decision-8",
+      "url": "#the-tradeoff-decision",
       "depth": 3
     },
     {
       "value": "Lessons Learned",
-      "url": "#lessons-learned-11",
+      "url": "#lessons-learned-4",
       "depth": 2
     },
     {
       "value": "Technical Stack Summary",
-      "url": "#technical-stack-summary-11",
+      "url": "#technical-stack-summary-2",
       "depth": 2
     },
     {
       "value": "Sources",
-      "url": "#sources-11",
+      "url": "#sources-6",
       "depth": 2
     }
   ],

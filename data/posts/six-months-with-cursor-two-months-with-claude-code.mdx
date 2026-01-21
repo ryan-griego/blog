@@ -1,0 +1,103 @@
+---
+title: "Six Months with Cursor, Two Months with Claude Code: My Take So Far"
+date: '2026-01-20'
+tags: ['AI', 'Cursor', 'Claude Code', 'Developer Tools', 'LLM', 'Productivity']
+draft: false
+summary: "After spending 6 months using Cursor and 2 months with Claude Code for client work and personal projects, here's what I learned about these AI coding assistants, including the surprising ways they differ and how I think about their value."
+---
+
+*A comparison of two leading AI coding tools from a developer who's spent real time with both on production work.*
+
+---
+
+Last year I decided to test out two of the most talked-about AI coding tools and see how they actually performed in real development work. I spent 6 months using Cursor to assist me with client work and personal projects, and I'm currently nearing the end of month 2 of using Claude Code for similar purposes. Both tools use the same $20/month pricing tier, which made for a fair comparison.
+
+What I discovered was that while both tools leverage similar underlying language models, the experience of using them couldn't be more different. One feels like a supercharged IDE, the other like an AI agent living in your terminal.
+
+## Cursor: Familiar Territory with AI Superpowers
+
+I found Cursor very intuitive to use from the beginning. The familiar VS Code experience was immediately comfortable: same keyboard shortcuts, same interface, same extensions I already knew. The learning curve was minimal because I wasn't learning a new editor, just new AI capabilities.
+
+### What Made It Great
+
+The model configuration options impressed me right away. I could easily switch between different language models (Claude Sonnet, GPT-4, etc.) and adjust parameters like temperature, context window size, and auto-completion aggressiveness. This flexibility allowed me to optimize for different tasks: using faster models for simple edits and more powerful models for complex refactoring.
+
+What amazed me was how Cursor understood my codebase and could run commands on my behalf. Git operations, terminal commands, file manipulations: it just worked. I particularly appreciated the ability to revert changes instantly and the option to preview modifications before accepting them. This safety net made me more willing to let the AI take bigger swings at solving problems.
+
+### The Real-World Win
+
+One experience stands out. I had an old project from a coding bootcamp with dependency incompatibilities between the version of PostgreSQL I was using and React. Products weren't appearing on the page, and I'd been putting off fixing it for months.
+
+Cursor not only helped me dockerize the application but also identified and resolved the version conflicts. This made it trivial to move the project from my expensive AWS EC2 instance to a Digital Ocean droplet, saving me around $13/month.
+
+That's when I realized how to think about these tools: if I'm spending $20/month, how can I use the tool to cut down expenses elsewhere or save time worth more than that?
+
+### The Frustrations
+
+The monthly usage limits became a recurring pain point. My allotment would sometimes run out a couple weeks before it reset, leaving me stuck with Auto mode, which uses lower quality models. The drop in capability was noticeable, particularly for complex tasks.
+
+There were also times I found myself in loops with Cursor. Looking back, I realize this wasn't always the LLM failing. It was often me failing to provide clear, coherent prompts. This is an important lesson: these tools are only as good as the instructions you give them.
+
+Despite the frustrations, I remember thinking: "Maybe I don't even need to try Claude Code. I'm satisfied with Cursor."
+
+## Claude Code: Terminal-First AI Engineering
+
+But I kept hearing that Claude Code was the number one tool used by developers for AI-powered coding. I had to try it.
+
+I started using Claude Code last December. It did take a few YouTube videos and tinkering to get comfortable with this terminal-based coding tool. I experimented with the VS Code extension briefly but found myself drawn to the terminal interface and its transparency.
+
+### A Different Philosophy
+
+Claude Code feels fundamentally different from Cursor. Where Cursor enhances an IDE experience, Claude Code feels more like an AI agent that works directly within your system, navigating your codebase, reading files, making changes, and running commands. The abstraction layer is thinner. You see exactly what it's doing.
+
+One feature I immediately appreciated: Claude Code shows you the exact number of tokens you're using per request. This transparency changed how I interact with the tool. Instead of wondering why my credits were disappearing, I could see in real-time the cost of each operation and adjust accordingly.
+
+### Weekly Limits vs Monthly Limits
+
+The weekly usage limit structure proved superior to Cursor's monthly approach. Unlike Cursor, I won't be locked out of using higher-end models for the rest of the month. However, it does require more active budget management.
+
+I plan my week carefully now. I make sure to leave a percentage of usage remaining on Mondays and Tuesdays when I use Claude the most. This forced discipline actually improved my prompting. I became more thoughtful about what I ask and how I ask it.
+
+### Model Strategy
+
+I discovered that using the Opus model burns through tokens incredibly fast. My strategy evolved: use Opus for the planning stage of projects where architectural decisions matter most, then switch to Sonnet for building out the plan. This two-tier approach balances capability with conservation.
+
+### The Transparency Trade-Off
+
+Claude Code's terminal interface shows you everything: file reads, searches, edits, command executions. Cursor does much of this underneath its UI. Neither approach is inherently better, but I found that seeing Claude's "thought process" helped me understand what the AI was doing and catch potential issues earlier.
+
+The transparency also made debugging easier. When Claude Code makes a mistake, you can trace exactly what it did. With Cursor, the abstraction sometimes obscured the root cause.
+
+## Which Should You Choose?
+
+**Choose Cursor if:**
+- You want minimal learning curve and familiar IDE experience
+- You prefer GUI-based interactions over terminal workflows
+- You value inline autocomplete and seamless editor integration
+- You're comfortable with monthly usage limits
+
+**Choose Claude Code if:**
+- You're comfortable in the terminal and value transparency
+- You want to see exactly what the AI is doing at each step
+- You prefer weekly usage limits over monthly
+- You want an agent-like experience for complex multi-step tasks
+
+**Or use both:** There's no rule saying you can't have both tools in your arsenal. Use Cursor for day-to-day development and inline assistance, and Claude Code for complex refactoring or architectural planning.
+
+## Conclusion
+
+After 8 months total with these tools, I've learned that AI coding assistants are not about replacing developer skill. They're about augmenting it. Both Cursor and Claude Code can make you more productive, but only if you learn to work with them effectively.
+
+Cursor offers the comfort of familiarity with AI superpowers layered on top. Claude Code offers transparency and agency-like behavior for developers who want to see under the hood.
+
+The best tool is the one that fits your workflow, helps you deliver value faster, and forces you to become a better engineer in the process. For me right now, that's Claude Code. Six months ago, it was Cursor. Six months from now? We'll see what the landscape looks like.
+
+The AI coding revolution isn't about the tools. It's about how we adapt, learn, and leverage them to build better software.
+
+---
+
+## Sources
+
+[Cursor](https://cursor.com/)
+
+[Claude Code](https://claude.com/claude-code)

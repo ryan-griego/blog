@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://ryangriego.com/blog/</loc>
-<lastmod>2025-12-09</lastmod>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/posts</loc>
-<lastmod>2025-12-09</lastmod>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/projects</loc>
-<lastmod>2025-12-09</lastmod>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/tags</loc>
-<lastmod>2025-12-09</lastmod>
+<lastmod>2026-01-21</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/posts/building-a-job-application-tracking-app</loc>
@@ -63,6 +63,10 @@
 <url>
 <loc>https://ryangriego.com/blog/posts/how-i-started-running-deepseek-ai-locally</loc>
 <lastmod>2025-02-20T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://ryangriego.com/blog/posts/six-months-with-cursor-two-months-with-claude-code</loc>
+<lastmod>2026-01-20T00:00:00.000Z</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/posts/three-things-i-learned-from-building-a-chatgpt-clone</loc>

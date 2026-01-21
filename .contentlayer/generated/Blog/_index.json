@@ -32,7 +32,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction",
+        "url": "#introduction-2",
         "depth": 2
       },
       {
@@ -67,12 +67,12 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-1",
+        "url": "#conclusion-3",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources-1",
+        "url": "#sources-3",
         "depth": 2
       }
     ],
@@ -176,12 +176,12 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-2",
+        "url": "#conclusion-1",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources-2",
+        "url": "#sources-1",
         "depth": 2
       }
     ],
@@ -235,7 +235,7 @@
       },
       {
         "value": "The Challenge",
-        "url": "#the-challenge-3",
+        "url": "#the-challenge-2",
         "depth": 2
       },
       {
@@ -260,17 +260,17 @@
       },
       {
         "value": "Lessons Learned",
-        "url": "#lessons-learned-3",
+        "url": "#lessons-learned-2",
         "depth": 2
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-6",
+        "url": "#conclusion-5",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources-5",
+        "url": "#sources-4",
         "depth": 2
       }
     ],
@@ -325,87 +325,87 @@
     "toc": [
       {
         "value": "The Challenge",
-        "url": "#the-challenge-11",
+        "url": "#the-challenge-4",
         "depth": 2
       },
       {
         "value": "Why Local and Multi-Agent?",
-        "url": "#why-local-and-multi-agent-8",
+        "url": "#why-local-and-multi-agent",
         "depth": 2
       },
       {
         "value": "The Solution",
-        "url": "#the-solution-11",
+        "url": "#the-solution-1",
         "depth": 2
       },
       {
         "value": "1. CrewAI Multi-Agent Coordination",
-        "url": "#1-crewai-multi-agent-coordination-8",
+        "url": "#1-crewai-multi-agent-coordination",
         "depth": 3
       },
       {
         "value": "2. Local LLMs via Ollama",
-        "url": "#2-local-llms-via-ollama-8",
+        "url": "#2-local-llms-via-ollama",
         "depth": 3
       },
       {
         "value": "3. Interactive Requirement Selection",
-        "url": "#3-interactive-requirement-selection-8",
+        "url": "#3-interactive-requirement-selection",
         "depth": 3
       },
       {
         "value": "4. Dynamic Output Generation",
-        "url": "#4-dynamic-output-generation-8",
+        "url": "#4-dynamic-output-generation",
         "depth": 3
       },
       {
         "value": "5. Dockerized Code Execution",
-        "url": "#5-dockerized-code-execution-8",
+        "url": "#5-dockerized-code-execution",
         "depth": 3
       },
       {
         "value": "Key Features",
-        "url": "#key-features-11",
+        "url": "#key-features-1",
         "depth": 2
       },
       {
         "value": "Real-World Experience: Model Performance & Challenges",
-        "url": "#real-world-experience-model-performance--challenges-8",
+        "url": "#real-world-experience-model-performance--challenges",
         "depth": 2
       },
       {
         "value": "Model Testing & Comparison",
-        "url": "#model-testing--comparison-8",
+        "url": "#model-testing--comparison",
         "depth": 3
       },
       {
         "value": "The Code Interpreter Challenge",
-        "url": "#the-code-interpreter-challenge-8",
+        "url": "#the-code-interpreter-challenge",
         "depth": 3
       },
       {
         "value": "Quality Differences: Local vs Cloud",
-        "url": "#quality-differences-local-vs-cloud-8",
+        "url": "#quality-differences-local-vs-cloud",
         "depth": 3
       },
       {
         "value": "The Tradeoff Decision",
-        "url": "#the-tradeoff-decision-8",
+        "url": "#the-tradeoff-decision",
         "depth": 3
       },
       {
         "value": "Lessons Learned",
-        "url": "#lessons-learned-11",
+        "url": "#lessons-learned-4",
         "depth": 2
       },
       {
         "value": "Technical Stack Summary",
-        "url": "#technical-stack-summary-11",
+        "url": "#technical-stack-summary-2",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources-11",
+        "url": "#sources-6",
         "depth": 2
       }
     ],
@@ -455,7 +455,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-2",
+        "url": "#introduction",
         "depth": 2
       },
       {
@@ -505,12 +505,12 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-5",
+        "url": "#conclusion",
         "depth": 2
       },
       {
         "value": "Sources",
-        "url": "#sources-4",
+        "url": "#sources",
         "depth": 2
       }
     ],
@@ -710,7 +710,7 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion",
+        "url": "#conclusion-2",
         "depth": 2
       },
       {
@@ -720,7 +720,7 @@
       },
       {
         "value": "Sources",
-        "url": "#sources",
+        "url": "#sources-2",
         "depth": 1
       }
     ],
@@ -773,7 +773,7 @@
     "toc": [
       {
         "value": "The Challenge",
-        "url": "#the-challenge-2",
+        "url": "#the-challenge-1",
         "depth": 2
       },
       {
@@ -798,7 +798,7 @@
       },
       {
         "value": "Lessons Learned",
-        "url": "#lessons-learned-2",
+        "url": "#lessons-learned-1",
         "depth": 2
       },
       {
@@ -857,7 +857,7 @@
     "toc": [
       {
         "value": "The Challenge",
-        "url": "#the-challenge-1",
+        "url": "#the-challenge-3",
         "depth": 2
       },
       {
@@ -907,7 +907,7 @@
       },
       {
         "value": "Lessons Learned",
-        "url": "#lessons-learned-1",
+        "url": "#lessons-learned-3",
         "depth": 2
       },
       {
@@ -917,7 +917,7 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-3",
+        "url": "#conclusion-6",
         "depth": 2
       },
       {
@@ -927,7 +927,7 @@
       },
       {
         "value": "Sources",
-        "url": "#sources-3",
+        "url": "#sources-5",
         "depth": 2
       }
     ],
@@ -1091,7 +1091,7 @@
       },
       {
         "value": "Sources",
-        "url": "#sources-6",
+        "url": "#sources-7",
         "depth": 1
       }
     ],
@@ -1141,7 +1141,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-7",
+        "url": "#introduction-8",
         "depth": 1
       },
       {
@@ -1282,7 +1282,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-8",
+        "url": "#introduction-7",
         "depth": 1
       },
       {
@@ -1429,7 +1429,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-5",
+        "url": "#introduction-6",
         "depth": 1
       },
       {
@@ -1493,7 +1493,7 @@
     "toc": [
       {
         "value": "Introduction",
-        "url": "#introduction-6",
+        "url": "#introduction-5",
         "depth": 2
       },
       {
@@ -1632,7 +1632,7 @@
       },
       {
         "value": "Sources",
-        "url": "#sources-7",
+        "url": "#sources-9",
         "depth": 2
       }
     ],
@@ -2120,7 +2120,7 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-10",
+        "url": "#conclusion-11",
         "depth": 2
       },
       {
@@ -2143,6 +2143,114 @@
       "description": "Release of Tailwind Nextjs Starter Blog template v2.0, refactored with Nextjs App directory and React Server Components setup.Discover the new features and how to migrate from V1.",
       "image": "/static/images/twitter-card.png",
       "url": "https://ryangriego.com/blog/posts/release-of-tailwind-nextjs-starter-blog-v2.0"
+    }
+  },
+  {
+    "title": "Six Months with Cursor, Two Months with Claude Code: My Take So Far",
+    "date": "2026-01-20T00:00:00.000Z",
+    "tags": [
+      "AI",
+      "Cursor",
+      "Claude Code",
+      "Developer Tools",
+      "LLM",
+      "Productivity"
+    ],
+    "draft": false,
+    "summary": "After spending 6 months using Cursor and 2 months with Claude Code for client work and personal projects, here's what I learned about these AI coding assistants, including the surprising ways they differ and how I think about their value.",
+    "body": {
+      "raw": "\n*A comparison of two leading AI coding tools from a developer who's spent real time with both on production work.*\n\n---\n\nLast year I decided to test out two of the most talked-about AI coding tools and see how they actually performed in real development work. I spent 6 months using Cursor to assist me with client work and personal projects, and I'm currently nearing the end of month 2 of using Claude Code for similar purposes. Both tools use the same $20/month pricing tier, which made for a fair comparison.\n\nWhat I discovered was that while both tools leverage similar underlying language models, the experience of using them couldn't be more different. One feels like a supercharged IDE, the other like an AI agent living in your terminal.\n\n## Cursor: Familiar Territory with AI Superpowers\n\nI found Cursor very intuitive to use from the beginning. The familiar VS Code experience was immediately comfortable: same keyboard shortcuts, same interface, same extensions I already knew. The learning curve was minimal because I wasn't learning a new editor, just new AI capabilities.\n\n### What Made It Great\n\nThe model configuration options impressed me right away. I could easily switch between different language models (Claude Sonnet, GPT-4, etc.) and adjust parameters like temperature, context window size, and auto-completion aggressiveness. This flexibility allowed me to optimize for different tasks: using faster models for simple edits and more powerful models for complex refactoring.\n\nWhat amazed me was how Cursor understood my codebase and could run commands on my behalf. Git operations, terminal commands, file manipulations: it just worked. I particularly appreciated the ability to revert changes instantly and the option to preview modifications before accepting them. This safety net made me more willing to let the AI take bigger swings at solving problems.\n\n### The Real-World Win\n\nOne experience stands out. I had an old project from a coding bootcamp with dependency incompatibilities between the version of PostgreSQL I was using and React. Products weren't appearing on the page, and I'd been putting off fixing it for months.\n\nCursor not only helped me dockerize the application but also identified and resolved the version conflicts. This made it trivial to move the project from my expensive AWS EC2 instance to a Digital Ocean droplet, saving me around $13/month.\n\nThat's when I realized how to think about these tools: if I'm spending $20/month, how can I use the tool to cut down expenses elsewhere or save time worth more than that?\n\n### The Frustrations\n\nThe monthly usage limits became a recurring pain point. My allotment would sometimes run out a couple weeks before it reset, leaving me stuck with Auto mode, which uses lower quality models. The drop in capability was noticeable, particularly for complex tasks.\n\nThere were also times I found myself in loops with Cursor. Looking back, I realize this wasn't always the LLM failing. It was often me failing to provide clear, coherent prompts. This is an important lesson: these tools are only as good as the instructions you give them.\n\nDespite the frustrations, I remember thinking: \"Maybe I don't even need to try Claude Code. I'm satisfied with Cursor.\"\n\n## Claude Code: Terminal-First AI Engineering\n\nBut I kept hearing that Claude Code was the number one tool used by developers for AI-powered coding. I had to try it.\n\nI started using Claude Code last December. It did take a few YouTube videos and tinkering to get comfortable with this terminal-based coding tool. I experimented with the VS Code extension briefly but found myself drawn to the terminal interface and its transparency.\n\n### A Different Philosophy\n\nClaude Code feels fundamentally different from Cursor. Where Cursor enhances an IDE experience, Claude Code feels more like an AI agent that works directly within your system, navigating your codebase, reading files, making changes, and running commands. The abstraction layer is thinner. You see exactly what it's doing.\n\nOne feature I immediately appreciated: Claude Code shows you the exact number of tokens you're using per request. This transparency changed how I interact with the tool. Instead of wondering why my credits were disappearing, I could see in real-time the cost of each operation and adjust accordingly.\n\n### Weekly Limits vs Monthly Limits\n\nThe weekly usage limit structure proved superior to Cursor's monthly approach. Unlike Cursor, I won't be locked out of using higher-end models for the rest of the month. However, it does require more active budget management.\n\nI plan my week carefully now. I make sure to leave a percentage of usage remaining on Mondays and Tuesdays when I use Claude the most. This forced discipline actually improved my prompting. I became more thoughtful about what I ask and how I ask it.\n\n### Model Strategy\n\nI discovered that using the Opus model burns through tokens incredibly fast. My strategy evolved: use Opus for the planning stage of projects where architectural decisions matter most, then switch to Sonnet for building out the plan. This two-tier approach balances capability with conservation.\n\n### The Transparency Trade-Off\n\nClaude Code's terminal interface shows you everything: file reads, searches, edits, command executions. Cursor does much of this underneath its UI. Neither approach is inherently better, but I found that seeing Claude's \"thought process\" helped me understand what the AI was doing and catch potential issues earlier.\n\nThe transparency also made debugging easier. When Claude Code makes a mistake, you can trace exactly what it did. With Cursor, the abstraction sometimes obscured the root cause.\n\n## Which Should You Choose?\n\n**Choose Cursor if:**\n- You want minimal learning curve and familiar IDE experience\n- You prefer GUI-based interactions over terminal workflows\n- You value inline autocomplete and seamless editor integration\n- You're comfortable with monthly usage limits\n\n**Choose Claude Code if:**\n- You're comfortable in the terminal and value transparency\n- You want to see exactly what the AI is doing at each step\n- You prefer weekly usage limits over monthly\n- You want an agent-like experience for complex multi-step tasks\n\n**Or use both:** There's no rule saying you can't have both tools in your arsenal. Use Cursor for day-to-day development and inline assistance, and Claude Code for complex refactoring or architectural planning.\n\n## Conclusion\n\nAfter 8 months total with these tools, I've learned that AI coding assistants are not about replacing developer skill. They're about augmenting it. Both Cursor and Claude Code can make you more productive, but only if you learn to work with them effectively.\n\nCursor offers the comfort of familiarity with AI superpowers layered on top. Claude Code offers transparency and agency-like behavior for developers who want to see under the hood.\n\nThe best tool is the one that fits your workflow, helps you deliver value faster, and forces you to become a better engineer in the process. For me right now, that's Claude Code. Six months ago, it was Cursor. Six months from now? We'll see what the landscape looks like.\n\nThe AI coding revolution isn't about the tools. It's about how we adapt, learn, and leverage them to build better software.\n\n---\n\n## Sources\n\n[Cursor](https://cursor.com/)\n\n[Claude Code](https://claude.com/claude-code)\n",
+      "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var w=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),y=(t,a)=>{for(var n in a)i(t,n,{get:a[n],enumerable:!0})},l=(t,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of p(a))!g.call(t,r)&&r!==n&&i(t,r,{get:()=>a[r],enumerable:!(o=m(a,r))||o.enumerable});return t};var v=(t,a,n)=>(n=t!=null?u(w(t)):{},l(a||!t||!t.__esModule?i(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>l(i({},\"__esModule\",{value:!0}),t);var h=f((x,s)=>{s.exports=_jsx_runtime});var k={};y(k,{default:()=>c,frontmatter:()=>C});var e=v(h()),C={title:\"Six Months with Cursor, Two Months with Claude Code: My Take So Far\",date:\"2026-01-20\",tags:[\"AI\",\"Cursor\",\"Claude Code\",\"Developer Tools\",\"LLM\",\"Productivity\"],draft:!1,summary:\"After spending 6 months using Cursor and 2 months with Claude Code for client work and personal projects, here's what I learned about these AI coding assistants, including the surprising ways they differ and how I think about their value.\"};function d(t){let a={a:\"a\",em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",strong:\"strong\",svg:\"svg\",ul:\"ul\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(a.p,{children:(0,e.jsx)(a.em,{children:\"A comparison of two leading AI coding tools from a developer who's spent real time with both on production work.\"})}),(0,e.jsx)(a.hr,{}),(0,e.jsx)(a.p,{children:\"Last year I decided to test out two of the most talked-about AI coding tools and see how they actually performed in real development work. I spent 6 months using Cursor to assist me with client work and personal projects, and I'm currently nearing the end of month 2 of using Claude Code for similar purposes. Both tools use the same $20/month pricing tier, which made for a fair comparison.\"}),(0,e.jsx)(a.p,{children:\"What I discovered was that while both tools leverage similar underlying language models, the experience of using them couldn't be more different. One feels like a supercharged IDE, the other like an AI agent living in your terminal.\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"cursor-familiar-territory-with-ai-superpowers\",children:[(0,e.jsx)(a.a,{href:\"#cursor-familiar-territory-with-ai-superpowers\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Cursor: Familiar Territory with AI Superpowers\"]}),(0,e.jsx)(a.p,{children:\"I found Cursor very intuitive to use from the beginning. The familiar VS Code experience was immediately comfortable: same keyboard shortcuts, same interface, same extensions I already knew. The learning curve was minimal because I wasn't learning a new editor, just new AI capabilities.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"what-made-it-great\",children:[(0,e.jsx)(a.a,{href:\"#what-made-it-great\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"What Made It Great\"]}),(0,e.jsx)(a.p,{children:\"The model configuration options impressed me right away. I could easily switch between different language models (Claude Sonnet, GPT-4, etc.) and adjust parameters like temperature, context window size, and auto-completion aggressiveness. This flexibility allowed me to optimize for different tasks: using faster models for simple edits and more powerful models for complex refactoring.\"}),(0,e.jsx)(a.p,{children:\"What amazed me was how Cursor understood my codebase and could run commands on my behalf. Git operations, terminal commands, file manipulations: it just worked. I particularly appreciated the ability to revert changes instantly and the option to preview modifications before accepting them. This safety net made me more willing to let the AI take bigger swings at solving problems.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"the-real-world-win\",children:[(0,e.jsx)(a.a,{href:\"#the-real-world-win\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"The Real-World Win\"]}),(0,e.jsx)(a.p,{children:\"One experience stands out. I had an old project from a coding bootcamp with dependency incompatibilities between the version of PostgreSQL I was using and React. Products weren't appearing on the page, and I'd been putting off fixing it for months.\"}),(0,e.jsx)(a.p,{children:\"Cursor not only helped me dockerize the application but also identified and resolved the version conflicts. This made it trivial to move the project from my expensive AWS EC2 instance to a Digital Ocean droplet, saving me around $13/month.\"}),(0,e.jsx)(a.p,{children:\"That's when I realized how to think about these tools: if I'm spending $20/month, how can I use the tool to cut down expenses elsewhere or save time worth more than that?\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"the-frustrations\",children:[(0,e.jsx)(a.a,{href:\"#the-frustrations\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"The Frustrations\"]}),(0,e.jsx)(a.p,{children:\"The monthly usage limits became a recurring pain point. My allotment would sometimes run out a couple weeks before it reset, leaving me stuck with Auto mode, which uses lower quality models. The drop in capability was noticeable, particularly for complex tasks.\"}),(0,e.jsx)(a.p,{children:\"There were also times I found myself in loops with Cursor. Looking back, I realize this wasn't always the LLM failing. It was often me failing to provide clear, coherent prompts. This is an important lesson: these tools are only as good as the instructions you give them.\"}),(0,e.jsx)(a.p,{children:`Despite the frustrations, I remember thinking: \"Maybe I don't even need to try Claude Code. I'm satisfied with Cursor.\"`}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"claude-code-terminal-first-ai-engineering\",children:[(0,e.jsx)(a.a,{href:\"#claude-code-terminal-first-ai-engineering\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Claude Code: Terminal-First AI Engineering\"]}),(0,e.jsx)(a.p,{children:\"But I kept hearing that Claude Code was the number one tool used by developers for AI-powered coding. I had to try it.\"}),(0,e.jsx)(a.p,{children:\"I started using Claude Code last December. It did take a few YouTube videos and tinkering to get comfortable with this terminal-based coding tool. I experimented with the VS Code extension briefly but found myself drawn to the terminal interface and its transparency.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"a-different-philosophy\",children:[(0,e.jsx)(a.a,{href:\"#a-different-philosophy\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"A Different Philosophy\"]}),(0,e.jsx)(a.p,{children:\"Claude Code feels fundamentally different from Cursor. Where Cursor enhances an IDE experience, Claude Code feels more like an AI agent that works directly within your system, navigating your codebase, reading files, making changes, and running commands. The abstraction layer is thinner. You see exactly what it's doing.\"}),(0,e.jsx)(a.p,{children:\"One feature I immediately appreciated: Claude Code shows you the exact number of tokens you're using per request. This transparency changed how I interact with the tool. Instead of wondering why my credits were disappearing, I could see in real-time the cost of each operation and adjust accordingly.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"weekly-limits-vs-monthly-limits\",children:[(0,e.jsx)(a.a,{href:\"#weekly-limits-vs-monthly-limits\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Weekly Limits vs Monthly Limits\"]}),(0,e.jsx)(a.p,{children:\"The weekly usage limit structure proved superior to Cursor's monthly approach. Unlike Cursor, I won't be locked out of using higher-end models for the rest of the month. However, it does require more active budget management.\"}),(0,e.jsx)(a.p,{children:\"I plan my week carefully now. I make sure to leave a percentage of usage remaining on Mondays and Tuesdays when I use Claude the most. This forced discipline actually improved my prompting. I became more thoughtful about what I ask and how I ask it.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"model-strategy\",children:[(0,e.jsx)(a.a,{href:\"#model-strategy\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Model Strategy\"]}),(0,e.jsx)(a.p,{children:\"I discovered that using the Opus model burns through tokens incredibly fast. My strategy evolved: use Opus for the planning stage of projects where architectural decisions matter most, then switch to Sonnet for building out the plan. This two-tier approach balances capability with conservation.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"the-transparency-trade-off\",children:[(0,e.jsx)(a.a,{href:\"#the-transparency-trade-off\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"The Transparency Trade-Off\"]}),(0,e.jsx)(a.p,{children:`Claude Code's terminal interface shows you everything: file reads, searches, edits, command executions. Cursor does much of this underneath its UI. Neither approach is inherently better, but I found that seeing Claude's \"thought process\" helped me understand what the AI was doing and catch potential issues earlier.`}),(0,e.jsx)(a.p,{children:\"The transparency also made debugging easier. When Claude Code makes a mistake, you can trace exactly what it did. With Cursor, the abstraction sometimes obscured the root cause.\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"which-should-you-choose\",children:[(0,e.jsx)(a.a,{href:\"#which-should-you-choose\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Which Should You Choose?\"]}),(0,e.jsx)(a.p,{children:(0,e.jsx)(a.strong,{children:\"Choose Cursor if:\"})}),(0,e.jsxs)(a.ul,{children:[(0,e.jsx)(a.li,{children:\"You want minimal learning curve and familiar IDE experience\"}),(0,e.jsx)(a.li,{children:\"You prefer GUI-based interactions over terminal workflows\"}),(0,e.jsx)(a.li,{children:\"You value inline autocomplete and seamless editor integration\"}),(0,e.jsx)(a.li,{children:\"You're comfortable with monthly usage limits\"})]}),(0,e.jsx)(a.p,{children:(0,e.jsx)(a.strong,{children:\"Choose Claude Code if:\"})}),(0,e.jsxs)(a.ul,{children:[(0,e.jsx)(a.li,{children:\"You're comfortable in the terminal and value transparency\"}),(0,e.jsx)(a.li,{children:\"You want to see exactly what the AI is doing at each step\"}),(0,e.jsx)(a.li,{children:\"You prefer weekly usage limits over monthly\"}),(0,e.jsx)(a.li,{children:\"You want an agent-like experience for complex multi-step tasks\"})]}),(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:\"Or use both:\"}),\" There's no rule saying you can't have both tools in your arsenal. Use Cursor for day-to-day development and inline assistance, and Claude Code for complex refactoring or architectural planning.\"]}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"conclusion\",children:[(0,e.jsx)(a.a,{href:\"#conclusion\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Conclusion\"]}),(0,e.jsx)(a.p,{children:\"After 8 months total with these tools, I've learned that AI coding assistants are not about replacing developer skill. They're about augmenting it. Both Cursor and Claude Code can make you more productive, but only if you learn to work with them effectively.\"}),(0,e.jsx)(a.p,{children:\"Cursor offers the comfort of familiarity with AI superpowers layered on top. Claude Code offers transparency and agency-like behavior for developers who want to see under the hood.\"}),(0,e.jsx)(a.p,{children:\"The best tool is the one that fits your workflow, helps you deliver value faster, and forces you to become a better engineer in the process. For me right now, that's Claude Code. Six months ago, it was Cursor. Six months from now? We'll see what the landscape looks like.\"}),(0,e.jsx)(a.p,{children:\"The AI coding revolution isn't about the tools. It's about how we adapt, learn, and leverage them to build better software.\"}),(0,e.jsx)(a.hr,{}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"sources\",children:[(0,e.jsx)(a.a,{href:\"#sources\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Sources\"]}),(0,e.jsx)(a.p,{children:(0,e.jsx)(a.a,{href:\"https://cursor.com/\",children:\"Cursor\"})}),(0,e.jsx)(a.p,{children:(0,e.jsx)(a.a,{href:\"https://claude.com/claude-code\",children:\"Claude Code\"})})]})}function c(t={}){let{wrapper:a}=t.components||{};return a?(0,e.jsx)(a,{...t,children:(0,e.jsx)(d,{...t})}):d(t)}return b(k);})();\n;return Component;"
+    },
+    "_id": "posts/six-months-with-cursor-two-months-with-claude-code.mdx",
+    "_raw": {
+      "sourceFilePath": "posts/six-months-with-cursor-two-months-with-claude-code.mdx",
+      "sourceFileName": "six-months-with-cursor-two-months-with-claude-code.mdx",
+      "sourceFileDir": "posts",
+      "contentType": "mdx",
+      "flattenedPath": "posts/six-months-with-cursor-two-months-with-claude-code"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "6 min read",
+      "minutes": 5.905,
+      "time": 354300,
+      "words": 1181
+    },
+    "slug": "six-months-with-cursor-two-months-with-claude-code",
+    "path": "posts/six-months-with-cursor-two-months-with-claude-code",
+    "filePath": "posts/six-months-with-cursor-two-months-with-claude-code.mdx",
+    "toc": [
+      {
+        "value": "Cursor: Familiar Territory with AI Superpowers",
+        "url": "#cursor-familiar-territory-with-ai-superpowers",
+        "depth": 2
+      },
+      {
+        "value": "What Made It Great",
+        "url": "#what-made-it-great",
+        "depth": 3
+      },
+      {
+        "value": "The Real-World Win",
+        "url": "#the-real-world-win",
+        "depth": 3
+      },
+      {
+        "value": "The Frustrations",
+        "url": "#the-frustrations",
+        "depth": 3
+      },
+      {
+        "value": "Claude Code: Terminal-First AI Engineering",
+        "url": "#claude-code-terminal-first-ai-engineering",
+        "depth": 2
+      },
+      {
+        "value": "A Different Philosophy",
+        "url": "#a-different-philosophy",
+        "depth": 3
+      },
+      {
+        "value": "Weekly Limits vs Monthly Limits",
+        "url": "#weekly-limits-vs-monthly-limits",
+        "depth": 3
+      },
+      {
+        "value": "Model Strategy",
+        "url": "#model-strategy",
+        "depth": 3
+      },
+      {
+        "value": "The Transparency Trade-Off",
+        "url": "#the-transparency-trade-off",
+        "depth": 3
+      },
+      {
+        "value": "Which Should You Choose?",
+        "url": "#which-should-you-choose",
+        "depth": 2
+      },
+      {
+        "value": "Conclusion",
+        "url": "#conclusion-9",
+        "depth": 2
+      },
+      {
+        "value": "Sources",
+        "url": "#sources-10",
+        "depth": 2
+      }
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Six Months with Cursor, Two Months with Claude Code: My Take So Far",
+      "datePublished": "2026-01-20T00:00:00.000Z",
+      "dateModified": "2026-01-20T00:00:00.000Z",
+      "description": "After spending 6 months using Cursor and 2 months with Claude Code for client work and personal projects, here's what I learned about these AI coding assistants, including the surprising ways they differ and how I think about their value.",
+      "image": "/static/images/twitter-card.png",
+      "url": "https://ryangriego.com/blog/posts/six-months-with-cursor-two-months-with-claude-code"
     }
   },
   {
@@ -2256,12 +2364,12 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-11",
+        "url": "#conclusion-12",
         "depth": 1
       },
       {
         "value": "Sources",
-        "url": "#sources-9",
+        "url": "#sources-11",
         "depth": 1
       }
     ],
@@ -2336,7 +2444,7 @@
       },
       {
         "value": "Conclusion",
-        "url": "#conclusion-9",
+        "url": "#conclusion-10",
         "depth": 2
       }
     ],
