@@ -1,0 +1,41 @@
+---
+title: "Running OpenClaw on a 2015 MacBook Air"
+date: '2026-03-17'
+tags: ['OpenClaw', 'AI', 'Agents', 'Security', 'Token Usage', 'LLM']
+draft: false
+summary: "I set up OpenClaw on a 2015 MacBook Air instead of a new Mac Mini. Here's what I learned about running autonomous agents on old hardware, the security implications, token costs, and why Haiku might be a better choice than Opus for personal automation."
+---
+
+*Exploring OpenClaw on aging hardware: lessons from running an autonomous agent on a 2015 MacBook Air.*
+
+---
+
+In early February, you probably saw the new AI trend going around: buy a base model Mac Mini for $600 and run OpenClaw exclusively on it. I didn't go that route. Instead I pulled out a 2015 MacBook Air that wasn't doing anything, wiped it, and started figuring out how to get OpenClaw running on it.
+
+Before I even got to installing anything I had to decide where this thing was going to live. I had three options in front of me: my daily machine, a VPS, or the old MacBook Air. I ruled out my main computer pretty quickly. I had heard that OpenClaw has the capacity for full system-level permissions, and handing that kind of access to an autonomous agent on the computer I work from every day didn't sit right with me. The security community has been vocal about this and it's a concern worth taking seriously before you dive in.
+
+A VPS crossed my mind too, but I wanted to be by the machine while it was running and actually watch it do things on the screen. So the MacBook Air won.
+
+One thing that made that decision easier was knowing that OpenClaw isn't doing any local inference. The models powering it are API calls going out to Anthropic, which means there isn't nearly as much load on the machine compared to running inference locally. An 8GB machine from 2015 handles it just fine. At least so far.
+
+Getting it set up took a few hours of editing config files, wiring up API keys, and getting permissions sorted. Once it was running I started having it customize the web UI's color scheme, worked on the personality of the agent I was chatting with, and started figuring out within myself how I'd actually want to use this. Then I started throwing simple tasks at it: go to my desktop folder and create a new folder named Projects. Get it to respond to me but first convert that response to voice using macOS's own text-to-speech and play it through the speakers. Small stuff, but watching it actually execute lands differently than reading about it.
+
+After I connected it to Telegram I could chat with it from anywhere I had my phone. That's when the personal assistant pitch really started to click.
+
+## The Token Cost Reality
+
+The part I want to spend a minute on is token usage, because it doesn't get talked about enough in the posts that are all enthusiasm and no caveats. OpenClaw eats through tokens quickly. I started on Sonnet while I was configuring everything and running early tests, but I ended up switching to Haiku to see what I could actually get done with it. It handled more than I thought it would. Then one evening I tried Opus 4.6 and within minutes my 5-hour usage limits were gone.
+
+That's the tradeoff that gets glossed over in a lot of the hype. The appeal of an agent that autonomously does things comes with a real per-token cost that adds up fast, especially when it's reasoning through multi-step tasks. There are things you can do to configure OpenClaw to be smarter about its token usage and I'd recommend looking into those before you settle on a model tier, but that's a post for another day.
+
+## The Recommendation
+
+Start with Haiku. Watch what it can actually do before you reach for the bigger models. And if you're going to run this at all, run it on dedicated hardware rather than your main machine. The security concerns are real and isolated hardware is the right call.
+
+---
+
+## Sources
+
+[OpenClaw GitHub](https://github.com/mr-gpt/openclaw)
+
+[Anthropic API Documentation](https://docs.anthropic.com/)

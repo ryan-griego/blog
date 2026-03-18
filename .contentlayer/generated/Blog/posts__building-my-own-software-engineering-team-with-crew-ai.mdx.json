@@ -38,7 +38,7 @@
   "toc": [
     {
       "value": "The Challenge",
-      "url": "#the-challenge-4",
+      "url": "#the-challenge-3",
       "depth": 2
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "value": "The Solution",
-      "url": "#the-solution-1",
+      "url": "#the-solution",
       "depth": 2
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "value": "Key Features",
-      "url": "#key-features-1",
+      "url": "#key-features",
       "depth": 2
     },
     {
@@ -108,17 +108,17 @@
     },
     {
       "value": "Lessons Learned",
-      "url": "#lessons-learned-4",
+      "url": "#lessons-learned-3",
       "depth": 2
     },
     {
       "value": "Technical Stack Summary",
-      "url": "#technical-stack-summary-2",
+      "url": "#technical-stack-summary-1",
       "depth": 2
     },
     {
       "value": "Sources",
-      "url": "#sources-6",
+      "url": "#sources-4",
       "depth": 2
     }
   ],
