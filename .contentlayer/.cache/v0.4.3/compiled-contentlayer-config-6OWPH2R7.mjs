@@ -287,9 +287,13 @@ var contentlayer_config_default = makeSource({
     ]
   },
   onSuccess: async (importData) => {
-    const { allBlogs } = await importData();
-    createTagCount(allBlogs);
-    createSearchIndex(allBlogs);
+    try {
+      const { allBlogs } = await importData();
+      createTagCount(allBlogs);
+      createSearchIndex(allBlogs);
+    } catch (error) {
+      console.log("Warning: Could not generate search index", error);
+    }
   }
 });
 export {
@@ -297,4 +301,4 @@ export {
   Blog,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-YOVTGVSV.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-6OWPH2R7.mjs.map

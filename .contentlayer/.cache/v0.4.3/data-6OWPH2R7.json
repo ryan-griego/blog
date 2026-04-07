@@ -106,7 +106,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-1",
+            "url": "#introduction-2",
             "depth": 2
           },
           {
@@ -136,17 +136,17 @@
           },
           {
             "value": "Future Enhancements",
-            "url": "#future-enhancements",
+            "url": "#future-enhancements-1",
             "depth": 2
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-1",
+            "url": "#conclusion-3",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-1",
+            "url": "#sources-4",
             "depth": 2
           }
         ],
@@ -314,12 +314,12 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction",
+            "url": "#introduction-1",
             "depth": 2
           },
           {
             "value": "The Challenge",
-            "url": "#the-challenge",
+            "url": "#the-challenge-1",
             "depth": 2
           },
           {
@@ -344,17 +344,17 @@
           },
           {
             "value": "Lessons Learned",
-            "url": "#lessons-learned",
+            "url": "#lessons-learned-1",
             "depth": 2
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion",
+            "url": "#conclusion-1",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources",
+            "url": "#sources-2",
             "depth": 2
           }
         ],
@@ -414,7 +414,7 @@
         "toc": [
           {
             "value": "The Challenge",
-            "url": "#the-challenge-3",
+            "url": "#the-challenge",
             "depth": 2
           },
           {
@@ -484,17 +484,17 @@
           },
           {
             "value": "Lessons Learned",
-            "url": "#lessons-learned-3",
+            "url": "#lessons-learned",
             "depth": 2
           },
           {
             "value": "Technical Stack Summary",
-            "url": "#technical-stack-summary-1",
+            "url": "#technical-stack-summary",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-4",
+            "url": "#sources-1",
             "depth": 2
           }
         ],
@@ -549,7 +549,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-2",
+            "url": "#introduction",
             "depth": 2
           },
           {
@@ -599,12 +599,12 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-4",
+            "url": "#conclusion",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-3",
+            "url": "#sources",
             "depth": 2
           }
         ],
@@ -620,6 +620,124 @@
         }
       },
       "documentHash": "1736355539169",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "posts/building-sheltersync-with-dallas-software-developers.mdx": {
+      "document": {
+        "title": "Building ShelterSync: My Experience in the Dallas Software Developers Cohort",
+        "date": "2026-04-07T00:00:00.000Z",
+        "tags": [
+          "Web Development",
+          "Full Stack",
+          "Team Project",
+          "Dallas Software Developers",
+          "Learning",
+          "Animal Shelter"
+        ],
+        "draft": false,
+        "summary": "I recently completed a 6-week cohort with Dallas Software Developers where I worked with a team of 5 to build ShelterSync, a full-stack animal shelter management system. Here's what I learned about team development, building for real problems, and growing as a developer.",
+        "body": {
+          "raw": "\n*What I learned building a full-stack web application with a team of developers from completely different backgrounds*\n\n---\n\n## How I Found the Cohort\n\nI discovered the Dallas Software Developers Community through Danny Thompson's Software Engineering YouTube channel. He was actively promoting their cohort program and mentioned that early invitations would be available to interested developers. I signed up and got accepted into the March 2026 cohort.\n\nThe program is exactly what Danny described: developers are matched with real projects, guided by senior software engineers who work in the industry, and given 6 weeks to build a complete full-stack application. There are multiple teams of 4 to 6 people, each tackling a different problem.\n\n## Choosing Our Project\n\nAt the start of the cohort, we were presented with three different project ideas to choose from. After discussing the options, my team decided to build **ShelterSync**: an animal shelter loan and inventory management system designed to help shelters prevent product loss and accurately track animals as they move in and out of the facility.\n\nThis wasn't a hypothetical problem. It was based on real pain points that shelters were actually experiencing. That made it feel meaningful from day one.\n\n## Planning and Choosing Our Tech Stack\n\nBefore writing a single line of code, we spent time planning everything out. This is where the mentorship really shined. Our senior developers guided us through:\n\n- **Requirements gathering**: Understanding exactly what the shelter needed\n- **User stories**: Breaking down the system into features from the shelter staff's perspective\n- **Database design**: Creating an Entity-Relationship Diagram (ERD) to map out how animals, inventory, transactions, foster assignments, and medication would all relate\n\nWe used Miro boards to sketch out our ideas and workflows:\n\n![Miro Board Planning](https://res.cloudinary.com/dm7y3yvjp/image/upload/v1775598610/mira-board_vkgeed.jpg)\n\nHere's the ERD we designed to represent the system's data structure:\n\n![ShelterSync ERD](https://res.cloudinary.com/dm7y3yvjp/image/upload/v1775598621/sheltersync-erd_d8zwmk.jpg)\n\nFor our tech stack, we chose:\n- **Frontend**: React with modern component patterns\n- **Backend**: Node.js/Express for our API\n- **Database**: PostgreSQL for reliable data management\n- **Project Management**: Jira for organizing tasks and sprints\n\n## Building as a Team\n\nOne of the biggest differences between this cohort and building solo is the sheer amount of communication and coordination required. We had to:\n\n- Assign tasks based on people's strengths and learning goals\n- Use version control properly (git branches, pull requests, code reviews)\n- Pair program on complex features\n- Write tests and documentation so others could understand our code\n- Handle merge conflicts and integration challenges\n\nIt was messier than building alone, and more educational.\n\n## The Final Result\n\nAfter 6 weeks of work, we shipped a functioning animal shelter management system. You can see it live here:\n\n**Live Demo**: https://animal-shelter-foster-management-1.onrender.com/\n\n**GitHub Repository**: https://github.com/dsd-cohort-2026/animal-shelter-foster-management\n\n## What I Took Away\n\n### 1. **Senior Developers Make a Huge Difference**\n\nHaving experienced developers guide us through decisions wasn't just helpful it was transformative. They didn't just hand us solutions. They asked the right questions, helped us think through trade-offs, and caught architecture decisions that would have caused pain later.\n\n### 2. **Building for a Real Problem is Motivating**\n\nEven though we were in a learning context, knowing that our system was solving an actual problem for animal shelters gave the work weight. When you're building something that matters, 6 weeks of focused work doesn't feel like a grind.\n\n### 3. **You Learn Way More in a Team**\n\nI wrote better code, thought more carefully about design decisions, and learned technologies faster because I had to explain my work to others. The act of code review and discussion forced me to think more deeply.\n\n### 4. **Planning Saves Time Later**\n\nWe spent a solid week on design before coding. It would've been tempting to skip that and start building immediately. But having a clear plan meant fewer false starts and less refactoring later. The time we spent planning got paid back ten times over.\n\n## The Program Itself\n\nIf you're considering joining a cohort like this, I'd recommend it. The Dallas Software Developers Community is intentional about this program:\n\n- **Duration**: 6 weeks is long enough to build something real, short enough to stay focused\n- **Mentorship**: Real industry developers who care about your growth\n- **Peer learning**: Working with people at different skill levels teaches you a lot\n- **Real projects**: Not a toy app you're solving problems that matter\n\nYou can learn more at **https://www.dallassoftwaredevelopers.org/cohorts**\n\n## What's Next?\n\nThe cohort officially wrapped, but the connections and skills remain. If you're early in your development journey, I'd strongly encourage you to look for programs like this in your area. There's no substitute for the learning that happens when you work alongside experienced developers on something that matters.\n\n---\n\n## Resources\n- **Project Portfolio**: https://www.ryangriego.com/projects/sheltersync/\n- **Dallas Software Developers**: https://www.dallassoftwaredevelopers.org/cohorts\n- **Live Application**: https://animal-shelter-foster-management-1.onrender.com/\n- **Source Code**: https://github.com/dsd-cohort-2026/animal-shelter-foster-management\n- **Inspiration**: [Danny Thompson's Software Engineering Channel](https://www.youtube.com/watch?si=uah_IgN2ioUz1gVk&t=1930&v=IiXzwxixEmE&feature=youtu.be)\n",
+          "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),v=(n,a)=>{for(var r in a)l(n,r,{get:a[r],enumerable:!0})},o=(n,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!w.call(n,t)&&t!==r&&l(n,t,{get:()=>a[t],enumerable:!(i=g(a,t))||i.enumerable});return n};var y=(n,a,r)=>(r=n!=null?m(u(n)):{},o(a||!n||!n.__esModule?l(r,\"default\",{value:n,enumerable:!0}):r,n)),k=n=>o(l({},\"__esModule\",{value:!0}),n);var h=f((M,s)=>{s.exports=_jsx_runtime});var x={};v(x,{default:()=>c,frontmatter:()=>b});var e=y(h()),b={title:\"Building ShelterSync: My Experience in the Dallas Software Developers Cohort\",date:\"2026-04-07\",tags:[\"Web Development\",\"Full Stack\",\"Team Project\",\"Dallas Software Developers\",\"Learning\",\"Animal Shelter\"],draft:!1,summary:\"I recently completed a 6-week cohort with Dallas Software Developers where I worked with a team of 5 to build ShelterSync, a full-stack animal shelter management system. Here's what I learned about team development, building for real problems, and growing as a developer.\"};function d(n){let a={a:\"a\",em:\"em\",h2:\"h2\",h3:\"h3\",hr:\"hr\",img:\"img\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",strong:\"strong\",svg:\"svg\",ul:\"ul\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(a.p,{children:(0,e.jsx)(a.em,{children:\"What I learned building a full-stack web application with a team of developers from completely different backgrounds\"})}),(0,e.jsx)(a.hr,{}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"how-i-found-the-cohort\",children:[(0,e.jsx)(a.a,{href:\"#how-i-found-the-cohort\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"How I Found the Cohort\"]}),(0,e.jsx)(a.p,{children:\"I discovered the Dallas Software Developers Community through Danny Thompson's Software Engineering YouTube channel. He was actively promoting their cohort program and mentioned that early invitations would be available to interested developers. I signed up and got accepted into the March 2026 cohort.\"}),(0,e.jsx)(a.p,{children:\"The program is exactly what Danny described: developers are matched with real projects, guided by senior software engineers who work in the industry, and given 6 weeks to build a complete full-stack application. There are multiple teams of 4 to 6 people, each tackling a different problem.\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"choosing-our-project\",children:[(0,e.jsx)(a.a,{href:\"#choosing-our-project\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Choosing Our Project\"]}),(0,e.jsxs)(a.p,{children:[\"At the start of the cohort, we were presented with three different project ideas to choose from. After discussing the options, my team decided to build \",(0,e.jsx)(a.strong,{children:\"ShelterSync\"}),\": an animal shelter loan and inventory management system designed to help shelters prevent product loss and accurately track animals as they move in and out of the facility.\"]}),(0,e.jsx)(a.p,{children:\"This wasn't a hypothetical problem. It was based on real pain points that shelters were actually experiencing. That made it feel meaningful from day one.\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"planning-and-choosing-our-tech-stack\",children:[(0,e.jsx)(a.a,{href:\"#planning-and-choosing-our-tech-stack\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Planning and Choosing Our Tech Stack\"]}),(0,e.jsx)(a.p,{children:\"Before writing a single line of code, we spent time planning everything out. This is where the mentorship really shined. Our senior developers guided us through:\"}),(0,e.jsxs)(a.ul,{children:[(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Requirements gathering\"}),\": Understanding exactly what the shelter needed\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"User stories\"}),\": Breaking down the system into features from the shelter staff's perspective\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Database design\"}),\": Creating an Entity-Relationship Diagram (ERD) to map out how animals, inventory, transactions, foster assignments, and medication would all relate\"]})]}),(0,e.jsx)(a.p,{children:\"We used Miro boards to sketch out our ideas and workflows:\"}),(0,e.jsx)(a.p,{children:(0,e.jsx)(a.img,{alt:\"Miro Board Planning\",src:\"https://res.cloudinary.com/dm7y3yvjp/image/upload/v1775598610/mira-board_vkgeed.jpg\"})}),(0,e.jsx)(a.p,{children:\"Here's the ERD we designed to represent the system's data structure:\"}),(0,e.jsx)(a.p,{children:(0,e.jsx)(a.img,{alt:\"ShelterSync ERD\",src:\"https://res.cloudinary.com/dm7y3yvjp/image/upload/v1775598621/sheltersync-erd_d8zwmk.jpg\"})}),(0,e.jsx)(a.p,{children:\"For our tech stack, we chose:\"}),(0,e.jsxs)(a.ul,{children:[(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Frontend\"}),\": React with modern component patterns\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Backend\"}),\": Node.js/Express for our API\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Database\"}),\": PostgreSQL for reliable data management\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Project Management\"}),\": Jira for organizing tasks and sprints\"]})]}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"building-as-a-team\",children:[(0,e.jsx)(a.a,{href:\"#building-as-a-team\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Building as a Team\"]}),(0,e.jsx)(a.p,{children:\"One of the biggest differences between this cohort and building solo is the sheer amount of communication and coordination required. We had to:\"}),(0,e.jsxs)(a.ul,{children:[(0,e.jsx)(a.li,{children:\"Assign tasks based on people's strengths and learning goals\"}),(0,e.jsx)(a.li,{children:\"Use version control properly (git branches, pull requests, code reviews)\"}),(0,e.jsx)(a.li,{children:\"Pair program on complex features\"}),(0,e.jsx)(a.li,{children:\"Write tests and documentation so others could understand our code\"}),(0,e.jsx)(a.li,{children:\"Handle merge conflicts and integration challenges\"})]}),(0,e.jsx)(a.p,{children:\"It was messier than building alone, and more educational.\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"the-final-result\",children:[(0,e.jsx)(a.a,{href:\"#the-final-result\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"The Final Result\"]}),(0,e.jsx)(a.p,{children:\"After 6 weeks of work, we shipped a functioning animal shelter management system. You can see it live here:\"}),(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:\"Live Demo\"}),\": \",(0,e.jsx)(a.a,{href:\"https://animal-shelter-foster-management-1.onrender.com/\",children:\"https://animal-shelter-foster-management-1.onrender.com/\"})]}),(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:\"GitHub Repository\"}),\": \",(0,e.jsx)(a.a,{href:\"https://github.com/dsd-cohort-2026/animal-shelter-foster-management\",children:\"https://github.com/dsd-cohort-2026/animal-shelter-foster-management\"})]}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"what-i-took-away\",children:[(0,e.jsx)(a.a,{href:\"#what-i-took-away\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"What I Took Away\"]}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"1-senior-developers-make-a-huge-difference\",children:[(0,e.jsx)(a.a,{href:\"#1-senior-developers-make-a-huge-difference\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"1. \",(0,e.jsx)(a.strong,{children:\"Senior Developers Make a Huge Difference\"})]}),(0,e.jsx)(a.p,{children:\"Having experienced developers guide us through decisions wasn't just helpful it was transformative. They didn't just hand us solutions. They asked the right questions, helped us think through trade-offs, and caught architecture decisions that would have caused pain later.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"2-building-for-a-real-problem-is-motivating\",children:[(0,e.jsx)(a.a,{href:\"#2-building-for-a-real-problem-is-motivating\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"2. \",(0,e.jsx)(a.strong,{children:\"Building for a Real Problem is Motivating\"})]}),(0,e.jsx)(a.p,{children:\"Even though we were in a learning context, knowing that our system was solving an actual problem for animal shelters gave the work weight. When you're building something that matters, 6 weeks of focused work doesn't feel like a grind.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"3-you-learn-way-more-in-a-team\",children:[(0,e.jsx)(a.a,{href:\"#3-you-learn-way-more-in-a-team\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"3. \",(0,e.jsx)(a.strong,{children:\"You Learn Way More in a Team\"})]}),(0,e.jsx)(a.p,{children:\"I wrote better code, thought more carefully about design decisions, and learned technologies faster because I had to explain my work to others. The act of code review and discussion forced me to think more deeply.\"}),(0,e.jsxs)(a.h3,{className:\"content-header\",id:\"4-planning-saves-time-later\",children:[(0,e.jsx)(a.a,{href:\"#4-planning-saves-time-later\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"4. \",(0,e.jsx)(a.strong,{children:\"Planning Saves Time Later\"})]}),(0,e.jsx)(a.p,{children:\"We spent a solid week on design before coding. It would've been tempting to skip that and start building immediately. But having a clear plan meant fewer false starts and less refactoring later. The time we spent planning got paid back ten times over.\"}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"the-program-itself\",children:[(0,e.jsx)(a.a,{href:\"#the-program-itself\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"The Program Itself\"]}),(0,e.jsx)(a.p,{children:\"If you're considering joining a cohort like this, I'd recommend it. The Dallas Software Developers Community is intentional about this program:\"}),(0,e.jsxs)(a.ul,{children:[(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Duration\"}),\": 6 weeks is long enough to build something real, short enough to stay focused\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Mentorship\"}),\": Real industry developers who care about your growth\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Peer learning\"}),\": Working with people at different skill levels teaches you a lot\"]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Real projects\"}),\": Not a toy app you're solving problems that matter\"]})]}),(0,e.jsxs)(a.p,{children:[\"You can learn more at \",(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"https://www.dallassoftwaredevelopers.org/cohorts\",children:\"https://www.dallassoftwaredevelopers.org/cohorts\"})})]}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"whats-next\",children:[(0,e.jsx)(a.a,{href:\"#whats-next\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"What's Next?\"]}),(0,e.jsx)(a.p,{children:\"The cohort officially wrapped, but the connections and skills remain. If you're early in your development journey, I'd strongly encourage you to look for programs like this in your area. There's no substitute for the learning that happens when you work alongside experienced developers on something that matters.\"}),(0,e.jsx)(a.hr,{}),(0,e.jsxs)(a.h2,{className:\"content-header\",id:\"resources\",children:[(0,e.jsx)(a.a,{href:\"#resources\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(a.span,{className:\"content-header-link\",children:(0,e.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Resources\"]}),(0,e.jsxs)(a.ul,{children:[(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Project Portfolio\"}),\": \",(0,e.jsx)(a.a,{href:\"https://www.ryangriego.com/projects/sheltersync/\",children:\"https://www.ryangriego.com/projects/sheltersync/\"})]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Dallas Software Developers\"}),\": \",(0,e.jsx)(a.a,{href:\"https://www.dallassoftwaredevelopers.org/cohorts\",children:\"https://www.dallassoftwaredevelopers.org/cohorts\"})]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Live Application\"}),\": \",(0,e.jsx)(a.a,{href:\"https://animal-shelter-foster-management-1.onrender.com/\",children:\"https://animal-shelter-foster-management-1.onrender.com/\"})]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Source Code\"}),\": \",(0,e.jsx)(a.a,{href:\"https://github.com/dsd-cohort-2026/animal-shelter-foster-management\",children:\"https://github.com/dsd-cohort-2026/animal-shelter-foster-management\"})]}),(0,e.jsxs)(a.li,{children:[(0,e.jsx)(a.strong,{children:\"Inspiration\"}),\": \",(0,e.jsx)(a.a,{href:\"https://www.youtube.com/watch?si=uah_IgN2ioUz1gVk&t=1930&v=IiXzwxixEmE&feature=youtu.be\",children:\"Danny Thompson's Software Engineering Channel\"})]})]})]})}function c(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(d,{...n})}):d(n)}return k(x);})();\n;return Component;"
+        },
+        "_id": "posts/building-sheltersync-with-dallas-software-developers.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/building-sheltersync-with-dallas-software-developers.mdx",
+          "sourceFileName": "building-sheltersync-with-dallas-software-developers.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/building-sheltersync-with-dallas-software-developers"
+        },
+        "type": "Blog",
+        "readingTime": {
+          "text": "5 min read",
+          "minutes": 4.03,
+          "time": 241800,
+          "words": 806
+        },
+        "slug": "building-sheltersync-with-dallas-software-developers",
+        "path": "posts/building-sheltersync-with-dallas-software-developers",
+        "filePath": "posts/building-sheltersync-with-dallas-software-developers.mdx",
+        "toc": [
+          {
+            "value": "How I Found the Cohort",
+            "url": "#how-i-found-the-cohort",
+            "depth": 2
+          },
+          {
+            "value": "Choosing Our Project",
+            "url": "#choosing-our-project",
+            "depth": 2
+          },
+          {
+            "value": "Planning and Choosing Our Tech Stack",
+            "url": "#planning-and-choosing-our-tech-stack",
+            "depth": 2
+          },
+          {
+            "value": "Building as a Team",
+            "url": "#building-as-a-team",
+            "depth": 2
+          },
+          {
+            "value": "The Final Result",
+            "url": "#the-final-result",
+            "depth": 2
+          },
+          {
+            "value": "What I Took Away",
+            "url": "#what-i-took-away",
+            "depth": 2
+          },
+          {
+            "value": "1. Senior Developers Make a Huge Difference",
+            "url": "#1-senior-developers-make-a-huge-difference",
+            "depth": 3
+          },
+          {
+            "value": "2. Building for a Real Problem is Motivating",
+            "url": "#2-building-for-a-real-problem-is-motivating",
+            "depth": 3
+          },
+          {
+            "value": "3. You Learn Way More in a Team",
+            "url": "#3-you-learn-way-more-in-a-team",
+            "depth": 3
+          },
+          {
+            "value": "4. Planning Saves Time Later",
+            "url": "#4-planning-saves-time-later",
+            "depth": 3
+          },
+          {
+            "value": "The Program Itself",
+            "url": "#the-program-itself",
+            "depth": 2
+          },
+          {
+            "value": "What's Next?",
+            "url": "#whats-next",
+            "depth": 2
+          },
+          {
+            "value": "Resources",
+            "url": "#resources",
+            "depth": 2
+          }
+        ],
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Building ShelterSync: My Experience in the Dallas Software Developers Cohort",
+          "datePublished": "2026-04-07T00:00:00.000Z",
+          "dateModified": "2026-04-07T00:00:00.000Z",
+          "description": "I recently completed a 6-week cohort with Dallas Software Developers where I worked with a team of 5 to build ShelterSync, a full-stack animal shelter management system. Here's what I learned about team development, building for real problems, and growing as a developer.",
+          "image": "/static/images/twitter-card.png",
+          "url": "https://ryangriego.com/blog/posts/building-sheltersync-with-dallas-software-developers"
+        }
+      },
+      "documentHash": "1775601307897",
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
@@ -664,7 +782,7 @@
         "toc": [
           {
             "value": "The Challenge",
-            "url": "#the-challenge-1",
+            "url": "#the-challenge-2",
             "depth": 2
           },
           {
@@ -779,7 +897,7 @@
           },
           {
             "value": "Lessons Learned",
-            "url": "#lessons-learned-1",
+            "url": "#lessons-learned-2",
             "depth": 2
           },
           {
@@ -804,7 +922,7 @@
           },
           {
             "value": "Future Enhancements",
-            "url": "#future-enhancements-1",
+            "url": "#future-enhancements",
             "depth": 2
           },
           {
@@ -814,12 +932,12 @@
           },
           {
             "value": "Technical Stack Summary",
-            "url": "#technical-stack-summary",
+            "url": "#technical-stack-summary-1",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-2",
+            "url": "#sources-3",
             "depth": 1
           }
         ],
@@ -877,7 +995,7 @@
         "toc": [
           {
             "value": "The Challenge",
-            "url": "#the-challenge-2",
+            "url": "#the-challenge-3",
             "depth": 2
           },
           {
@@ -902,12 +1020,12 @@
           },
           {
             "value": "Lessons Learned",
-            "url": "#lessons-learned-2",
+            "url": "#lessons-learned-3",
             "depth": 2
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-3",
+            "url": "#conclusion-4",
             "depth": 2
           }
         ],
@@ -1265,7 +1383,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-8",
+            "url": "#introduction-7",
             "depth": 1
           },
           {
@@ -1416,7 +1534,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-7",
+            "url": "#introduction-8",
             "depth": 1
           },
           {
@@ -1568,7 +1686,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-6",
+            "url": "#introduction-5",
             "depth": 1
           },
           {
@@ -1637,7 +1755,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-5",
+            "url": "#introduction-6",
             "depth": 2
           },
           {
@@ -2229,7 +2347,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-11",
+            "url": "#introduction-10",
             "depth": 2
           },
           {
@@ -2294,7 +2412,7 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-12",
+            "url": "#conclusion-9",
             "depth": 2
           },
           {
@@ -2362,17 +2480,17 @@
         "toc": [
           {
             "value": "The Token Cost Reality",
-            "url": "#the-token-cost-reality-1",
+            "url": "#the-token-cost-reality",
             "depth": 2
           },
           {
             "value": "The Recommendation",
-            "url": "#the-recommendation-1",
+            "url": "#the-recommendation",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-1",
+            "url": "#sources-10",
             "depth": 2
           }
         ],
@@ -2480,12 +2598,12 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-9",
+            "url": "#conclusion-11",
             "depth": 2
           },
           {
             "value": "Sources",
-            "url": "#sources-10",
+            "url": "#sources-11",
             "depth": 2
           }
         ],
@@ -2601,7 +2719,7 @@
         "toc": [
           {
             "value": "Introduction",
-            "url": "#introduction-10",
+            "url": "#introduction-11",
             "depth": 1
           },
           {
@@ -2621,7 +2739,7 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-10",
+            "url": "#conclusion-12",
             "depth": 1
           },
           {
@@ -2706,7 +2824,7 @@
           },
           {
             "value": "Conclusion",
-            "url": "#conclusion-11",
+            "url": "#conclusion-10",
             "depth": 2
           }
         ],
