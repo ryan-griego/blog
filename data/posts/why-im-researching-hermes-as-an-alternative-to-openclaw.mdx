@@ -1,0 +1,79 @@
+---
+title: "Hermes vs OpenClaw: What My Research Found"
+date: '2026-05-14'
+tags: ['AI', 'Agents', 'Hermes', 'OpenClaw', 'Research', 'LLM']
+draft: false
+summary: "I've been hearing about Hermes as another OpenClaw type agent, so this article represents some of the research I did on it before deciding to try it out."
+---
+
+*I've been running OpenClaw for a while now and heard about Hermes. Here's some of my research comparing these two.*
+
+---
+
+I've been running OpenClaw for a while now. It's been useful, no doubt about that. But something kept nagging at me. Every time I configured a new skill or watched it execute a task the same way for the hundredth time, I couldn't shake the feeling that I was leaving something on the table.
+
+So I decided to do what engineers do before making a decision: research. I had my OpenClaw agent dig into Hermes, another AI agent from Nous Research, and the findings were worth sitting with for a minute.
+
+## The Thing That Got Me Thinking
+
+The core difference between these two agents is actually pretty simple to state, but the implications are significant.
+
+OpenClaw is a messaging hub with human-written skills. You configure it, connect your channels, and it executes tasks within its programmed boundaries. It doesn't learn from experience, each conversation starts fresh. Every. Single. Time.
+
+Hermes is an agent that writes its own skills from experience. After 20+ tasks in a domain, it starts completing similar ones noticeably faster. It internalizes patterns. It remembers.
+
+That distinction sounds small, but think about what it means in practice. With OpenClaw, I'm constantly re-explaining context. With Hermes, the agent actually builds something resembling institutional knowledge over time.
+
+## Security Was a Factor
+
+I'm not going to bury this one. In early 2026, OpenClaw had 9 CVEs disclosed in a 4-day window. Multiple severity levels, including some remote code execution possibilities. The team patched quickly, I'll give them that, but the incident stuck with me.
+
+Hermes has had zero recorded CVEs since launch. That's not nothing when you're handing an agent increasing levels of system access.
+
+This isn't about saying OpenClaw is reckless. Rapid feature development creates rapid security surface area. But when I'm choosing something that's going to act on my behalf, security posture matters.
+
+## The Cost Angle
+
+I'm a solo developer. Cost efficiency matters to me, but the more interesting comparison is how each agent uses tokens.
+
+The numbers from my research were pretty stark. Hermes front-loads context for learning purposes, meaning each turn uses more tokens than OpenClaw. The trade-off is that once Hermes learns a domain, it completes similar tasks noticeably faster. The people reporting these lower monthly costs have figured out how to balance the higher per-turn usage with the time saved from the learning loop. It's not magic, it's configuration.
+
+## The Learning Loop
+
+Here's the gotcha with Hermes that I keep seeing in user reports: the learning loop ships disabled by default. Most of the negative reviews I came across were from people who didn't realize this.
+
+Once enabled, users report roughly 40% faster task completion after 20+ tasks in a domain. One data engineer on the Nous Research Discord described how after the 20th Python analysis task, Hermes started completing similar jobs in half the time. It remembered their preferred libraries, naming conventions, output formats.
+
+That's not a small thing. That's the difference between an agent that executes and an agent that actually gets smarter.
+
+## Where OpenClaw Still Wins
+
+I want to be fair here. My research wasn't a clean sweep for Hermes.
+
+OpenClaw has 24+ platform integrations. Hermes has 6. If I needed Signal, WhatsApp, Slack, and twenty other integrations, Hermes wouldn't cut it for team use cases.
+
+There's also the setup complexity to consider. Based on what I've read, Hermes is designed to be more straightforward to get running locally. OpenClaw can be more time consuming to set up, especially when running locally like I do. That said, Hermes does have its own learning curve, the learning loop setup trips people up, it's not immediately obvious that you need to enable it.
+
+And OpenClaw's human-written, tested skills have value. They're known quantities. When something breaks in Hermes because it generated its own approach to a problem, that's on you to debug.
+
+## My Current Verdict
+
+Based on my research, Hermes fits my personal workflow better. The learning loop + MiniMax optimization (Hermes has an official M2.7 optimization partnership with Nous Research) + security posture = right fit for solo work.
+
+But if I needed multi-channel coordination from one agent, OpenClaw's ecosystem wins. I will be making use of the migration tool.
+
+What I'm doing now is planning to run both in parallel once I get Hermes set up. I want to see the learning loop work with my actual workflows before I commit.
+
+Sometimes the best way to answer a research question is to just try it and see what happens.
+
+---
+
+## Sources
+
+[Hermes, Nous Research](https://hermes.nousresearch.com)
+
+[OpenClaw Documentation](https://docs.openclaw.ai)
+
+[r/LocalLLaMA, Reddit](https://reddit.com/r/LocalLLaMA)
+
+[Nous Research Discord](https://discord.gg/nousresearch)

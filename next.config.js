@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 // const basePath = process.env.NODE_ENV === 'production' ? '/blog' : '';
-const basePath = process.env.NODE_ENV;
+const basePath = process.env.NODE_ENV === 'production' ? '/blog' : '';
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `

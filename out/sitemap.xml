@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://ryangriego.com/blog/</loc>
-<lastmod>2026-04-07</lastmod>
+<lastmod>2026-05-15</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/posts</loc>
-<lastmod>2026-04-07</lastmod>
+<lastmod>2026-05-15</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/projects</loc>
-<lastmod>2026-04-07</lastmod>
+<lastmod>2026-05-15</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/tags</loc>
-<lastmod>2026-04-07</lastmod>
+<lastmod>2026-05-15</lastmod>
 </url>
 <url>
 <loc>https://ryangriego.com/blog/posts/building-a-job-application-tracking-app</loc>
@@ -83,5 +83,9 @@
 <url>
 <loc>https://ryangriego.com/blog/posts/who-is-writing-this-blog</loc>
 <lastmod>2024-07-02T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://ryangriego.com/blog/posts/why-im-researching-hermes-as-an-alternative-to-openclaw</loc>
+<lastmod>2026-05-14T00:00:00.000Z</lastmod>
 </url>
 </urlset>
