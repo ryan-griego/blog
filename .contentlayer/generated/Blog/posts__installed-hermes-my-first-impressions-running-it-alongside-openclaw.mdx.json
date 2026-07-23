@@ -1,0 +1,51 @@
+{
+  "title": "Installed Hermes: My First Impressions Running It Alongside OpenClaw",
+  "date": "2026-06-22T00:00:00.000Z",
+  "tags": [
+    "AI",
+    "Agents",
+    "OpenClaw",
+    "Hermes"
+  ],
+  "draft": false,
+  "summary": "I installed Hermes to run alongside my OpenClaw agent on my 2015 MacBook Air and started comparing what each one knows.",
+  "body": {
+    "raw": "\nI installed Hermes the other day and wanted to keep it running alongside my OpenClaw agent on the 2015 MacBook Air. Installation has come more naturally because I've done a few OpenClaw installations and there are some similarities in the process — such as selecting the various skills and models it should use. This also included a way for it to pull some data from your OpenClaw agent during setup.\n\nI started using it with the goal of figuring out just how much the Hermes agent knows from the OpenClaw agent. It seems to know many of the things that were in the SKILLS.md and SOUL.md files in OpenClaw. And I haven't yet seen evidence that Hermes is aware of the conversation history between myself and my OpenClaw agent. It looks like most of the OpenClaw commands for working with the CLI are similar to Hermes, which will be nice for already having learned these by working with OpenClaw.\n\nAfter I got Hermes running, I started a chat with my OpenClaw agent on Telegram and it responded with a pairing code and gave me a Hermes command to run. This immediately made me think I had misconfigured something in the original setup that caused my Hermes agent to take over the Telegram bot I created to chat with it. A few minutes later, I sent another Telegram message and my OpenClaw agent responded and has continued to do so.\n\nThe next step for me will be creating another Telegram bot so I can chat with my Hermes agent from my phone.\n\nOne of the focuses for me currently is improving my understanding of these agents that run on your computers and what they can do. The question I'm currently answering for myself is what can I do with Hermes that I cannot do with OpenClaw? In what ways does OpenClaw's architecture differ from Hermes? What does the emergence of Hermes after OpenClaw say about the progress of AI? The answers will come soon.\n\n## Sources\n\n- [Hermes, Nous Research](https://hermes.nousresearch.com)\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var a in e)r(n,a,{get:e[a],enumerable:!0})},i=(n,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of g(e))!p.call(n,s)&&s!==a&&r(n,s,{get:()=>e[s],enumerable:!(o=w(e,s))||o.enumerable});return n};var I=(n,e,a)=>(a=n!=null?c(u(n)):{},i(e||!n||!n.__esModule?r(a,\"default\",{value:n,enumerable:!0}):a,n)),C=n=>i(r({},\"__esModule\",{value:!0}),n);var h=f((v,l)=>{l.exports=_jsx_runtime});var k={};y(k,{default:()=>d,frontmatter:()=>O});var t=I(h()),O={title:\"Installed Hermes: My First Impressions Running It Alongside OpenClaw\",date:\"2026-06-22\",tags:[\"AI\",\"Agents\",\"OpenClaw\",\"Hermes\"],draft:!1,summary:\"I installed Hermes to run alongside my OpenClaw agent on my 2015 MacBook Air and started comparing what each one knows.\"};function m(n){let e={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",svg:\"svg\",ul:\"ul\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"I installed Hermes the other day and wanted to keep it running alongside my OpenClaw agent on the 2015 MacBook Air. Installation has come more naturally because I've done a few OpenClaw installations and there are some similarities in the process \\u2014 such as selecting the various skills and models it should use. This also included a way for it to pull some data from your OpenClaw agent during setup.\"}),(0,t.jsx)(e.p,{children:\"I started using it with the goal of figuring out just how much the Hermes agent knows from the OpenClaw agent. It seems to know many of the things that were in the SKILLS.md and SOUL.md files in OpenClaw. And I haven't yet seen evidence that Hermes is aware of the conversation history between myself and my OpenClaw agent. It looks like most of the OpenClaw commands for working with the CLI are similar to Hermes, which will be nice for already having learned these by working with OpenClaw.\"}),(0,t.jsx)(e.p,{children:\"After I got Hermes running, I started a chat with my OpenClaw agent on Telegram and it responded with a pairing code and gave me a Hermes command to run. This immediately made me think I had misconfigured something in the original setup that caused my Hermes agent to take over the Telegram bot I created to chat with it. A few minutes later, I sent another Telegram message and my OpenClaw agent responded and has continued to do so.\"}),(0,t.jsx)(e.p,{children:\"The next step for me will be creating another Telegram bot so I can chat with my Hermes agent from my phone.\"}),(0,t.jsx)(e.p,{children:\"One of the focuses for me currently is improving my understanding of these agents that run on your computers and what they can do. The question I'm currently answering for myself is what can I do with Hermes that I cannot do with OpenClaw? In what ways does OpenClaw's architecture differ from Hermes? What does the emergence of Hermes after OpenClaw say about the progress of AI? The answers will come soon.\"}),(0,t.jsxs)(e.h2,{className:\"content-header\",id:\"sources\",children:[(0,t.jsx)(e.a,{href:\"#sources\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,t.jsx)(t.Fragment,{children:(0,t.jsx)(e.span,{className:\"content-header-link\",children:(0,t.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,t.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,t.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Sources\"]}),(0,t.jsx)(e.ul,{children:(0,t.jsx)(e.li,{children:(0,t.jsx)(e.a,{href:\"https://hermes.nousresearch.com\",children:\"Hermes, Nous Research\"})})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(m,{...n})}):m(n)}return C(k);})();\n;return Component;"
+  },
+  "_id": "posts/installed-hermes-my-first-impressions-running-it-alongside-openclaw.mdx",
+  "_raw": {
+    "sourceFilePath": "posts/installed-hermes-my-first-impressions-running-it-alongside-openclaw.mdx",
+    "sourceFileName": "installed-hermes-my-first-impressions-running-it-alongside-openclaw.mdx",
+    "sourceFileDir": "posts",
+    "contentType": "mdx",
+    "flattenedPath": "posts/installed-hermes-my-first-impressions-running-it-alongside-openclaw"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "2 min read",
+    "minutes": 1.695,
+    "time": 101700,
+    "words": 339
+  },
+  "slug": "installed-hermes-my-first-impressions-running-it-alongside-openclaw",
+  "path": "posts/installed-hermes-my-first-impressions-running-it-alongside-openclaw",
+  "filePath": "posts/installed-hermes-my-first-impressions-running-it-alongside-openclaw.mdx",
+  "toc": [
+    {
+      "value": "Sources",
+      "url": "#sources",
+      "depth": 2
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Installed Hermes: My First Impressions Running It Alongside OpenClaw",
+    "datePublished": "2026-06-22T00:00:00.000Z",
+    "dateModified": "2026-06-22T00:00:00.000Z",
+    "description": "I installed Hermes to run alongside my OpenClaw agent on my 2015 MacBook Air and started comparing what each one knows.",
+    "image": "/static/images/twitter-card.png",
+    "url": "https://ryangriego.com/blog/posts/installed-hermes-my-first-impressions-running-it-alongside-openclaw"
+  }
+}
